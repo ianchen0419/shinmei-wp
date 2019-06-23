@@ -1,0 +1,366 @@
+<?php /* Template Name: material */ ?>
+<?php get_header();?>
+
+<div id="visual">
+	<h1 class="visual-title">資料ダウンロード</h1>
+</div>
+<main id="contact">
+	<div class="wrapper-size">
+		<ol class="contact-path step">
+			<li class="active">入力</li>
+			<li>確認</li>
+			<li>資料ダウンロード</li>
+		</ol>
+		
+		<p>この度は資料ダウンロードのご希望をいただき、誠にありがとうございます。<br>必要な項目をご記入の上、「入力内容を確認する」ボタンをクリックしてください。<br>情報入力後に資料ダウンロードページが表示されます。</p>
+		<form action="<?php bloginfo('url') ?>/material/conf" method="POST">
+			
+			<table width="100%" class="fertilizer-table">
+				<tbody>
+					<tr>
+						<th width="20%">ご希望の資料</th>
+						<td width="80%">
+							<h4>サーマルダイレクトプリンター</h4>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data1"/>
+								<i class="fa fa-check"></i>
+								<span>卓上型ダイレクトサーマルプリンター<br>ＳＭＰ-３５０シリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data2"/>
+								<i class="fa fa-check"></i>
+								<span>卓上型一体ダイレクトサーマルプリンター<br>ＡＦＢ-３５０シリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data3"/>
+								<i class="fa fa-check"></i>
+								<span>両面同時ダイレクトサーマルプリンター<br>ＣＰＳ-ＵＢシリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data4"/>
+								<i class="fa fa-check"></i>
+								<span>小袋用ダイレクトサーマルプリンター<br>ＣＰＳ-８５Ｅシリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data5"/>
+								<i class="fa fa-check"></i>
+								<span>ロールフィルムプリントシステム<br>ＲＰＳシリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data6"/>
+								<i class="fa fa-check"></i>
+								<span>包装機対応ダイレクトサーマルプリンター<br>ＳＣＳ-４１０シリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data7"/>
+								<i class="fa fa-check"></i>
+								<span>大袋用ダイレクトサーマルプリンター<br>ＳＭＰ-６５０シリーズ</span>
+							</label>
+							<h4>鶏卵用</h4>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data8"/>
+								<i class="fa fa-check"></i>
+								<span>鶏卵パック上貼り機<br>ＡＬＳ-１０００ＳＣＳシリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data9"/>
+								<i class="fa fa-check"></i>
+								<span>インパックラベル日付印字プリンター<br>ＣＰＳ-８５ＥⅢシリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data10" />
+								<i class="fa fa-check"></i>
+								<span>鶏卵中身有無装置</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data11" />
+								<i class="fa fa-check"></i>
+								<span>鶏卵ライン用日付検査カメラ</span>
+							</label>
+							<h4>フィーダー・スタッカー</h4>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data12" />
+								<i class="fa fa-check"></i>
+								<span>フィーダー・スタッカー</span>
+							</label>
+							<h4>チェックスタンパー</h4>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data13" />
+								<i class="fa fa-check"></i>
+								<span>自動汎用計数押印機<br>ＣＳシリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data14" />
+								<i class="fa fa-check"></i>
+								<span>手形振出・裏書用押印機<br>ＣＳ-ＢⅡシリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data15" />
+								<i class="fa fa-check"></i>
+								<span>パンフレットスタンパー</span>
+							</label>
+							<h4>その他</h4>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data16" />
+								<i class="fa fa-check"></i>
+								<span>ラベル / シール</span>
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<span>資料入手の目的</span>
+							<div class="badge">必須</div>
+						</th>
+						<td>
+							<label class="checkbox">
+								<input type="checkbox" name="your_purpose1" />
+								<i class="fa fa-check"></i>
+								<span>新規導入の検討</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_purpose2" />
+								<i class="fa fa-check"></i>
+								<span>入れ替え導入の検討</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_purpose3" />
+								<i class="fa fa-check"></i>
+								<span>試験導入の検討</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_purpose4" />
+								<i class="fa fa-check"></i>
+								<span>情報収集</span>
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<span>導入ご希望予定時期</span>
+							<div class="badge">必須</div>
+						</th>
+						<td>
+							<label class="checkbox">
+								<input type="checkbox" name="your_schedule1" />
+								<i class="fa fa-check"></i>
+								<span>すぐにでも</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_schedule2" />
+								<i class="fa fa-check"></i>
+								<span>1ヶ月以内</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_schedule3" />
+								<i class="fa fa-check"></i>
+								<span>3ヶ月以内</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_schedule4" />
+								<i class="fa fa-check"></i>
+								<span>半年以内</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_schedule5" />
+								<i class="fa fa-check"></i>
+								<span>1年以内</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_schedule6" />
+								<i class="fa fa-check"></i>
+								<span>未定</span>
+							</label>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<div class="contact-item">
+				<div class="title">
+					<span>貴社名</span>
+					<div class="badge">必須</div>
+				</div>
+				<input type="text" name="your_company" class="short" required />
+				<input type="text" name="your_company_furigana" placeholder="フリガナ" class="short" required />
+			</div>
+			<div class="contact-item">
+				<div class="title">
+					<span>業種</span>
+					<div class="badge">必須</div>
+				</div>
+				<input type="text" name="your_career_type" required />
+			</div>
+			<div class="contact-item">
+				<div class="title">
+					<span>部署名</span>
+					<div class="badge">必須</div>
+				</div>
+				<input type="text" name="your_division" required />
+			</div>
+			<div class="contact-item">
+				<div class="title">
+					<span>役職名</span>
+					<div class="badge">必須</div>
+				</div>
+				<input type="text" name="your_job_title" required />
+			</div>
+			<div class="contact-item">
+				<div class="title">
+					<span>ご担当者名</span>
+					<div class="badge">必須</div>
+				</div>
+				<input type="text" name="your_name" class="short" required />
+				<input type="text" name="your_name_furigana" class="short" required placeholder="フリガナ" />
+			</div>
+			<div class="contact-item">
+				<div class="title">
+					<span>所在地</span>
+					<div class="badge">必須</div>
+				</div>
+				<div>
+					<input type="number" name="your_postcode" id="postcode" class="short" required placeholder="例:1500047" maxlength="7" />
+					<button class="blue-button" id="postButton" type="button" onclick="jsonp(postcode.value)">
+						<i class="fa fa-search"></i>
+						<span>郵便番号から<br>住所を自動入力</span>
+					</button>
+				</div>
+				<div>
+					<div id="dropdownWrapper">
+						<div class="dropdown-bar" tabindex=0 onclick="dropdownWrapper.classList.toggle('show')">
+							<input id="dropdownInput" type="text" autocomplete="new-password" name="your_address1" tabindex="-1" required="required" placeholder="都道府県を選択してください" />
+						</div>
+						<div class="dropdown-content">
+							<div class="dropdown-option" onclick="choose(this.innerText)">北海道</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">青森県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">岩手県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">宮城県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">秋田県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">山形県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">福島県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">茨城県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">栃木県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">群馬県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">埼玉県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">千葉県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">東京都</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">神奈川県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">新潟県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">富山県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">石川県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">福井県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">山梨県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">長野県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">岐阜県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">静岡県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">愛知県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">三重県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">滋賀県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">京都府</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">大阪府</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">兵庫県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">奈良県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">和歌山県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">鳥取県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">島根県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">岡山県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">広島県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">山口県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">徳島県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">香川県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">愛媛県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">高知県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">福岡県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">佐賀県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">長崎県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">熊本県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">大分県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">宮崎県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">鹿児島県</div>
+							<div class="dropdown-option" onclick="choose(this.innerText)">沖縄県</div>
+						</div>
+					</div>
+					<input type="text" name="your_address2" id="address2" class="short" required placeholder="市区町村" />
+				</div>
+				<div>
+					<input type="text" name="your_address3" required placeholder="番地、建物、フロア/部屋番号等" />
+				</div>
+				<p>＊代理店の方は、顧客の所在地を選択してください。<br>不明な場合は、貴社の所在地を選択してください。</p>
+			</div>
+			<div class="contact-item">
+				<div class="title">
+					<span>電話番号</span>
+					<div class="badge">必須</div>
+				</div>
+				<input type="tel" name="your_phone" required />
+			</div>
+			<div class="contact-item">
+				<div class="title">
+					<span>メールアドレス</span>
+					<div class="badge">必須</div>
+				</div>
+				<input type="email" name="your_mail" required oninput="confirmMail.disabled=false" />
+			</div>
+			<div class="contact-item">
+				<div class="title">
+					<span>メールアドレス（確認用）</span>
+					<div class="badge">必須</div>
+				</div>
+				<input type="email" name="your_mail_confirm" id="confirmMail" required onblur="checkEmail(this)" oninput="checkEmail(this)" disabled />
+			</div>
+			<div class="contact-item">
+				<div class="title">
+					<span>ホームページアドレス</span>
+				</div>
+				<input type="url" name="your_website" />
+			</div>
+
+			<label class="checkbox agree-checkbox">
+				<input type="checkbox" name="your_agree" required />
+				<i class="fa fa-check"></i>
+				<span>「</span><a href="privacy.html" target="_blank" class="link-text">個人情報保護方針</a><span>」に同意する</span>
+			</label>
+			<div class="badge agree-badge">必須</div>
+			
+			<div class="button-area">
+				<input type="submit" value="入力内容を確認する" class="green-button" />
+			</div>
+		</form>
+
+		<figure class="jprs">
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/download/jprs.png" alt="jprs" />
+			<figcaption>このサイトはJPRSにより認証されています。<br>情報送信は暗号化により保護されます。</figcaption>
+		</figure>
+
+	</div>
+
+</main>
+
+<script>
+	var Acheckbox_first=document.querySelectorAll('input[name*="your_purpose"]')[0];
+	var Bchcekbox_first=document.querySelectorAll('input[name*="your_schedule"]')[0];
+
+	var allInputs=document.querySelectorAll('form input');
+
+	for(i=0;i<allInputs.length;i++){
+		allInputs[i].addEventListener('change', function(){
+			var Acheckbox_checked=document.querySelectorAll('input[name*="your_purpose"]:checked');
+			var Bcheckbox_checked=document.querySelectorAll('input[name*="your_schedule"]:checked');
+			if(Acheckbox_checked.length<1){
+				Acheckbox_first.setCustomValidity("チェックボックスを最低一つ選んでください");
+			}else{
+				Acheckbox_first.setCustomValidity("");
+			}
+
+			if(Bcheckbox_checked.length<1){
+				Bchcekbox_first.setCustomValidity("チェックボックスを最低一つ選んでください");
+			}else{
+				Bchcekbox_first.setCustomValidity("");
+			}
+
+
+		})
+	}
+</script>
+<?php $_SESSION['conf']=true; ?>
+<?php get_footer(); ?>
