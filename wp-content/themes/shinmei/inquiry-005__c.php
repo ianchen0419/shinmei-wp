@@ -234,8 +234,8 @@
 			<div class="badge agree-badge">必須</div>
 			
 			<div class="button-area">
-				<button type="button" class="white-button" onclick="history.back();">戻る</button>
-				<input type="submit" value="送信" class="green-button" />
+				<button type="button" class="cancel-button" onclick="history.back();">戻る</button>
+				<input type="submit" value="送信" class="submit-button" />
 			</div>
 		</form>
 

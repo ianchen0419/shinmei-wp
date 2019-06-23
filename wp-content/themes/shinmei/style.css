@@ -1599,10 +1599,10 @@ input.short {
 	text-align: center;
 }
 
-.green-button {
+.submit-button {
 	color: #fff;
-	background: #4C7A34;
-	border: 1px solid #4C7A34;
+	background: #0944a4;
+	border: 1px solid #0944a4;
 	width: 400px;
 	display: inline-block;
 	padding: 12px 0;
@@ -1610,10 +1610,10 @@ input.short {
 	cursor: pointer;
 }
 
-.white-button {
+.cancel-button {
 	background: #fff;
-	color: #4C7A34;
-	border: 1px solid #4C7A34;
+	color: #0944a4;
+	border: 1px solid #0944a4;
 	width: 400px;
 	display: inline-block;
 	padding: 12px 0;
@@ -2253,7 +2253,7 @@ textarea.product-name {
 		margin-left: 40px;
 	}
 
-	.green-button, .white-button {
+	.submit-button, .cancel-button {
 		width: 100%;
 		margin: 10px 0;
 	}

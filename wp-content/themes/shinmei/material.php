@@ -323,7 +323,7 @@
 			<div class="badge agree-badge">必須</div>
 			
 			<div class="button-area">
-				<input type="submit" value="入力内容を確認する" class="green-button" />
+				<input type="submit" value="入力内容を確認する" class="submit-button" />
 			</div>
 		</form>
 
