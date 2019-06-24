@@ -48,7 +48,7 @@
 		</div>
 
 		<div class="section-title">
-			<h2>仕様一覧（出荷国により製品仕様は異なる場合があります。）</h2>
+			<h2>仕様一覧</h2>
 		</div>
 		<div class="deco-title">
 			<h3>RPSシリーズ</h3>

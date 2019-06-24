@@ -18,9 +18,6 @@
 			</li>
 		</ol>
 
-		<div class="section-title">
-			<h2>ますます重要になる通信時代に向けて</h2>
-		</div>
 		<table width="100%" class="fertilizer-table">
 			<tbody>
 				<tr>

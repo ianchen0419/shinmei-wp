@@ -30,7 +30,7 @@
 				<img src="<?php bloginfo('template_directory') ?>/inc/img/products/stamper_01.jpg" alt="CS-85ATⅡ" />
 				<figcaption class="mar_top20">
 					<span>CS-85ATⅡ</span>
-					<a href="https://youtu.be/sX8D_exN9UQ" target="_blank" class="red-button">
+					<a href="https://youtu.be/sfOXw3yC58Q" target="_blank" class="red-button">
 						<i class="fa fa-youtube-play"></i>
 						<span>動作状況</span>
 					</a>
@@ -40,7 +40,7 @@
 				<img src="<?php bloginfo('template_directory') ?>/inc/img/products/stamper_02.jpg" alt="CS-220ATⅡ" />
 				<figcaption class="mar_top20">
 					<span>CS-220ATⅡ</span>
-					<a href="https://youtu.be/sfOXw3yC58Q" target="_blank" class="red-button">
+					<a href="https://youtu.be/sX8D_exN9UQ" target="_blank" class="red-button">
 						<i class="fa fa-youtube-play"></i>
 						<span>動作状況</span>
 					</a>
@@ -95,7 +95,7 @@
 			<div class="tag">旅行・流通・小売業界様向け</div>
 		</div>
 		<div class="deco-title">
-			<h3>A4サイズ程度の旅行パンフレット用自動押印機チェックスタンパー</h3>
+			<h3>パンフレット用自動押印機チェックスタンパー</h3>
 		</div>
 		<div class="image-and-text">
 			<div class="image-part">
