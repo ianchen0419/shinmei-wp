@@ -180,99 +180,100 @@
 					</tr>
 				</tbody>
 			</table>
-
-			<div class="contact-item">
-				<div class="title">
-					<span>貴社名</span>
-					<div class="badge">必須</div>
-				</div>
-				<input disabled readonly type="text" name="your_company" class="short" required value="<?php echo $_POST['your_company'] ?>" />
-				<input disabled readonly type="text" name="your_company_furigana" class="short" required value="<?php echo $_POST['your_company_furigana'] ?>" />
-			</div>
-			<div class="contact-item">
-				<div class="title">
-					<span>業種</span>
-					<div class="badge">必須</div>
-				</div>
-				<input disabled readonly type="text" name="your_career_type" required value="<?php echo $_POST['your_career_type'] ?>" />
-			</div>
-			<div class="contact-item">
-				<div class="title">
-					<span>部署名</span>
-					<div class="badge">必須</div>
-				</div>
-				<input disabled readonly type="text" name="your_division" required value="<?php echo $_POST['your_division'] ?>" />
-			</div>
-			<div class="contact-item">
-				<div class="title">
-					<span>役職名</span>
-					<div class="badge">必須</div>
-				</div>
-				<input disabled readonly type="text" name="your_job_title" required value="<?php echo $_POST['your_job_title'] ?>" />
-			</div>
-			<div class="contact-item">
-				<div class="title">
-					<span>ご担当者名</span>
-					<div class="badge">必須</div>
-				</div>
-				<input disabled readonly type="text" name="your_name" class="short" required value="<?php echo $_POST['your_name'] ?>" />
-				<input disabled readonly type="text" name="your_name_furigana" class="short" required value="<?php echo $_POST['your_name_furigana'] ?>" />
-			</div>
-			<div class="contact-item">
-				<div class="title">
-					<span>所在地</span>
-					<div class="badge">必須</div>
-				</div>
-				<div>
-					<input disabled readonly type="number" name="your_postcode" id="postcode" class="short" required maxlength="7" value="<?php echo $_POST['your_postcode'] ?>" />
-				</div>
-				<div>
-					<div id="dropdownWrapper">
-						<div class="dropdown-bar disabled">
-							<input id="dropdownInput" type="text" autocomplete="new-password" name="your_address1" required="required" value="<?php echo $_POST['your_address1'] ?>" disabled readonly />
-						</div>
+			<div class="form-center">
+				<div class="contact-item">
+					<div class="title">
+						<span>貴社名</span>
+						<div class="badge">必須</div>
 					</div>
-					<input disabled readonly type="text" name="your_address2" id="address2" class="short" required value="<?php echo $_POST['your_address2'] ?>" />
+					<input disabled readonly type="text" name="your_company" class="short" required value="<?php echo $_POST['your_company'] ?>" />
+					<input disabled readonly type="text" name="your_company_furigana" class="short" required value="<?php echo $_POST['your_company_furigana'] ?>" />
 				</div>
-				<div>
-					<input disabled readonly type="text" name="your_address3" required value="<?php echo $_POST['your_address3'] ?>" />
+				<div class="contact-item">
+					<div class="title">
+						<span>業種</span>
+						<div class="badge">必須</div>
+					</div>
+					<input disabled readonly type="text" name="your_career_type" required value="<?php echo $_POST['your_career_type'] ?>" />
 				</div>
-				<p>＊代理店の方は、顧客の所在地を選択してください。<br>不明な場合は、貴社の所在地を選択してください。</p>
-			</div>
-			<div class="contact-item">
-				<div class="title">
-					<span>電話番号</span>
-					<div class="badge">必須</div>
+				<div class="contact-item">
+					<div class="title">
+						<span>部署名</span>
+						<div class="badge">必須</div>
+					</div>
+					<input disabled readonly type="text" name="your_division" required value="<?php echo $_POST['your_division'] ?>" />
 				</div>
-				<input disabled readonly type="tel" name="your_phone" required value="<?php echo $_POST['your_phone'] ?>" />
-			</div>
-			<div class="contact-item">
-				<div class="title">
-					<span>メールアドレス</span>
-					<div class="badge">必須</div>
+				<div class="contact-item">
+					<div class="title">
+						<span>役職名</span>
+						<div class="badge">必須</div>
+					</div>
+					<input disabled readonly type="text" name="your_job_title" required value="<?php echo $_POST['your_job_title'] ?>" />
 				</div>
-				<input disabled readonly type="email" name="your_mail" required value="<?php echo $_POST['your_mail'] ?>" />
-			</div>
-			<div class="contact-item">
-				<div class="title">
-					<span>メールアドレス（確認用）</span>
-					<div class="badge">必須</div>
+				<div class="contact-item">
+					<div class="title">
+						<span>ご担当者名</span>
+						<div class="badge">必須</div>
+					</div>
+					<input disabled readonly type="text" name="your_name" class="short" required value="<?php echo $_POST['your_name'] ?>" />
+					<input disabled readonly type="text" name="your_name_furigana" class="short" required value="<?php echo $_POST['your_name_furigana'] ?>" />
 				</div>
-				<input disabled readonly type="email" name="your_mail_confirm" required value="<?php echo $_POST['your_mail_confirm'] ?>" />
-			</div>
-			<div class="contact-item">
-				<div class="title">
-					<span>ホームページアドレス</span>
+				<div class="contact-item">
+					<div class="title">
+						<span>所在地</span>
+						<div class="badge">必須</div>
+					</div>
+					<div>
+						<input disabled readonly type="number" name="your_postcode" id="postcode" class="short" required maxlength="7" value="<?php echo $_POST['your_postcode'] ?>" />
+					</div>
+					<div>
+						<div id="dropdownWrapper">
+							<div class="dropdown-bar disabled">
+								<input id="dropdownInput" type="text" autocomplete="new-password" name="your_address1" required="required" value="<?php echo $_POST['your_address1'] ?>" disabled readonly />
+							</div>
+						</div>
+						<input disabled readonly type="text" name="your_address2" id="address2" class="short" required value="<?php echo $_POST['your_address2'] ?>" />
+					</div>
+					<div>
+						<input disabled readonly type="text" name="your_address3" required value="<?php echo $_POST['your_address3'] ?>" />
+					</div>
+					<p>＊代理店の方は、顧客の所在地を選択してください。<br>不明な場合は、貴社の所在地を選択してください。</p>
 				</div>
-				<input disabled readonly type="url" name="your_website" value="<?php echo $_POST['your_website'] ?>" />
-			</div>
+				<div class="contact-item">
+					<div class="title">
+						<span>電話番号</span>
+						<div class="badge">必須</div>
+					</div>
+					<input disabled readonly type="tel" name="your_phone" required value="<?php echo $_POST['your_phone'] ?>" />
+				</div>
+				<div class="contact-item">
+					<div class="title">
+						<span>メールアドレス</span>
+						<div class="badge">必須</div>
+					</div>
+					<input disabled readonly type="email" name="your_mail" required value="<?php echo $_POST['your_mail'] ?>" />
+				</div>
+				<div class="contact-item">
+					<div class="title">
+						<span>メールアドレス（確認用）</span>
+						<div class="badge">必須</div>
+					</div>
+					<input disabled readonly type="email" name="your_mail_confirm" required value="<?php echo $_POST['your_mail_confirm'] ?>" />
+				</div>
+				<div class="contact-item">
+					<div class="title">
+						<span>ホームページアドレス</span>
+					</div>
+					<input disabled readonly type="url" name="your_website" value="<?php echo $_POST['your_website'] ?>" />
+				</div>
 
-			<label class="checkbox agree-checkbox">
-				<input type="checkbox" name="your_agree" required checked disabled readonly />
-				<i class="fa fa-check"></i>
-				<span>「</span><a href="privacy.html" target="_blank" class="link-text">個人情報保護方針</a><span>」に同意する</span>
-			</label>
-			<div class="badge agree-badge">必須</div>
+				<label class="checkbox agree-checkbox">
+					<input type="checkbox" name="your_agree" required checked disabled readonly />
+					<i class="fa fa-check"></i>
+					<span>「</span><a href="privacy.html" target="_blank" class="link-text">個人情報保護方針</a><span>」に同意する</span>
+				</label>
+				<div class="badge agree-badge">必須</div>
+			</div>
 			
 			<div class="button-area">
 				<button type="button" class="cancel-button" onclick="history.back();">戻る</button>
