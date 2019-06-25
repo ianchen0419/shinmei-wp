@@ -140,7 +140,7 @@
 		</div>
 
 		<div class="section-title">
-			<h2>仕様一覧</h2>
+			<h2>仕様一覧（出荷国により電源など製品仕様は異なる場合があります。）</h2>
 		</div>
 		<div class="deco-title">
 			<h3>連続式（ヘッド固定） SCS400cシリーズ</h3>

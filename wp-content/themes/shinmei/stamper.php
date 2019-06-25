@@ -131,7 +131,7 @@
 		</div>
 
 		<div class="section-title">
-			<h2>仕様一覧</h2>
+			<h2>仕様一覧（出荷国により電源など製品仕様は異なる場合があります。）</h2>
 		</div>
 		<div class="deco-title">
 			<h3>CSシリーズ  CS-85ATⅡ / CS-220ATⅡ / CS-350ATⅡ</h3>

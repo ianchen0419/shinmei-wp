@@ -132,8 +132,8 @@
 					<p>導入実績4,000社以上。<br>正確、安心、使いやすい製品は幅広い業種で活用いただいています。</p>
 					<div class="solution-links">
 						<a href="solution/thermal">全業種様向け</a>
-						<a href="solution/food">食品加工様メーカー向け</a>
-						<a href="solution/wrap">包装機様メーカー向け</a>
+						<a href="solution/food">食品加工メーカー様向け</a>
+						<a href="solution/wrap">包装機メーカー様向け</a>
 						<a href="solution/egg">鶏卵GPセンター様向け</a>
 						<a href="solution/account">金融・経理部門様向け</a>
 						<a href="solution/pamphlet">旅行業界・流通百貨店様向け</a>

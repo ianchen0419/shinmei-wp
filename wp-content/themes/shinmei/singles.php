@@ -126,7 +126,7 @@
 		</div>
 
 		<div class="section-title">
-			<h2>仕様一覧</h2>
+			<h2>仕様一覧（出荷国により電源など製品仕様は異なる場合があります。）</h2>
 		</div>
 		<div class="deco-title">
 			<h3>SMP-350P1、SMP-350P2、SMP-350P3</h3>
