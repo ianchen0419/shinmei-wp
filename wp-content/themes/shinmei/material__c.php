@@ -61,52 +61,68 @@
 								<i class="fa fa-check"></i>
 								<span>大袋用ダイレクトサーマルプリンター<br>ＳＭＰ-６５０シリーズ</span>
 							</label>
+							<h4>オートラベラー</h4>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data8" disabled readonly <?php echo isset($_POST['your_data8'])?'checked':''; ?> value="卓上型空袋ラベラー ＡＬＳ-３５０Ｎシリーズ" />
+								<i class="fa fa-check"></i>
+								<span>卓上型空袋ラベラー<br>ＡＬＳ-３５０Ｎシリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data9" disabled readonly <?php echo isset($_POST['your_data9'])?'checked':''; ?> value="インラインオートラベリングシステム ＡＬＳ-１００Ⅱシリーズ" />
+								<i class="fa fa-check"></i>
+								<span>インラインオートラベリングシステム<br>ＡＬＳ-１００Ⅱシリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data10" disabled readonly <?php echo isset($_POST['your_data10'])?'checked':''; ?> value="ボトルラベラーK.I.2001" />
+								<i class="fa fa-check"></i>
+								<span>ボトルラベラーK.I.2001</span>
+							</label>
 							<h4>鶏卵用</h4>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data8" disabled readonly <?php echo isset($_POST['your_data8'])?'checked':''; ?> value="鶏卵パック上貼り機 ＡＬＳ-１０００ＳＣＳシリーズ" />
+								<input type="checkbox" name="your_data11" disabled readonly <?php echo isset($_POST['your_data11'])?'checked':''; ?> value="鶏卵パック上貼り機 ＡＬＳ-１０００ＳＣＳシリーズ" />
 								<i class="fa fa-check"></i>
 								<span>鶏卵パック上貼り機<br>ＡＬＳ-１０００ＳＣＳシリーズ</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data9" disabled readonly <?php echo isset($_POST['your_data9'])?'checked':''; ?> value="インパックラベル日付印字プリンター ＣＰＳ-８５ＥⅢシリーズ" />
+								<input type="checkbox" name="your_data12" disabled readonly <?php echo isset($_POST['your_data12'])?'checked':''; ?> value="インパックラベル日付印字プリンター ＣＰＳ-８５ＥⅢシリーズ" />
 								<i class="fa fa-check"></i>
 								<span>インパックラベル日付印字プリンター<br>ＣＰＳ-８５ＥⅢシリーズ</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data10" disabled readonly <?php echo isset($_POST['your_data10'])?'checked':''; ?> value="鶏卵中身有無装置" />
+								<input type="checkbox" name="your_data13" disabled readonly <?php echo isset($_POST['your_data13'])?'checked':''; ?> value="鶏卵中身有無装置" />
 								<i class="fa fa-check"></i>
 								<span>鶏卵中身有無装置</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data11" disabled readonly <?php echo isset($_POST['your_data11'])?'checked':''; ?> value="鶏卵ライン用日付検査カメラ" />
+								<input type="checkbox" name="your_data14" disabled readonly <?php echo isset($_POST['your_data14'])?'checked':''; ?> value="鶏卵ライン用日付検査カメラ" />
 								<i class="fa fa-check"></i>
 								<span>鶏卵ライン用日付検査カメラ</span>
 							</label>
 							<h4>フィーダー・スタッカー</h4>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data12" disabled readonly <?php echo isset($_POST['your_data12'])?'checked':''; ?> value="フィーダー・スタッカー" />
+								<input type="checkbox" name="your_data15" disabled readonly <?php echo isset($_POST['your_data15'])?'checked':''; ?> value="フィーダー・スタッカー" />
 								<i class="fa fa-check"></i>
 								<span>フィーダー・スタッカー</span>
 							</label>
 							<h4>チェックスタンパー</h4>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data13" disabled readonly <?php echo isset($_POST['your_data13'])?'checked':''; ?> value="自動汎用計数押印機 ＣＳシリーズ" />
+								<input type="checkbox" name="your_data16" disabled readonly <?php echo isset($_POST['your_data16'])?'checked':''; ?> value="自動汎用計数押印機 ＣＳシリーズ" />
 								<i class="fa fa-check"></i>
 								<span>自動汎用計数押印機<br>ＣＳシリーズ</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data14" disabled readonly <?php echo isset($_POST['your_data14'])?'checked':''; ?> value="手形振出・裏書用押印機 ＣＳ-ＢⅡシリーズ" />
+								<input type="checkbox" name="your_data17" disabled readonly <?php echo isset($_POST['your_data17'])?'checked':''; ?> value="手形振出・裏書用押印機 ＣＳ-ＢⅡシリーズ" />
 								<i class="fa fa-check"></i>
 								<span>手形振出・裏書用押印機<br>ＣＳ-ＢⅡシリーズ</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data15" disabled readonly <?php echo isset($_POST['your_data15'])?'checked':''; ?> value="パンフレットスタンパー" />
+								<input type="checkbox" name="your_data18" disabled readonly <?php echo isset($_POST['your_data18'])?'checked':''; ?> value="パンフレットスタンパー" />
 								<i class="fa fa-check"></i>
 								<span>パンフレットスタンパー</span>
 							</label>
 							<h4>その他</h4>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data16" disabled readonly <?php echo isset($_POST['your_data16'])?'checked':''; ?> value="ラベル / シール" />
+								<input type="checkbox" name="your_data19" disabled readonly <?php echo isset($_POST['your_data19'])?'checked':''; ?> value="ラベル / シール" />
 								<i class="fa fa-check"></i>
 								<span>ラベル / シール</span>
 							</label>
@@ -281,7 +297,7 @@
 			</div>
 		</form>
 		<figure class="jprs">
-			<img src="<?php bloginfo('template_directory') ?>/inc/img/download/jprs.png" alt="jprs" />
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/material/jprs.png" alt="jprs" />
 			<figcaption>このサイトはJPRSにより認証されています。<br>情報送信は暗号化により保護されます。</figcaption>
 		</figure>
 

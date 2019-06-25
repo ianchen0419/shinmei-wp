@@ -56,52 +56,68 @@
 								<i class="fa fa-check"></i>
 								<span>大袋用ダイレクトサーマルプリンター<br>ＳＭＰ-６５０シリーズ</span>
 							</label>
-							<h4>鶏卵用</h4>
+							<h4>オートラベラー</h4>
 							<label class="checkbox">
 								<input type="checkbox" name="your_data8"/>
 								<i class="fa fa-check"></i>
-								<span>鶏卵パック上貼り機<br>ＡＬＳ-１０００ＳＣＳシリーズ</span>
+								<span>卓上型空袋ラベラー<br>ＡＬＳ-３５０Ｎシリーズ</span>
 							</label>
 							<label class="checkbox">
 								<input type="checkbox" name="your_data9"/>
 								<i class="fa fa-check"></i>
+								<span>インラインオートラベリングシステム<br>ＡＬＳ-１００Ⅱシリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data10"/>
+								<i class="fa fa-check"></i>
+								<span>ボトルラベラーK.I.2001</span>
+							</label>
+							<h4>鶏卵用</h4>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data11"/>
+								<i class="fa fa-check"></i>
+								<span>鶏卵パック上貼り機<br>ＡＬＳ-１０００ＳＣＳシリーズ</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data12"/>
+								<i class="fa fa-check"></i>
 								<span>インパックラベル日付印字プリンター<br>ＣＰＳ-８５ＥⅢシリーズ</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data10" />
+								<input type="checkbox" name="your_data13" />
 								<i class="fa fa-check"></i>
 								<span>鶏卵中身有無装置</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data11" />
+								<input type="checkbox" name="your_data14" />
 								<i class="fa fa-check"></i>
 								<span>鶏卵ライン用日付検査カメラ</span>
 							</label>
 							<h4>フィーダー・スタッカー</h4>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data12" />
+								<input type="checkbox" name="your_data15" />
 								<i class="fa fa-check"></i>
 								<span>フィーダー・スタッカー</span>
 							</label>
 							<h4>チェックスタンパー</h4>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data13" />
+								<input type="checkbox" name="your_data16" />
 								<i class="fa fa-check"></i>
 								<span>自動汎用計数押印機<br>ＣＳシリーズ</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data14" />
+								<input type="checkbox" name="your_data17" />
 								<i class="fa fa-check"></i>
 								<span>手形振出・裏書用押印機<br>ＣＳ-ＢⅡシリーズ</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data15" />
+								<input type="checkbox" name="your_data18" />
 								<i class="fa fa-check"></i>
 								<span>パンフレットスタンパー</span>
 							</label>
 							<h4>その他</h4>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data16" />
+								<input type="checkbox" name="your_data19" />
 								<i class="fa fa-check"></i>
 								<span>ラベル / シール</span>
 							</label>
@@ -331,7 +347,7 @@
 		</form>
 
 		<figure class="jprs">
-			<img src="<?php bloginfo('template_directory') ?>/inc/img/download/jprs.png" alt="jprs" />
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/material/jprs.png" alt="jprs" />
 			<figcaption>このサイトはJPRSにより認証されています。<br>情報送信は暗号化により保護されます。</figcaption>
 		</figure>
 
