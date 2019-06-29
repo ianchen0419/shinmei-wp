@@ -230,7 +230,7 @@
 				<label class="checkbox agree-checkbox">
 					<input type="checkbox" name="your_agree" required checked disabled readonly />
 					<i class="fa fa-check"></i>
-					<span>「</span><a href="privacy.html" target="_blank" class="link-text">個人情報保護方針</a><span>」に同意する</span>
+					<span>「</span><a href="<?php bloginfo('url') ?>/privacy" target="_blank" class="link-text">個人情報保護方針</a><span>」に同意する</span>
 				</label>
 				<div class="badge agree-badge">必須</div>
 			</div>

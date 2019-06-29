@@ -25,7 +25,7 @@
 			</a>
 		</div>
 		<div class="contact-content">
-			<a href="javascript:;" class="english-area">English</a>
+			<!-- <a href="javascript:;" class="english-area">English</a> -->
 			<a href="<?php bloginfo('url') ?>/inquiry" class="contact-area">
 				<span>お問い合わせ</span>
 				<i class="fa fa-envelope"></i>

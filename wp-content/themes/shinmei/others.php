@@ -36,30 +36,6 @@
 		</div>
 
 		<div class="section-title full-line">
-			<div class="type">ボトルラベラー</div>
-			<h2>K.I.2001</h2>
-			<div class="tag">金融・経理部門様向け</div>
-		</div>
-		<div class="deco-title">
-			<h3>１台３役。半自動で多品種のラベル貼付作業（平面貼り・曲面貼り・円周貼り）を簡単かつ短時間に行い、生産性を大幅に向上させます。</h3>
-		</div>
-		<div class="image-and-text">
-			<div class="image-part">
-				<img src="<?php bloginfo('template_directory') ?>/inc/img/products/others_02.jpg" alt="１台３役" width="200" />
-				<img src="<?php bloginfo('template_directory') ?>/inc/img/products/others_03.jpg" alt="１台３役" width="200" class="mar_top20" />
-			</div>
-			<div class="text-part">
-				<p>プラスチックボトルや瓶、缶などにぐるりと円周貼りしたり、楕円側面に曲面貼りしたり、平面貼りしたりと、半自動卓上型円周貼りラベラーです。<br>ラベルをボトルに貼ろうとすると、気泡が入らないか、平行にきれいに貼れるかなど、現場では非常に神経を使う作業です。<br>工具など一切使わず、ラベル替えも簡単シンプル。あとは容器をセットしボタンを押すときれいにラベルを貼っていきます。<br>オプションでダイレクトサーマルプリンターを搭載すると、日付やロット番号などの可変データを印字しながらラベルをボトルに貼り付けていくことも可能となり更に便利になります。<br>弊社がおすすめの卓上型円周貼りラベラーで、現場への負担を軽減してください。</p>
-				<div class="link-area">
-					<a href="<?php bloginfo('url') ?>/products/thermal/wrap" class="link-item">
-						<i class="fa fa-caret-right"></i>
-						<span>組み込み可能なダイレクトサーマルプリンター「SCSシリーズ（間欠式）」</span>
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="section-title full-line">
 			<div class="type">チケットプリンター</div>
 			<h2>SP-1800</h2>
 			<div class="tag">金融・経理部門様向け</div>
