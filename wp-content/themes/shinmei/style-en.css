@@ -1,0 +1,11 @@
+* {
+	letter-spacing: 0;
+}
+
+.home-title h2[hidden] {
+	display: none;
+}
+
+.solution-links a {
+	vertical-align: top;
+}
