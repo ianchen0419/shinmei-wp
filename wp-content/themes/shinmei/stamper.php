@@ -53,7 +53,7 @@
 				</figcaption>
 			</figure>
 			<div class="advantage-button">
-				<a href="<?php bloginfo('url') ?>/material/inquiry-005" class="blue-button">お問い合わせ</a>
+				<a href="<?php bloginfo('url') ?>/material/inquiry-005" class="blue-button" onclick="saveValue5(this, event, '汎用自動押印 / 計数機チェックスタンパー')">お問い合わせ</a>
 			</div>
 		</div>
 		
@@ -82,7 +82,7 @@
 				<figcaption class="mar_top20">CPS-SAPⅡ<br>（フルオート手形裏書機）</figcaption>
 			</figure>
 			<div class="advantage-button">
-				<a href="<?php bloginfo('url') ?>/material/inquiry-005" class="blue-button">お問い合わせ</a>
+				<a href="<?php bloginfo('url') ?>/material/inquiry-005" class="blue-button" onclick="saveValue5(this, event, '手形裏書・手形振出用自動押印機チェックスタンパー')">お問い合わせ</a>
 			</div>
 		</div>
 		<p>「小型裏書専用自動捺印機」及び「振出＆裏書兼用自動捺印機」があり、二重検出装置付で安心してご利用になれます。</p>
@@ -105,7 +105,7 @@
 						<i class="fa fa-youtube-play"></i>
 						<span>動作状況</span>
 					</a>
-					<a href="<?php bloginfo('url') ?>/material/inquiry-005" class="blue-button">お問い合わせ</a>
+					<a href="<?php bloginfo('url') ?>/material/inquiry-005" class="blue-button" onclick="saveValue5(this, event, 'パンフレット用自動押印機チェックスタンパー')">お問い合わせ</a>
 				</div>
 			</div>
 			<div class="text-part">

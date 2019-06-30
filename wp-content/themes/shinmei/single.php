@@ -11,7 +11,7 @@
 				<a href="<?php bloginfo('url') ?>">ホーム</a>
 			</li>
 			<li>
-				<a href="<?php bloginfo('url') ?>/news">ニュース一覧</a>
+				<a href="<?php bloginfo('url') ?>/news-all">ニュース一覧</a>
 			</li>
 			<li>
 				<a href="javascript:;"><?php the_title(); ?></a>

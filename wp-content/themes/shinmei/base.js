@@ -172,6 +172,12 @@ function saveValue4(th, e, name){
 	location.href=th.href;
 }
 
+function saveValue5(th, e, name){
+	e.preventDefault();
+	localStorage['inquiry005']=name;
+	location.href=th.href;
+}
+
 function checkEmail(th){
 	var firstEmail=document.querySelector('input[name="your_mail"]');
 	if(th.value==firstEmail.value){

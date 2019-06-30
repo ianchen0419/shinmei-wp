@@ -12,6 +12,8 @@
 		</ol>
 		<?php
 
+		error_reporting(0);
+
 		function _post($str){
 		    $val=htmlspecialchars($_POST[$str]);
 		    return $val;

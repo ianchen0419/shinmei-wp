@@ -14,6 +14,10 @@
 
 		<?php
 
+		error_reporting(0);
+
+		error_reporting(0);
+
 		function _post($str){
 		    $val=htmlspecialchars($_POST[$str]);
 		    return $val;
@@ -50,7 +54,7 @@
 				'この度はシンメイへお問い合わせいただき、誠に有難うございます。'."<br>".
 				'弊社担当者よりご連絡をさせていただきます。'."<br><br><br><br>".
 
-				'【製品名】チェックスタンパー'."<br>".
+				'【製品名】'._post('product_name')."<br>".
 				'【導入ご希望予定時期】'.implode('、', $_POST['hope_schedule'])."<br>".
 				'【内容】'.implode('、', $_POST['ask_type'])."<br>".
 				'【補足内容】'."<br>".
@@ -96,7 +100,7 @@
 				'ホームページからお問い合わせがありました。'."<br>".
 				'下記ご確認、ご対応をお願いします。'."<br><br><br><br>".
 
-				'【製品名】チェックスタンパー'."<br>".
+				'【製品名】'._post('product_name')."<br>".
 				'【導入ご希望予定時期】'.implode('、', $_POST['hope_schedule'])."<br>".
 				'【内容】'.implode('、', $_POST['ask_type'])."<br>".
 				'【補足内容】'."<br>".

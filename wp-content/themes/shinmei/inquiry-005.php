@@ -17,7 +17,7 @@
 			<div class="form-center">
 				<div class="contact-item">
 					<div class="title">製品名</div>
-					<p>チェックスタンパー</p>
+					<textarea id="inquiry005" class="product-name" name="product_name" rows="3">★★製品名★★</textarea>
 				</div>
 				<div class="contact-item threerow-checkbox">
 					<div class="title">
@@ -322,6 +322,13 @@
 
 
 		})
+	}
+
+	//製品名を代入
+	if(window['inquiry005']){
+		inquiry005.value=localStorage['inquiry005'];
+	}else{
+		localStorage['inquiry005']='';
 	}
 </script>
 

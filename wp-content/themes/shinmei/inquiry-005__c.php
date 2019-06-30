@@ -22,7 +22,7 @@
 			<div class="form-center">
 				<div class="contact-item">
 					<div class="title">製品名</div>
-					<p>チェックスタンパー</p>
+					<textarea class="product-name" name="product_name" rows="3"><?php echo $_POST['product_name'] ?></textarea>
 				</div>
 				<div class="contact-item threerow-checkbox">
 					<div class="title">

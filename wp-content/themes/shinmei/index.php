@@ -182,21 +182,31 @@
 				<div class="en">News</div>
 				<h2>ニュース</h2>
 			</div>
+			<?php
+				$args = array(
+				'posts_per_page' => 6 // 表示件数の指定
+				);
+				$posts = get_posts( $args );
+				foreach ( $posts as $post ): // ループの開始
+				setup_postdata( $post ); // 記事データの取得
+			?>
 			<div class="news-area">
-				<?php while ( have_posts() ) : the_post();  ?>
-
-					<div class="news-item">
-						<div class="news-component">
-							<div class="date"><?php the_time('Y.m.d') ?></div>
-							<div class="tag"><?php echo strip_tags(get_the_tag_list()); ?></div>
-						</div>
-						<a href="<?php echo get_the_content() ? the_permalink(): "javascript:;"; ?>"><?php echo mb_strimwidth(get_the_title(), 0, 50, '...'); ?></a>
+				<div class="news-item">
+					<div class="news-component">
+						<div class="date"><?php the_time('Y.m.d') ?></div>
+						<div class="tag"><?php echo strip_tags(get_the_tag_list()); ?></div>
 					</div>
-
-				<?php endwhile; ?>
+					<a href="<?php echo get_the_content() ? the_permalink(): "javascript:;"; ?>">
+						<?php the_title(); ?>
+					</a>
+				</div>
 			</div>
+			<?php
+				endforeach; // ループの終了
+				wp_reset_postdata(); // 直前のクエリを復元する
+			?>
 			<div class="all-news">
-				<a href="news">
+				<a href="news-all">
 					<span>過去のニュース一覧</span>
 					<i class="fa fa-chevron-right"></i>
 				</a>

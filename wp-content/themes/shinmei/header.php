@@ -99,10 +99,10 @@
 				</a>
 			</li>
 			<li>
-				<a href="<?php bloginfo('url') ?>/javascript:;">
+				<!-- <a href="<?php bloginfo('url') ?>/javascript:;">
 					<i class="fa fa-font fa-fw"></i>
 					<span>English</span>
-				</a>
+				</a> -->
 			</li>
 		</ul>
 		<div class="mobile-anchor-area">

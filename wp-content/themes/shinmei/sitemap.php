@@ -38,7 +38,7 @@
 						</ul>
 					</li>
 					<li>
-						<a href="<?php bloginfo('url') ?>/news" class="link-item">
+						<a href="<?php bloginfo('url') ?>/news-all" class="link-item">
 							<i class="fa fa-caret-right"></i>
 							<span>ニュース</span>
 						</a>

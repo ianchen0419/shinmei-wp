@@ -373,6 +373,8 @@ body {
 .news-component .date {
 	display: inline-block;
 	margin-right: 15px;
+	font-weight: normal;
+	width: 90px;
 }
 
 .news-component .tag {
@@ -381,6 +383,7 @@ body {
 	font-size: 12px;
 	color: #fff;
 	padding: 3px 10px;
+	font-weight: normal;
 }
 
 .news-item a {
@@ -1692,6 +1695,11 @@ form .fertilizer-table td {
 
 form {
 	text-align: center;
+}
+
+.single-news-content-area a {
+	color: #0D6CE5;
+	text-decoration: underline;
 }
 @media (max-width: 768px) {
 	body,html {
