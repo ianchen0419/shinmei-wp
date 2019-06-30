@@ -1,1 +1,1 @@
-"# shinmei-wp" 
+# shinmei-wp
