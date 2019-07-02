@@ -51,7 +51,7 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/solution1.jpg" alt="ラベルからサーマルプリントへのリプレイスソリューション" width="300" />
 			<div class="solutions-content">
 				<div>
-					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【全業種様用】<br>ラベルからサーマルプリントへのリプレイスソリューション':'[All Industries]<br>Replacement solution from label to thermal print' ?></h3>
+					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【全業種様用】<br>ラベルからサーマルプリントへのリプレイスソリューション':'[All Industries]<br>Replacement solution from label to direct thermal print' ?></h3>
 				</div>
 				<p><?php echo (get_current_blog_id()==1)?'すでにラベラーをご利用のお客様、これから導入をご検討されているお客様に、軟包装の空袋に直接印刷をするダイレクトサーマルプリンターをご紹介いたします。':'We introduce direct thermal printers that print directly on empty soft packaging bags to those who already use labelers and consider the future installation.' ?></p>
 				<ul>
@@ -67,7 +67,7 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/solution2.jpg" alt="サーマルプリンター・ラベリングソリューション" width="300" />
 			<div class="solutions-content">
 				<div>
-					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【食品加工メーカー様用】<br>ダイレクトサーマルプリンター・ラベリングソリューション':'[Food Processing Manufacturers]<br>Thermal Printer · Labeling Solution' ?></h3>
+					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【食品加工メーカー様用】<br>ダイレクトサーマルプリンター・ラベリングソリューション':'[Food Processing Manufacturers]<br>Direct thermal printer · Labeling solution' ?></h3>
 				</div>
 				<p><?php echo (get_current_blog_id()==1)?'軟包装へ印字をするダイレクトサーマルプリンターと食品加工の相性はとても良いです。日付などの可変データも、システムで自動設定してプリントできます。':'It has a high compatibility between food processing and direct thermal printer which print on soft packaging. It enables to set automatically and print variable data such as dates.' ?></p>
 				<ul>
@@ -83,9 +83,9 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/solution3.jpg" alt="サーマルプリンター・ラベリングソリューション" width="300" />
 			<div class="solutions-content">
 				<div>
-					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【包装機メーカー様用】<br>ダイレクトサーマルプリンター導入ソリューション':'[Packaging Machine Manufacturers]<br>Thermal printer installation solution' ?></h3>
+					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【包装機メーカー様用】<br>ダイレクトサーマルプリンター導入ソリューション':'[Packaging Machine Manufacturers]<br>Direct thermal printer installation solution' ?></h3>
 				</div>
-				<p><?php echo (get_current_blog_id()==1)?'包装機のラインにダイレクトサーマルプリンターを設置しませんか。コンパクトサイズなので、ラインの様々な工程に設置が可能です。':'Would you like to install a thermal printer on the packaging machine line? Due to its compact size, it can be installed in various processes of the line.' ?></p>
+				<p><?php echo (get_current_blog_id()==1)?'包装機のラインにダイレクトサーマルプリンターを設置しませんか。コンパクトサイズなので、ラインの様々な工程に設置が可能です。':'Would you like to install a direct thermal printer on the packaging machine line? Due to its compact size, it can be installed in various processes of the line.' ?></p>
 				<ul>
 					<li><?php echo (get_current_blog_id()==1)?'貴社製品のオプションに':'As an option of your product' ?></li>
 					<li><?php echo (get_current_blog_id()==1)?'導入するお客様の利便性もアップ':'Improve the convenience of customer' ?></li>

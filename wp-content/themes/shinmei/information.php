@@ -45,7 +45,7 @@
 		<div class="section-title" id="merit">
 			<h2><?php echo (get_current_blog_id()==1)?'リース契約での導入メリット':'Advantages of a lease agreement' ?></h2>
 		</div>
-		<p><?php echo (get_current_blog_id()==1)?'最新機械の導入にあたって多額の資金が不要、リース料は全額経費、固定資産税や保険等の事務手続きが不要、税額控除や固定資産税軽減を受けることができる等のメリットがあります。また、海外進出にも対応をしている場合は日本国内での金利メリットを生かすこともできます。私どもシンメイは、皆様の海外進出も含めた積極的な設備投資を応援させていただきます。':'The installation of the latest machine does not require a large amount of money, and the lease fee has the advantages of being able to receive the tax deduction and the fixed asset tax reduction, etc., without  administrative procedure. In addition, you are able to take advantage of intereste rate benefits in Japan if you expand business abroad.  We support your active capital investment including your overseas expansion.' ?></p>
+		<p><?php echo (get_current_blog_id()==1)?'最新機械の導入にあたって多額の資金が不要、リース料は全額経費、固定資産税や保険等の事務手続きが不要、税額控除や固定資産税軽減を受けることができる等のメリットがあります。また、海外進出にも対応をしている場合は日本国内での金利メリットを生かすこともできます。私どもシンメイは、皆様の海外進出も含めた積極的な設備投資を応援させていただきます。':'The installation of the latest machine does not require a large amount of money, and the lease fee has the advantages of being able to receive the tax deduction and the fixed asset tax reduction, etc., without  administrative procedure. In addition, you are able to take advantage of interest rate benefits in Japan if you expand business abroad.  We support your active capital investment including your overseas expansion.' ?></p>
 		<p <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
 			<span>【参考】</span>
 			<a href="http://www.jpml.jp/knowledge/" target="_blank" class="link-text">リースの基礎知識（株式会社日本包装リース）</a>
@@ -54,14 +54,14 @@
 		<div class="section-title" id="food">
 			<h2><?php echo (get_current_blog_id()==1)?'食品表示法切り替え（2020年4月1日～）':'Change of food labeling method (April 1, 2020-)' ?></h2>
 		</div>
-		<p><?php echo (get_current_blog_id()==1)?'食品を取り巻く印字や表示の状況は、2015年4月から「食品表示法」によりルールが一本化され、経過措置期間、生鮮食品の表示は1年6か月、既に適用、加工食品と添加物のすべての表示は5年、2020年4月1日から適用され、食品表示法にそった表示へと移行することになります。正しい食品表示に対応した食品を毎日間違いなく提供する事業者であるためには、印字システム機械の導入といった食品表示法への対策の検討は必要です。食品表示法切り替えに伴う印字システム、機械についてお困りのことがあれば、私どもシンメイへご相談下さい。':'The rules for printing and labeling on food have been standardized by the Food Labeling Act since April 2015.  During transition period, fresh food labeling is applied one year and six months, and processed food and additives will be applied 5 years from April 1, 2020.<br>In order to provide food products that meet the accurate food labeling, it\'s necessary to consider the installation of priting system.<br>Please contact us if you have any problems with the printing system or machinery accompanied by the update of food labeling law.' ?></p>
+		<p><?php echo (get_current_blog_id()==1)?'食品を取り巻く印字や表示の状況は、2015年4月から「食品表示法」によりルールが一本化され、経過措置期間、生鮮食品の表示は1年6か月、既に適用、加工食品と添加物のすべての表示は5年、2020年4月1日から適用され、食品表示法にそった表示へと移行することになります。正しい食品表示に対応した食品を毎日間違いなく提供する事業者であるためには、印字システム機械の導入といった食品表示法への対策の検討は必要です。食品表示法切り替えに伴う印字システム、機械についてお困りのことがあれば、私どもシンメイへご相談下さい。':'The rules for printing and labeling on food have been standardized by the Food Labeling Act since April 2015.  During transition period, fresh food labeling is applied one year and six months, and processed food and additives will be applied 5 years from April 1, 2020.<br>In order to provide food products that meet the accurate food labeling, it\'s necessary to consider the installation of printing system.<br>Please contact us if you have any problems with the printing system or machinery accompanied by the update of food labeling law.' ?></p>
 		<p>
 			<span><?php echo (get_current_blog_id()==1)?'【参考】':'[Reference]' ?></span>
 			<a href="<?php bloginfo('url') ?>/column" target="_blank" class="link-text"><?php echo (get_current_blog_id()==1)?'印字の種類 食品表示法について':'Print Type / About food labeling' ?></a>
 		</p>
 
 		<div class="section-title" id="origin">
-			<h2><?php echo (get_current_blog_id()==1)?'加工食品の原料原産地表示（2022年4月1日～）':'Raw material indication of processed food (April 1, 2022)' ?></h2>
+			<h2><?php echo (get_current_blog_id()==1)?'加工食品の原料原産地表示（2022年4月1日～）':'Labeling of raw material origin of processed food (April 1, 2022)' ?></h2>
 		</div>
 		<p><?php echo (get_current_blog_id()==1)?'平成29年9月に食品表示基準が改正・施行され、国内で作られたすべての加工食品に対して、原料原産地表示を行うことが義務付けられました。本制度の経過措置期間は2022年3月までですので、それまでの間に新たな原料原産地表示に対応をしていかなければなりません。原料原産地表示に伴う印字システム、機械についてお困りのことがあれば、私どもシンメイへご相談下さい。':'The food labeling standards were revised and enforced in September 2017, and it was obliged to carry out raw material labeling for all processed foods made in Japan.<br>Since the transition period of this system is until March 2022, it is necessary for you to meet the new raw material origin indication until then.<br>Please contact us if you have any problems with the printing system or machine.' ?></p>
 		<p>

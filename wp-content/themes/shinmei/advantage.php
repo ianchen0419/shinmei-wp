@@ -75,7 +75,7 @@
 				<?php echo (get_current_blog_id()==1)?'<strong>提案力</strong>':'<span>combine systems based on the site</span>' ?>
 			</h2>
 		</div>
-		<p><?php echo (get_current_blog_id()==1)?'当社は、各種ダイレクトサーマルプリンターやラベラーを中心に提案させていただいています。弊社の軟包装材に特化した各種印字・表示機械は、組み合わせ次第でいろいろなカスタムメードが可能となります。無論、何もかも可能という訳ではありませんが、親身になった対応で皆様のニーズに応えていきます。':'We mainly sell thermal printers and labelers.<br>Our printing and display machines specialized for soft packaging materials can be customized in various ways depending on the combination. We meet the needs of our customers.' ?></p>
+		<p><?php echo (get_current_blog_id()==1)?'当社は、各種ダイレクトサーマルプリンターやラベラーを中心に提案させていただいています。弊社の軟包装材に特化した各種印字・表示機械は、組み合わせ次第でいろいろなカスタムメードが可能となります。無論、何もかも可能という訳ではありませんが、親身になった対応で皆様のニーズに応えていきます。':'We mainly sell direct thermal printers and labelers.<br>Our printing and display machines specialized for soft packaging materials can be customized in various ways depending on the combination. We meet the needs of our customers.' ?></p>
 		<div class="deco-title">
 			<h3><?php echo (get_current_blog_id()==1)?'必要な機能やスペースに応える様々な製品':'Various products that meet the required functions and space' ?></h3>
 		</div>
