@@ -51,7 +51,7 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/solution1.jpg" alt="ラベルからサーマルプリントへのリプレイスソリューション" width="300" />
 			<div class="solutions-content">
 				<div>
-					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【全業種様用】<br>ラベルからサーマルプリントへのリプレイスソリューション':'[All Industries] <br>Replacement solution from label to thermal print' ?></h3>
+					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【全業種様用】<br>ラベルからサーマルプリントへのリプレイスソリューション':'[All Industries]<br>Replacement solution from label to thermal print' ?></h3>
 				</div>
 				<p><?php echo (get_current_blog_id()==1)?'すでにラベラーをご利用のお客様、これから導入をご検討されているお客様に、軟包装の空袋に直接印刷をするダイレクトサーマルプリンターをご紹介いたします。':'We introduce direct thermal printers that print directly on empty soft packaging bags to those who already use labelers and consider the future installation.' ?></p>
 				<ul>
@@ -83,7 +83,7 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/solution3.jpg" alt="サーマルプリンター・ラベリングソリューション" width="300" />
 			<div class="solutions-content">
 				<div>
-					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【包装機メーカー様用】<br>ダイレクトサーマルプリンター導入ソリューション':'[Packaging Machine Manufacturers] <br>Thermal printer installation solution' ?></h3>
+					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【包装機メーカー様用】<br>ダイレクトサーマルプリンター導入ソリューション':'[Packaging Machine Manufacturers]<br>Thermal printer installation solution' ?></h3>
 				</div>
 				<p><?php echo (get_current_blog_id()==1)?'包装機のラインにダイレクトサーマルプリンターを設置しませんか。コンパクトサイズなので、ラインの様々な工程に設置が可能です。':'Would you like to install a thermal printer on the packaging machine line? Due to its compact size, it can be installed in various processes of the line.' ?></p>
 				<ul>
@@ -99,15 +99,15 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/solution4.jpg" alt="チェックプリンター・ラベリングソリューション" width="300" />
 			<div class="solutions-content">
 				<div>
-					<h3 class="solutions-title">【鶏卵GPセンター様用】<br>チェックプリンター・ラベリングソリューション</h3>
+					<h3 class="solutions-title">"<?php echo (get_current_blog_id()==1)?'【鶏卵GPセンター様用】<br>チェックプリンター・ラベリングソリューション':'[Egg GP Center]<br>Check Printer · Labeling Solution' ?>"</h3>
 				</div>
-				<p>チェックスタンパーをはじめ、チェクプリンター、ラベラーを多くのGPセンター様に採用いただいています。ラベルだけにとどまらない、現場の作業を補助する多数のチェック機能もご提供しています。</p>
+				<p><?php echo (get_current_blog_id()==1)?'チェックスタンパーをはじめ、チェクプリンター、ラベラーを多くのGPセンター様に採用いただいています。ラベルだけにとどまらない、現場の作業を補助する多数のチェック機能もご提供しています。':'As well as check stampers, check printers and labelers are introduced at many GP centers. We also offer a number of check functions that help you work on site.' ?></p>
 				<ul>
-					<li>ラベリングとチェックを同時に実現</li>
-					<li>負担の少ない簡単オペレーション</li>
+					<li><?php echo (get_current_blog_id()==1)?'ラベリングとチェックを同時に実現':'Simultaneous labeling and checking' ?></li>
+					<li><?php echo (get_current_blog_id()==1)?'負担の少ない簡単オペレーション':'Easy operation' ?></li>
 				</ul>
 				<div class="solutions-button">
-					<a href="<?php bloginfo('url') ?>/solution/egg">詳細</a>
+					<a href="<?php bloginfo('url') ?>/solution/egg"><?php echo (get_current_blog_id()==1)?'詳細':'Details' ?></a>
 				</div>
 			</div>
 		</figure>
@@ -115,15 +115,15 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/solution5.jpg" alt="肥料袋専用プリンター" width="300" />
 			<div class="solutions-content">
 				<div>
-					<h3 class="solutions-title">【肥料堆肥メーカー様用】肥料袋専用プリンター</h3>
+					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【肥料堆肥メーカー様用】肥料袋専用プリンター':'[Fertilizer compost maker]<br>Printer for fertilizer bag' ?></h3>
 				</div>
-				<p>無地の袋に必要最低限の肥料名と成分説明する保証票を印字。</p>
+				<p><?php echo (get_current_blog_id()==1)?'無地の袋に必要最低限の肥料名と成分説明する保証票を印字。':'It prints the guarantee slip explaining ingredient and the required minimum fertilizer name on plain bag.' ?></p>
 				<ul>
-					<li>小ロット商品向け</li>
-					<li>1枚10円安(20Kg当たり)でロスを解消</li>
+					<li><?php echo (get_current_blog_id()==1)?'小ロット商品向け':'For small lot products' ?></li>
+					<li><?php echo (get_current_blog_id()==1)?'1枚10円安(20Kg当たり)でロスを解消':'Reduce the loss by one piece 10 yen discount (per 20 kg)' ?></li>
 				</ul>
 				<div class="solutions-button">
-					<a href="<?php bloginfo('url') ?>/solution/fertilizer">詳細</a>
+					<a href="<?php bloginfo('url') ?>/solution/fertilizer"><?php echo (get_current_blog_id()==1)?'詳細':'Details' ?></a>
 				</div>
 			</div>
 		</figure>
@@ -131,14 +131,14 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/solution6.jpg" alt="手形押印システム" width="300" />
 			<div class="solutions-content">
 				<div>
-					<h3 class="solutions-title">【金融・経理部門様用】手形押印システム</h3>
+					<h3 class="solutions-title">"<?php echo (get_current_blog_id()==1)?'【金融・経理部門様用】手形押印システム':'[Financial and Accounting department]<br>Hand stamping system' ?>"</h3>
 				</div>
-				<p>ルーチンの単純作業を自動化し、社内の生産性を向上。効率的かつ、一定のクオリティで作業を進めることができます。</p>
+				<p><?php echo (get_current_blog_id()==1)?'ルーチンの単純作業を自動化し、社内の生産性を向上。効率的かつ、一定のクオリティで作業を進めることができます。':'Automate routine simple tasks and improve in-house productivity. Your will be able to raise the productivity and keep the same high quality.' ?></p>
 				<ul>
-					<li>単純な押印作業を自動化</li>
+					<li><?php echo (get_current_blog_id()==1)?'単純な押印作業を自動化':'- Automate simple sealing work' ?></li>
 				</ul>
 				<div class="solutions-button">
-					<a href="<?php bloginfo('url') ?>/solution/account">詳細</a>
+					<a href="<?php bloginfo('url') ?>/solution/account"><?php echo (get_current_blog_id()==1)?'詳細':'Details' ?></a>
 				</div>
 			</div>
 		</figure>
@@ -146,14 +146,14 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/solution7.jpg" alt="押印システム" width="300" />
 			<div class="solutions-content">
 				<div>
-					<h3 class="solutions-title">【旅行業界・流通百貨店様用】押印システム</h3>
+					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【旅行業界・流通百貨店様用】押印システム':'[Travel and Department Stores]<br>Stamper System' ?></h3>
 				</div>
-				<p>様々な押印作業に対応し、自動化。厚みのある冊子へのスタンプも可能で、生産性が大幅に向上します。</p>
+				<p><?php echo (get_current_blog_id()==1)?'様々な押印作業に対応し、自動化。厚みのある冊子へのスタンプも可能で、生産性が大幅に向上します。':'It automates the various seal work and enables to stamp thick booklets.  As a result, you greatly improve productivity.' ?></p>
 				<ul>
-					<li>単純な押印作業の自動化</li>
+					<li><?php echo (get_current_blog_id()==1)?'単純な押印作業を自動化':'- Automate simple sealing work' ?></li>
 				</ul>
 				<div class="solutions-button">
-					<a href="<?php bloginfo('url') ?>/solution/pamphlet">詳細</a>
+					<a href="<?php bloginfo('url') ?>/solution/pamphlet"><?php echo (get_current_blog_id()==1)?'詳細':'Details' ?></a>
 				</div>
 			</div>
 		</figure>
