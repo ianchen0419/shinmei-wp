@@ -11,7 +11,7 @@
 				<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'Home' ?></a>
 			</li>
 			<li>
-				<a href="<?php bloginfo('url') ?>/solution"><?php echo (get_current_blog_id()==1)?'業種別ソリューション':'Solution' ?></a>
+				<a href="<?php bloginfo('url') ?>/solution"><?php echo (get_current_blog_id()==1)?'業種別ソリューション':'Solutions' ?></a>
 			</li>
 			<li>
 				<a href="<?php bloginfo('url') ?>/advantage"><?php echo (get_current_blog_id()==1)?'シンメイの強み':'Shinmei\'s Advantages' ?></a>

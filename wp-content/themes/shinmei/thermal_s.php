@@ -11,7 +11,7 @@
 				<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'Home' ?></a>
 			</li>
 			<li>
-				<a href="<?php bloginfo('url') ?>/solution"><?php echo (get_current_blog_id()==1)?'業種別ソリューション':'Solution' ?></a>
+				<a href="<?php bloginfo('url') ?>/solution"><?php echo (get_current_blog_id()==1)?'業種別ソリューション':'Solutions' ?></a>
 			</li>
 			<li>
 				<a href="<?php bloginfo('url') ?>/solution/thermal"><?php echo (get_current_blog_id()==1)?'【全業種様用】ラベラーからダイレクトサーマルプリンターへの変更でコスト削減':'[For all industries] Cost reduction by replacing labeler with thermal direct printer' ?></a>
@@ -42,8 +42,8 @@
 		<div class="section-title">
 			<h2><?php echo (get_current_blog_id()==1)?'サーマルダイレクトプリンターの導入で<br>必要なときに必要な枚数だけを印刷、ラベルの在庫は不要です。':'By installing a direct thermal printer, you will be able to print only the required number of sheets when needed. You don\'t need to kee the stock of labels.' ?></h2>
 		</div>
-		<p>定番商品にはプレ印刷、定番以外など生産量が少ないものはラベルが一般的ですが、プレ印刷は、一度の発注数をまとめなければコスト軽減につながりません。また、校正など前段階での準備、発注してから納品されるまでリードタイムも必要とし、起動面では優れません。内容が変更になれば新たに版代が必要になり、その度にコストが利益を圧迫します。</p>
-		<p>シンメイが提案する「サーマルダイレクトプリンター」は、軟包材の空袋に直接印字することができるので、コストを大幅に軽減させることができます。<br>企業にとって価値ある提案を提供すること、それこそが、私どもシンメイの使命です。</p>
+		<p><?php echo (get_current_blog_id()==1)?'定番商品にはプレ印刷、定番以外など生産量が少ないものはラベルが一般的ですが、プレ印刷は、一度の発注数をまとめなければコスト軽減につながりません。また、校正など前段階での準備、発注してから納品されるまでリードタイムも必要とし、起動面では優れません。内容が変更になれば新たに版代が必要になり、その度にコストが利益を圧迫します。':'Pre-printing is generally used for standard produts, and label is used for a small amount of production, but pre-printing can not reduce costs if the order is a small number. In addition, it requires lead time after order.<br>It also costs each time when the content is changed.' ?></p>
+		<p><?php echo (get_current_blog_id()==1)?'シンメイが提案する「サーマルダイレクトプリンター」は、軟包材の空袋に直接印字することができるので、コストを大幅に軽減させることができます。<br>企業にとって価値ある提案を提供すること、それこそが、私どもシンメイの使命です。':'Shinmei\'s "Direct Thermal Printer" prints directly on empty soft packaging, and greatly reduces  the cost.<br>Our mission is to provide valuable solutions to customers.' ?></p>
 
 		<div class="section-title">
 			<h2><?php echo (get_current_blog_id()==1)?'ニーズに合わせたご提案が可能です':'We propose a solution to your needs.' ?></h2>

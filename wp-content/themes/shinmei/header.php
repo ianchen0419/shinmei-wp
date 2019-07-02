@@ -60,7 +60,7 @@
 				<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'Home' ?></a>
 			</li>
 			<li>
-				<a href="<?php bloginfo('url') ?>/solution"><?php echo (get_current_blog_id()==1)?'業種別ソリューション':'Solution' ?></a>
+				<a href="<?php bloginfo('url') ?>/solution"><?php echo (get_current_blog_id()==1)?'業種別ソリューション':'Solutions' ?></a>
 			</li>
 			<li>
 				<a href="<?php bloginfo('url') ?>/products"><?php echo (get_current_blog_id()==1)?'製品一覧':'Products' ?></a>
@@ -94,7 +94,7 @@
 			<li>
 				<a href="<?php bloginfo('url') ?>/solution">
 					<i class="fa fa-book fa-fw"></i>
-					<span><?php echo (get_current_blog_id()==1)?'業種別ソリューション':'Solution' ?></span>
+					<span><?php echo (get_current_blog_id()==1)?'業種別ソリューション':'Solutions' ?></span>
 				</a>
 			</li>
 			<li>

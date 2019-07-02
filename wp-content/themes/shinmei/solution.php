@@ -6,7 +6,7 @@
 		<source media="(max-width: 480px)" srcset="<?php bloginfo('template_directory') ?>/inc/img/solution/solution_mobile.jpg" /> 
 		<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/solution.jpg" alt="業種別ソリューション" width="100%" /> 
 	</picture>
-	<h1><?php echo (get_current_blog_id()==1)?'業種別ソリューション':'Solution' ?></h1>
+	<h1><?php echo (get_current_blog_id()==1)?'業種別ソリューション':'Solutions' ?></h1>
 </div>
 <main id="contact">
 	<div class="wrapper-size">
@@ -15,7 +15,7 @@
 				<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'Home' ?></a>
 			</li>
 			<li>
-				<a href="<?php bloginfo('url') ?>/solution"><?php echo (get_current_blog_id()==1)?'業種別ソリューション':'Solution' ?></a>
+				<a href="<?php bloginfo('url') ?>/solution"><?php echo (get_current_blog_id()==1)?'業種別ソリューション':'Solutions' ?></a>
 			</li>
 		</ol>
 		<p><?php echo (get_current_blog_id()==1)?'今後益々求められる社会や企業の様々な課題として製品や包材ロスの大幅な削減、海外を含めた地球規模での生産システムの構築、ロボットの導入を含めた大胆な生産性のアップ、多品種少量生産や変品種変量生産といった多様なこれまでとは違ったアプローチからの生産システムの構築が求められています。':'Substantial reduction of product and packaging loss, construction of global scale production system including overseas, productivity improvement including introduction of robot, high-mix low-volume production and variable production have become more important. It is needed to build a production system based on a different approach.' ?></p>
