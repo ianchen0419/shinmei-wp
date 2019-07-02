@@ -40,7 +40,7 @@
 			$mailer->Username = "inquiry.workcapital@gmail.com";     
 			// $mailer->Username = "contact@co-shinmei.com";     
 			$mailer->Password = "contactwc180623@";
-			// $mailer->Password = "Smhprw01";
+			// $mailer->Password = "snm3921";
 			$mailer->IsSMTP();
 			$mailer->SMTPAuth = true;
 			// $mailer->SMTPDebug  = 2;
@@ -61,7 +61,7 @@
 				'【ご希望の資料】'."<br>".
 				implode('<br>', array_filter($your_data))."<br>".
 				'【資料入手の目的】'.implode('、', $_POST['your_purpose'])."<br>".
-				'【資料入手の目的】'.implode('、', $_POST['your_schedule'])."<br>".
+				'【導入ご希望予定時期】'.implode('、', $_POST['your_schedule'])."<br>".
 				'【貴社名】'._post('your_company').'　'._post('your_company_furigana')."<br>".
 				'【業種】'._post('your_career_type')."<br>".
 				'【部署名】'._post('your_division')."<br>".
@@ -77,7 +77,8 @@
 				'株式会社シンメイ'."<br>".
 				'東京都中央区日本橋馬喰町2-3-3　ファッションフェイスビル3F/4F'."<br>".
 				'TEL：03(3831)3921(代)'."<br>".
-				'FAX：03(3831)7541';
+				'FAX：03(3831)7541'."<br>".
+				'https://www.co-shinmei.com';
 
 			$mailer->AddAddress(_post('your_mail'));
 
@@ -230,7 +231,7 @@
 				'【ご希望の資料】'."<br>".
 				implode('<br>', array_filter($your_data))."<br>".
 				'【資料入手の目的】'.implode('、', $_POST['your_purpose'])."<br>".
-				'【資料入手の目的】'.implode('、', $_POST['your_schedule'])."<br>".
+				'【導入ご希望予定時期】'.implode('、', $_POST['your_schedule'])."<br>".
 				'【貴社名】'._post('your_company').'　'._post('your_company_furigana')."<br>".
 				'【業種】'._post('your_career_type')."<br>".
 				'【部署名】'._post('your_division')."<br>".
@@ -242,6 +243,7 @@
 				'【メールアドレス（確認用）】'._post('your_mail_confirm')."<br>".
 				'【ホームページアドレス】'._post('your_website')."<br><br><br><br>";
 
+			$mailer->ClearAllRecipients( );
 			$mailer->AddAddress('ianchen0419@gmail.com');
 			// $mailer->AddAddress('sadao.yoshii@co-shinmei.com');
 			// $mailer->AddAddress('takaharu.inoue@co-shinmei.com');

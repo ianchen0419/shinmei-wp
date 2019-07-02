@@ -207,7 +207,7 @@
 			?>
 			<div class="all-news">
 				<a href="news-all">
-					<span>過去のニュース一覧</span>
+					<span><?php echo (get_current_blog_id()==1)?'過去のニュース一覧':'Past news' ?></span>
 					<i class="fa fa-chevron-right"></i>
 				</a>
 			</div>

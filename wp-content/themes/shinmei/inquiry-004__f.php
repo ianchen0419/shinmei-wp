@@ -35,7 +35,7 @@
 			$mailer->Username = "inquiry.workcapital@gmail.com";     
 			// $mailer->Username = "info@co-shinmei.com";     
 			$mailer->Password = "contactwc180623@";
-			// $mailer->Password = "Smhprw01";
+			// $mailer->Password = "snm3921";
 			$mailer->IsSMTP();
 			$mailer->SMTPAuth = true;
 			// $mailer->SMTPDebug  = 2;
@@ -80,7 +80,8 @@
 				'株式会社シンメイ'."<br>".
 				'東京都中央区日本橋馬喰町2-3-3　ファッションフェイスビル3F/4F'."<br>".
 				'TEL：03(3831)3921(代)'."<br>".
-				'FAX：03(3831)7541';
+				'FAX：03(3831)7541'."<br>".
+				'https://www.co-shinmei.com';
 
 			$mailer->AddAddress(_post('your_mail'));
 
@@ -121,9 +122,9 @@
 				'【電話番号】'._post('your_phone')."<br>".
 				'【メールアドレス】'._post('your_mail')."<br>".
 				'【メールアドレス（確認用）】'._post('your_mail_confirm')."<br>".
-				'【ホームページアドレス】'._post('your_website')."<br>".
+				'【ホームページアドレス】'._post('your_website')."<br>";
 
-
+			$mailer->ClearAllRecipients( );
 			$mailer->AddAddress('ianchen0419@gmail.com');
 			// $mailer->AddAddress('sadao.yoshii@co-shinmei.com');
 			// $mailer->AddAddress('takaharu.inoue@co-shinmei.com');

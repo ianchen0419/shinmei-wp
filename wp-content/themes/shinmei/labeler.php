@@ -296,7 +296,7 @@
 		<div class="section-title full-line">
 			<div class="type">ボトルラベラー</div>
 			<h2>K.I.2001</h2>
-			<div class="tag">金融・経理部門様向け</div>
+			<div class="tag">ボトルメーカー様向け</div>
 		</div>
 		<div class="deco-title">
 			<h3>１台３役。半自動で多品種のラベル貼付作業（平面貼り・曲面貼り・円周貼り）を簡単かつ短時間に行い、生産性を大幅に向上させます。</h3>
@@ -308,12 +308,6 @@
 			</div>
 			<div class="text-part">
 				<p>プラスチックボトルや瓶、缶などにぐるりと円周貼りしたり、楕円側面に曲面貼りしたり、平面貼りしたりと、半自動卓上型円周貼りラベラーです。<br>ラベルをボトルに貼ろうとすると、気泡が入らないか、平行にきれいに貼れるかなど、現場では非常に神経を使う作業です。<br>工具など一切使わず、ラベル替えも簡単シンプル。あとは容器をセットしボタンを押すときれいにラベルを貼っていきます。<br>オプションでダイレクトサーマルプリンターを搭載すると、日付やロット番号などの可変データを印字しながらラベルをボトルに貼り付けていくことも可能となり更に便利になります。<br>弊社がおすすめの卓上型円周貼りラベラーで、現場への負担を軽減してください。</p>
-				<div class="link-area">
-					<a href="<?php bloginfo('url') ?>/products/thermal/wrap" class="link-item">
-						<i class="fa fa-caret-right"></i>
-						<span>組み込み可能なダイレクトサーマルプリンター「SCSシリーズ（間欠式）」</span>
-					</a>
-				</div>
 			</div>
 		</div>
 
@@ -510,6 +504,40 @@
 			</tbody>
 		</table>
 
+		<div class="deco-title">
+			<h3>K.I.2001</h3>
+		</div>
+		<table class="type-table combo-table" width="100%">
+			<thead>
+				<tr>
+					<th width="25%">型式</th>
+					<th width="75%">AFB-350P</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>ラベルサイズ</th>
+					<td>台紙幅 １０mm～２００m/m</td>
+				</tr>
+				<tr>
+					<th>貼付精度</th>
+					<td>平・曲面貼0.5m/m、円周貼0.2m/m</td>
+				</tr>
+				<tr>
+					<th>貼付スピード</th>
+					<td>平貼 毎分３０～４０枚<br>円周貼 毎分１２～２０枚</td>
+				</tr>
+				<tr>
+					<th>機械寸法等</th>
+					<td>450(W)×600(D)×600(H)mm</td>
+				</tr>
+				<tr>
+					<th>重量</th>
+					<td>２５Ｋｇ</td>
+
+				</tr>
+			</tbody>
+		</table>
 	</div>
 </main>
 

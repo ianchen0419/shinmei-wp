@@ -57,7 +57,7 @@
 	<div class="wrapper-size">
 		<ul>
 			<li>
-				<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'HOME' ?></a>
+				<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'Home' ?></a>
 			</li>
 			<li>
 				<a href="<?php bloginfo('url') ?>/solution"><?php echo (get_current_blog_id()==1)?'業種別ソリューション':'Solution' ?></a>
@@ -88,7 +88,7 @@
 			<li>
 				<a href="<?php bloginfo('url') ?>">
 					<i class="fa fa-home fa-fw"></i>
-					<span><?php echo (get_current_blog_id()==1)?'ホーム':'HOME' ?></span>
+					<span><?php echo (get_current_blog_id()==1)?'ホーム':'Home' ?></span>
 				</a>
 			</li>
 			<li>

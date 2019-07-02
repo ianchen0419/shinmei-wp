@@ -111,41 +111,6 @@
 		</table>
 
 		<div class="deco-title">
-			<h3>K.I.2001</h3>
-		</div>
-		<table class="type-table combo-table" width="100%">
-			<thead>
-				<tr>
-					<th width="25%">型式</th>
-					<th width="75%">AFB-350P</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th>ラベルサイズ</th>
-					<td>台紙幅 １０mm～２００m/m</td>
-				</tr>
-				<tr>
-					<th>貼付精度</th>
-					<td>平・曲面貼0.5m/m、円周貼0.2m/m</td>
-				</tr>
-				<tr>
-					<th>貼付スピード</th>
-					<td>平貼 毎分３０～４０枚<br>円周貼 毎分１２～２０枚</td>
-				</tr>
-				<tr>
-					<th>機械寸法等</th>
-					<td>450(W)×600(D)×600(H)mm</td>
-				</tr>
-				<tr>
-					<th>重量</th>
-					<td>２５Ｋｇ</td>
-
-				</tr>
-			</tbody>
-		</table>
-
-		<div class="deco-title">
 			<h3>SP-1800</h3>
 		</div>
 		<table class="type-table combo-table" width="100%">

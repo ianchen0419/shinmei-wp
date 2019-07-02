@@ -2,10 +2,32 @@
 	letter-spacing: 0;
 }
 
-.home-title h2[hidden] {
+.home-title h2[hidden],
+.contact-area .data-download {
 	display: none;
 }
 
 .solution-links a {
 	vertical-align: top;
+}
+
+.news-component .tag {
+	min-width: 44px;
+    	text-align: center;
+}
+
+.contact-area .tel-contact span,
+.contact-area .web-contact span,
+.contact-area .data-download span,
+.contact-area .extra-commerce span {
+	letter-spacing: 0;
+	font-size: 14px;
+}
+
+.contact-area .web-contact {
+	margin-right: 250px;
+}
+
+.advantage-circle h4 {
+	margin-top: 20px;
 }

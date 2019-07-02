@@ -24,7 +24,7 @@
 				</a>
 				<ul class="sitemap-main">
 					<li>
-						<a href="<?php bloginfo('url') ?>/infomation" class="link-item">
+						<a href="<?php bloginfo('url') ?>/information" class="link-item">
 							<i class="fa fa-caret-right"></i>
 							<span>インフォメーション</span>
 						</a>

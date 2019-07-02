@@ -72,7 +72,7 @@
 		<div class="link-area">
 			<a href="<?php bloginfo('url') ?>/products/thermal/wrap" class="link-item">
 				<i class="fa fa-caret-right"></i>
-				<span>包装機用サーマルプリンター</span>
+				<span>包装機用サーマルダイレクトプリンター</span>
 			</a>
 		</div>
 		<div class="wrap-image-area">
