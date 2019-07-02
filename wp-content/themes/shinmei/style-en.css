@@ -28,6 +28,32 @@
 	margin-right: 250px;
 }
 
+
 .advantage-circle h4 {
 	margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+	.company-intro p {
+		letter-spacing: 0;
+	}
+
+	.contact-area .web-contact {
+		margin-right: 0;
+	}
+
+	.contact-area .tel-contact,
+	.contact-area .web-contact, 
+	.contact-area .data-download, 
+	.contact-area .extra-commerce {
+		margin: 5px 0;
+	}
+
+	.company-intro {
+		margin-bottom: 10px;
+	}
+
+	.extra-commerce {
+		margin-top: 20px;
+	}
 }

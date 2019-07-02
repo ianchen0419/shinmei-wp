@@ -99,7 +99,7 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/solution4.jpg" alt="チェックプリンター・ラベリングソリューション" width="300" />
 			<div class="solutions-content">
 				<div>
-					<h3 class="solutions-title">"<?php echo (get_current_blog_id()==1)?'【鶏卵GPセンター様用】<br>チェックプリンター・ラベリングソリューション':'[Egg GP Center]<br>Check Printer · Labeling Solution' ?>"</h3>
+					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【鶏卵GPセンター様用】<br>チェックプリンター・ラベリングソリューション':'[Egg GP Center]<br>Check Printer · Labeling Solution' ?></h3>
 				</div>
 				<p><?php echo (get_current_blog_id()==1)?'チェックスタンパーをはじめ、チェクプリンター、ラベラーを多くのGPセンター様に採用いただいています。ラベルだけにとどまらない、現場の作業を補助する多数のチェック機能もご提供しています。':'As well as check stampers, check printers and labelers are introduced at many GP centers. We also offer a number of check functions that help you work on site.' ?></p>
 				<ul>
@@ -131,11 +131,11 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/solution6.jpg" alt="手形押印システム" width="300" />
 			<div class="solutions-content">
 				<div>
-					<h3 class="solutions-title">"<?php echo (get_current_blog_id()==1)?'【金融・経理部門様用】手形押印システム':'[Financial and Accounting department]<br>Hand stamping system' ?>"</h3>
+					<h3 class="solutions-title"><?php echo (get_current_blog_id()==1)?'【金融・経理部門様用】手形押印システム':'[Financial and Accounting department]<br>Hand stamping system' ?></h3>
 				</div>
 				<p><?php echo (get_current_blog_id()==1)?'ルーチンの単純作業を自動化し、社内の生産性を向上。効率的かつ、一定のクオリティで作業を進めることができます。':'Automate routine simple tasks and improve in-house productivity. Your will be able to raise the productivity and keep the same high quality.' ?></p>
 				<ul>
-					<li><?php echo (get_current_blog_id()==1)?'単純な押印作業を自動化':'- Automate simple sealing work' ?></li>
+					<li><?php echo (get_current_blog_id()==1)?'単純な押印作業を自動化':' Automate simple sealing work' ?></li>
 				</ul>
 				<div class="solutions-button">
 					<a href="<?php bloginfo('url') ?>/solution/account"><?php echo (get_current_blog_id()==1)?'詳細':'Details' ?></a>
@@ -150,7 +150,7 @@
 				</div>
 				<p><?php echo (get_current_blog_id()==1)?'様々な押印作業に対応し、自動化。厚みのある冊子へのスタンプも可能で、生産性が大幅に向上します。':'It automates the various seal work and enables to stamp thick booklets.  As a result, you greatly improve productivity.' ?></p>
 				<ul>
-					<li><?php echo (get_current_blog_id()==1)?'単純な押印作業を自動化':'- Automate simple sealing work' ?></li>
+					<li><?php echo (get_current_blog_id()==1)?'単純な押印作業を自動化':' Automate simple sealing work' ?></li>
 				</ul>
 				<div class="solutions-button">
 					<a href="<?php bloginfo('url') ?>/solution/pamphlet"><?php echo (get_current_blog_id()==1)?'詳細':'Details' ?></a>

@@ -109,12 +109,14 @@
 					<span><?php echo (get_current_blog_id()==1)?'会社案内':'Company' ?></span>
 				</a>
 			</li>
-			<li>
-				<a href="<?php bloginfo('url') ?>/recruit">
-					<i class="fa fa-briefcase fa-fw"></i>
-					<span>採用情報</span>
-				</a>
-			</li>
+			<?php if(get_current_blog_id()==1){ ?>
+				<li>
+					<a href="<?php bloginfo('url') ?>/recruit">
+						<i class="fa fa-briefcase fa-fw"></i>
+						<span>採用情報</span>
+					</a>
+				</li>
+			<?php } ?>
 			<li>
 				<a href="<?php bloginfo('url') ?>/material">
 					<i class="fa fa-file-text-o fa-fw"></i>

@@ -2,8 +2,8 @@
 	<div class="contact-area">
 		<div class="wrapper-size">
 			<div class="company-intro">
-				<h1>株式会社シンメイ</h1>
-				<p>お客様のニーズに応え続けて導入実績4000社　1964年創業<br>ダイレクトサーマルプリンター　オートラベラー　チェックスタンパー</p>
+				<h1><?php echo (get_current_blog_id()==1)?'株式会社シンメイ':'Shinmei Co., Ltd.' ?></h1>
+				<p><?php echo (get_current_blog_id()==1)?'お客様のニーズに応え続けて導入実績4000社　1964年創業<br>ダイレクトサーマルプリンター　オートラベラー　チェックスタンパー':'4000 customers track record continue to meet the needs Since 1964.<br>Direct Thermal Printer   Auto Labeler    Check Stamper' ?></p>
 			</div>
 			<a href="tel:+81-3-3831-3921" class="tel-contact">
 				<i class="fa fa-phone fa-fw"></i>
@@ -27,7 +27,7 @@
 		<div class="wrapper-size">
 			<div class="sitemap-catch">
 				<h1><?php echo (get_current_blog_id()==1)?'株式会社シンメイ':'Shinmei Co., Ltd.' ?></h1>
-				<p><?php echo (get_current_blog_id()==1)?'お客様のニーズに応え続けて導入実績4000社　1964年創業<br>ダイレクトサーマルプリンター　オートラベラー　チェックスタンパー':'4000 customers track record continue to meet the needs Since 1964.<br>Direct Thermal Printer   Auto Labeler    Check Stamper' ?></p>
+				<?php echo (get_current_blog_id()==1)?'お客様のニーズに応え続けて導入実績4000社　1964年創業<br>ダイレクトサーマルプリンター　オートラベラー　チェックスタンパー':'4000 customers track record continue to meet the needs Since 1964.<br>Direct Thermal Printer   Auto Labeler    Check Stamper' ?>
 				<div></div>
 			</div>
 			<div class="sitemap-block"><?php echo (get_current_blog_id()==1)?'東京都中央区日本橋馬喰町2-3-3 ファッションフェイスビル3F/4F':'2-3-3 Nihonbashi Bakucho Chuo-ku, Tokyo Fashion Face Building 3F / 4F' ?><br>TEL. 03-3831-3921 / FAX. 03-3831-7541<br>Copyright @ Shinmei Co., Ltd.  All rights reserved.</div>
