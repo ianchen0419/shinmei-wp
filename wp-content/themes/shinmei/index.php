@@ -54,7 +54,7 @@
 		<div class="wrapper-size">
 			<div class="home-title">
 				<div class="en">Products</div>
-				<h2 <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>製品</h2>
+				<h2>製品</h2>
 			</div>
 			<div class="product-area">
 				<a href="<?php bloginfo('url') ?>/products/thermal">
@@ -124,7 +124,7 @@
 		<div class="wrapper-size">
 			<div class="home-title">
 				<div class="en">Solutions</div>
-				<h2 <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>業種別ソリューション</h2>
+				<h2>業種別ソリューション</h2>
 			</div>
 			<div class="solution-area">
 				<img src="<?php bloginfo('template_directory') ?>/inc/img/top/solutions.jpg" alt="業種別ソリューション" width="400" />
@@ -146,7 +146,7 @@
 		<div class="wrapper-size">
 			<div class="home-title">
 				<div class="en">Information</div>
-				<h2 <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>インフォメーション</h2>
+				<h2>インフォメーション</h2>
 			</div>
 			<div class="infomation-area">
 				<a class="infomation-block" href="information#printing">
@@ -180,7 +180,7 @@
 		<div class="wrapper-size">
 			<div class="home-title">
 				<div class="en">News</div>
-				<h2 <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>ニュース</h2>
+				<h2>ニュース</h2>
 			</div>
 			<?php
 				$args = array(

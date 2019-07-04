@@ -64,6 +64,14 @@
 	padding: 4px 20px;
 }
 
+.section-title.full-line .tag {
+	display: none;
+}
+
+.home-title h2 {
+	display: none;
+}
+
 @media (max-width: 768px) {
 	.company-intro p {
 		letter-spacing: 0;
