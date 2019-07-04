@@ -180,7 +180,7 @@
 		<div class="wrapper-size">
 			<div class="home-title">
 				<div class="en">News</div>
-				<h2>ニュース</h2>
+				<h2 <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>ニュース</h2>
 			</div>
 			<?php
 				$args = array(

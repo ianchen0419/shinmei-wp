@@ -6,7 +6,7 @@
 		<source media="(max-width: 480px)" srcset="<?php bloginfo('template_directory') ?>/inc/img/products/products_mobile.jpg" /> 
 		<img src="<?php bloginfo('template_directory') ?>/inc/img/products/products.jpg" alt="製品一覧" width="100%" /> 
 	</picture>
-	<h1>製品一覧</h1>
+	<h1><?php echo (get_current_blog_id()==1)?'製品一覧':'Products' ?></h1>
 </div>
 <main id="contact">
 	<div class="wrapper-size">

@@ -19,7 +19,7 @@
 		</ol>
 
 		<div class="image-area">
-			<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/wrap_01.png" alt="サーマルプリンター導入ソリューション" width="800" />
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/<?php echo (get_current_blog_id()==1)?'wrap_01.png':'wrap_01_en.png' ?>" alt="サーマルプリンター導入ソリューション" width="800" />
 		</div>
 
 		<div class="section-title">
@@ -42,7 +42,7 @@
 			</figure>
 		</div>
 		<div class="deco-title">
-			<h3>ご利用されるお客様へのメリット</h3>
+			<h3><?php echo (get_current_blog_id()==1)?'ご利用されるお客様へのメリット':'Benefits to customers' ?></h3>
 		</div>
 		<div class="image-and-text">
 			<div class="text-part">
@@ -55,7 +55,7 @@
 				</div>
 			</div>
 			<div class="image-part">
-				<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/wrap_04.png" alt="包装機用ダイレクトサーマルプリンター" width="200" />
+				<img src="<?php bloginfo('template_directory') ?>/inc/img/solution/<?php echo (get_current_blog_id()==1)?'wrap_04.png':'wrap_04_en.png' ?>" alt="包装機用ダイレクトサーマルプリンター" width="200" />
 			</div>
 		</div>
 
