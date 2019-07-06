@@ -354,7 +354,7 @@
 					</tr>
 					<tr>
 						<th><?php echo (get_current_blog_id()==1)?'印字位置/文字方向':'Print position / Print direction' ?></th>
-						<td><?php echo (get_current_blog_id()==1)?'自由設定(一部のエリアにおいてはデッドゾーンがあり、印字不可能な位置があります。) 0°/90°/180°/270°':'Free setting (There are a dead zone in some areas, and an unprintable position.) 0° / 90° / 180° / 270°' ?></td>
+						<td><?php echo (get_current_blog_id()==1)?'自由設定(一部のエリアにおいてはデッドゾーンがあり、印字不可能な位置があります。)<br>0°/90°/180°/270°':'Free setting (There are a dead zone in some areas, and an unprintable position.)<br>0° / 90° / 180° / 270°' ?></td>
 					</tr>
 					<tr>
 						<th><?php echo (get_current_blog_id()==1)?'外形寸法':'External dimensions' ?></th>
