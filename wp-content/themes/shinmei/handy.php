@@ -100,7 +100,7 @@
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'処理能力':'Capacity' ?></th>
-					<td colspan="3"><?php echo (get_current_blog_id()==1)?'15〜60枚/分　※2':'15〜60 sheets/min　*2' ?></td>
+					<td colspan="3"><?php echo (get_current_blog_id()==1)?'15〜60枚/分 ※2':'15〜60 sheets/min ※2' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'印字データ':'Print data' ?></th>
@@ -158,39 +158,39 @@
 					<td>50〜340(W)・125〜400(L) ※1</td>
 				</tr>
 				<tr>
-					<th>印字方式</th>
-					<td>サーマルリボン熱転写方式</td>
+					<th><?php echo (get_current_blog_id()==1)?'印字方式':'Printing method' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'サーマルリボン熱転写方式':'Thermal ribbon heat transfer method' ?></td>
 				</tr>
 				<tr>
-					<th>処理能力</th>
-					<td>15〜60枚/分 ※2</td>
+					<th><?php echo (get_current_blog_id()==1)?'処理能力':'Capacity' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'15〜60枚/分 ※2':'15〜60 sheets/min ※2' ?></td>
 				</tr>
 				<tr>
-					<th>印字データ</th>
-					<td>パソコン（USB接続）</td>
+					<th><?php echo (get_current_blog_id()==1)?'印字データ':'Print data' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'パソコン（USB接続）':'PC (USB connection)' ?></td>
 				</tr>
 				<tr>
-					<th>フィード方式</th>
-					<td>手差し式</td>
+					<th><?php echo (get_current_blog_id()==1)?'フィード方式':'Feed method' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'手差し式':'Manual feed type' ?></td>
 				</tr>
 				<tr>
-					<th>印刷スピード</th>
-					<td>200mm/sec（標準）	</td>
+					<th><?php echo (get_current_blog_id()==1)?'印刷スピード':'Printing speed' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'200mm/sec（標準）':'200mm/sec (Standard)' ?></td>
 				</tr>
 				<tr>
-					<th>ドッド密度</th>
+					<th><?php echo (get_current_blog_id()==1)?'ドッド密度':'Dot density' ?></th>
 					<td>300dpi</td>
 				</tr>
 				<tr>
-					<th>編集ソフト</th>
-					<td>ダイレクト工房E・S</td>
+					<th><?php echo (get_current_blog_id()==1)?'編集ソフト':'Editing software' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'ダイレクト工房E・S':'Direct Kobo E・S' ?></td>
 				</tr>
 				<tr>
-					<th>外形寸法(本体)</th>
+					<th><?php echo (get_current_blog_id()==1)?'外形寸法(本体)':'External dimensions (Body)' ?></th>
 					<td>290(W)×430(H)×500(D)</td>
 				</tr>
 				<tr>
-					<th>電源</th>
+					<th><?php echo (get_current_blog_id()==1)?'電源':'Power supply' ?></th>
 					<td>AC100V/150W・50/60Hz</td>
 				</tr>
 			</tbody>
@@ -202,66 +202,66 @@
 		<table class="type-table combo-table" width="100%">
 			<thead>
 				<tr>
-					<th width="25%">型式</th>
+					<th width="25%"><?php echo (get_current_blog_id()==1)?'型式':'Model' ?></th>
 					<th width="75%">SMP-650HP4W</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<th>ヘッドサイズ</th>
-					<td>4インチ</td>
+					<th><?php echo (get_current_blog_id()==1)?'ヘッドサイズ':'Head size' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'4インチ':'4 inches' ?></td>
 				</tr>
 				<tr>
-					<th>搭載ヘッド数量</th>
-					<td>2台</td>
+					<th><?php echo (get_current_blog_id()==1)?'搭載ヘッド数量':'Head quantity' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'2台':'2' ?></td>
 				</tr>
 				<tr>
-					<th>最大印字エリア</th>
+					<th><?php echo (get_current_blog_id()==1)?'最大印字エリア':'Maximum print area' ?></th>
 					<td>106(W)×200(L)</td>
 				</tr>
 				<tr>
-					<th>ワークサイズ</th>
+					<th><?php echo (get_current_blog_id()==1)?'ワークサイズ':'Work size' ?></th>
 					<td>300〜630(W)×200〜750(L) ※1</td>
 				</tr>
 				<tr>
-					<th>印字方式</th>
-					<td>サーマルリボン熱転写方式</td>
+					<th><?php echo (get_current_blog_id()==1)?'印字方式':'Printing method' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'サーマルリボン熱転写方式':'Thermal ribbon heat transfer method' ?></td>
 				</tr>
 				<tr>
-					<th>処理能力</th>
-					<td>10〜30枚/分 ※2</td>
+					<th><?php echo (get_current_blog_id()==1)?'処理能力':'Capacity' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'10〜30枚/分　※2':'10〜30 sheets/min　*2' ?></td>
 				</tr>
 				<tr>
-					<th>印字データ</th>
-					<td>パソコン（USB接続）・PC/OSWin7（32・64bit対応</td>
+					<th><?php echo (get_current_blog_id()==1)?'印字データ':'Print data' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'パソコン（USB接続）・PC/OSWin7（32・64bit対応）':'PC（USB connection）・PC/OSWin7 (32・64bit)' ?></td>
 				</tr>
 				<tr>
-					<th>フィード方式</th>
-					<td>手差し式</td>
+					<th><?php echo (get_current_blog_id()==1)?'フィード方式':'Feed method' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'手差し式':'Manual feed type' ?></td>
 				</tr>
 				<tr>
-					<th>印刷スピード</th>
-					<td>150mm/sec（標準）</td>
+					<th><?php echo (get_current_blog_id()==1)?'印刷スピード':'Printing speed' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'150mm/sec（標準）':'150mm/sec（Standard）' ?></td>
 				</tr>
 				<tr>
-					<th>ドッド密度</th>
+					<th><?php echo (get_current_blog_id()==1)?'ドッド密度':'Dot density' ?></th>
 					<td>300dpi</td>
 				</tr>
 				<tr>
-					<th>編集ソフト</th>
-					<td>ダイレクト工房S・E</td>
+					<th><?php echo (get_current_blog_id()==1)?'編集ソフト':'Editing software' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'ダイレクト工房S・E':'Direct Kobo S・E' ?></td>
 				</tr>
 				<tr>
-					<th>外形寸法</th>
+					<th><?php echo (get_current_blog_id()==1)?'外形寸法':'External dimensions' ?></th>
 					<td>800(W)×412(H)×2288.3(D) ※3</td>
 				</tr>
 				<tr>
-					<th>電源</th>
+					<th><?php echo (get_current_blog_id()==1)?'電源':'Power supply' ?></th>
 					<td>AC100V・600W×2　　50・60Hz</td>
 				</tr>
 				<tr>
-					<th>重量</th>
-					<td>約130Kg ※3</td>
+					<th><?php echo (get_current_blog_id()==1)?'重量':'Weight' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'約130kg　※3':'Approx. 130kg　*3' ?></td>
 				</tr>
 			</tbody>
 		</table>

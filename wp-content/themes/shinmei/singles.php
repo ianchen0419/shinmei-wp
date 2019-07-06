@@ -156,11 +156,11 @@
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'ワークサイズ':'Work size' ?></th>
-					<td colspan="3">50〜340(W)・125〜400(L)※1</td>
+					<td colspan="3">50〜340(W)・125〜400(L) ※1</td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'処理能力':'Capacity' ?></th>
-					<td colspan="3"><?php echo (get_current_blog_id()==1)?'15〜60枚/分※2':'15〜60 sheets/min *2' ?></td>
+					<td colspan="3"><?php echo (get_current_blog_id()==1)?'15〜60枚/分 ※2':'15〜60 sheets/min ※2' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'印字データ':'Print data' ?></th>
@@ -222,6 +222,10 @@
 					<td>106×200mm(L)</td>
 				</tr>
 				<tr>
+					<th><?php echo (get_current_blog_id()==1)?'印字速度/処理枚数':'Printing speed / number of processed sheets' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'200mm/秒【100mm/秒～250mm/秒(変更設定可)】／40枚/(A5サイズ) ※1':'200mm/sec【100mm/sec～250mm/sec (Changeable setting)】／40 sheets / (A5 size) ※1' ?></td>
+				</tr>
+				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'文字種':'Character type' ?></th>
 					<td><?php echo (get_current_blog_id()==1)?'バーコード(2of5[ITF]、JAN[13.8]、2of7[NW7]、3of9[CODE29]、CODE・128[CODE SUBSET A、B、C]) ・OCR・線・CRコード・Winフォント8種・縦、横拡大(1～4倍)・ANK・漢字':'Barcode (2of5[ITF]、JAN[13.8]、2of7[NW7]、3of9[CODE29]、CODE・128[CODE SUBSET A、B、C]) ・OCR・Line・CR code・Win font 8 types・Vertical、Horizontal enlargement (1 to 4 times)・ANK・Chinese character' ?></td>
 				</tr>
@@ -242,7 +246,7 @@
 					<td><?php echo (get_current_blog_id()==1)?'編集ソフト・各種フィーダー・各種スタッカー・除電装置':'Editing software・Feeders・Stackers・Charge removal device' ?></td>
 				</tr>
 			</tbody>
-			<caption class="bottom"><?php echo (get_current_blog_id()==1)?'※1　ワークの状態、シリアルの有無により処理枚数は変化します。':'*1 The number of processed sheets changes depending on the work status and serial status.' ?></caption>
+			<caption class="bottom"><?php echo (get_current_blog_id()==1)?'※1　ワークの状態、シリアルの有無により処理枚数は変化します。':'※1 The number of processed sheets changes depending on the work status and serial status.' ?></caption>
 		</table>
 
 		<div class="deco-title">
@@ -276,7 +280,7 @@
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'印字速度/処理枚数<br>処理枚数':'Printing speed / number of processed sheets' ?></th>
-					<td colspan="2"><?php echo (get_current_blog_id()==1)?'350mm/秒【30mm/秒～300mm/秒(変更設定可)】<br>150枚/分 MAX※1':'350mm/sec【30mm/sec～300mm/sec (Changeable setting)】<br>150 sheets/min MAX *1' ?></td>
+					<td colspan="2"><?php echo (get_current_blog_id()==1)?'350mm/秒【30mm/秒～300mm/秒(変更設定可)】<br>150枚/分 MAX ※1':'350mm/sec【30mm/sec～300mm/sec (Changeable setting)】<br>150 sheets/min MAX ※1' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'文字種':'Character type' ?></th>
@@ -299,7 +303,7 @@
 					<td colspan="2"><?php echo (get_current_blog_id()==1)?'編集ソフト・2重送検出・パトライト':'Edting software・Double feed detection・patrol light' ?></td>
 				</tr>
 			</tbody>
-			<caption class="bottom"><?php echo (get_current_blog_id()==1)?'※1　ワークの状態、シリアルの有無により処理枚数は変化します。':'*1 The number of processed sheets changes depending on the work status and serial status.' ?></caption>
+			<caption class="bottom"><?php echo (get_current_blog_id()==1)?'※1　ワークの状態、シリアルの有無により処理枚数は変化します。':'※1 The number of processed sheets changes depending on the work status and serial status.' ?></caption>
 		</table>
 	</div>
 </main>

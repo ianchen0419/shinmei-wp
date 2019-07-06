@@ -108,7 +108,7 @@
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'処理能力':'Capacity' ?></th>
-					<td colspan="2"><?php echo (get_current_blog_id()==1)?'15～60枚/分 ※ワークサイズによる':'15～60 sheets/min *According to work size' ?></td>
+					<td colspan="2"><?php echo (get_current_blog_id()==1)?'15～60枚/分 ※ワークサイズによる':'15～60 sheets/min ※According to work size' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'フィード方式':'Feed method' ?></th>

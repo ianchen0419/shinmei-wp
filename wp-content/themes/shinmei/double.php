@@ -112,7 +112,7 @@
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'印字速度/処理枚数':'Printing speed / number of processed sheets' ?></th>
-					<td colspan="4"><?php echo (get_current_blog_id()==1)?'200mm/秒【100mm/秒～250mm/秒(変更設定可)】／40枚/(A5サイズ)※1':'200mm/sec【100mm/sec～250mm/sec (Changeable setting)】／40 sheets / (A5 size) *1' ?></td>
+					<td colspan="4"><?php echo (get_current_blog_id()==1)?'200mm/秒【100mm/秒～250mm/秒(変更設定可)】／40枚/(A5サイズ) ※1':'200mm/sec【100mm/sec～250mm/sec (Changeable setting)】／40 sheets / (A5 size) ※1' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'文字種':'Character type' ?></th>
@@ -135,7 +135,7 @@
 					<td colspan="4"><?php echo (get_current_blog_id()==1)?'編集ソフト・各種フィーダー・各種スタッカー・除電装置':'Editing software・Feeders・Stackers・Charge removal device' ?></td>
 				</tr>
 			</tbody>
-			<caption class="bottom"><?php echo (get_current_blog_id()==1)?'※1　ワークの状態、シリアルの有無により処理枚数は変化します。':'*1 The number of processed sheets changes depending on the work status and serial status.' ?></caption>
+			<caption class="bottom"><?php echo (get_current_blog_id()==1)?'※1　ワークの状態、シリアルの有無により処理枚数は変化します。':'※1 The number of processed sheets changes depending on the work status and serial status.' ?></caption>
 		</table>
 	</div>
 
