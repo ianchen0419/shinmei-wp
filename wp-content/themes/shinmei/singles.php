@@ -144,9 +144,9 @@
 			<tbody>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'ヘッドサイズ':'Head size' ?></th>
-					<td>1インチ</td>
-					<td>2インチ</td>
-					<td>3インチ</td>
+					<td><?php echo (get_current_blog_id()==1)?'1インチ':'1 inch' ?></td>
+					<td><?php echo (get_current_blog_id()==1)?'2インチ':'2 inches' ?></td>
+					<td><?php echo (get_current_blog_id()==1)?'3インチ':'3 inches' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'最大印字':'Maximum printing' ?></th>

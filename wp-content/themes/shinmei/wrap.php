@@ -32,7 +32,7 @@
 		</div>
 		<div class="image-and-text">
 			<div class="image-part">
-				<img src="<?php bloginfo('template_directory') ?>/inc/img/products/wrap_01.jpg" alt="SCS400iシリーズ" width="200" />
+				<img src="<?php bloginfo('template_directory') ?>/inc/img/products/wrap_01.jpg" alt="SCS400c Series" width="200" />
 			</div>
 			<div class="text-part">
 				<p><?php echo (get_current_blog_id()==1)?'超コンパクト設計なので少ないスペースでも取り付けが可能です。エンコーダーに追従して文字を形成していく連続式を採用。使用用途により1インチ・2インチ・3インチの中からお選びください。':'The ultra compact design allows installation in a small space. We adopt a continuous system that follows the encoder and forms characters. You can choose from 1 inch, 2 inch and 3 inch depending on the application.' ?></p>
@@ -44,7 +44,7 @@
 			</div>
 		</div>
 		<div class="deco-title">
-			<h3>ラジアルリボンセーブ制御</h3>
+			<h3><?php echo (get_current_blog_id()==1)?'ラジアルリボンセーブ制御':'Radial ribbon save control' ?></h3>
 		</div>
 		<div class="image-and-text">
 			<div class="text-part">
@@ -52,7 +52,7 @@
 				<p><?php echo (get_current_blog_id()==1)?'この機能がついたダイレクトサーマルプリンターでは、プリンター自体が文字高・列数を自動的に配置し制御します。<br>日付の印字を想定しているので１インチプリンターのみの対応ですが、日付のみの印字でお考えの方には有効で有意義なオプション機能です。':'The "radial ribbon save control" function has been developed as a solution for that problem.<br>Direct thermal printer with this function automatically arranges and controls the character height and number of lines automatically.<br>We introduced this system only to 1 inch printer, but it will be an effective option for those who require date printing.' ?></p>
 			</div>
 			<div class="image-part">
-				<img src="<?php bloginfo('template_directory') ?>/inc/img/products/wrap_02.jpg" alt="SCS400iシリーズ" width="200" />
+				<img src="<?php bloginfo('template_directory') ?>/inc/img/products/<?php echo (get_current_blog_id()==1)?'wrap_02.jpg':'wrap_02_en.jpg' ?>" alt="SCS400c Series" width="200" />
 			</div>
 		</div>
 		<div class="deco-title">
@@ -346,7 +346,7 @@
 					</tr>
 					<tr>
 						<th><?php echo (get_current_blog_id()==1)?'印字速度/処理枚数':'Printing speed / number of processed sheets' ?></th>
-						<td>"<?php echo (get_current_blog_id()==1)?'200mm/秒【80mm/秒～300mm/秒(変更設定可)】<br>90枚/分 MAX エンコーダー取付可':'200mm/s【80mm/s～300mm/s (Changeable setting)】90 sheets/min MAX Encoder mountable' ?>"</td>
+						<td><?php echo (get_current_blog_id()==1)?'200mm/秒【80mm/秒～300mm/秒(変更設定可)】<br>90枚/分 MAX エンコーダー取付可':'200mm/s【80mm/s～300mm/s (Changeable setting)】90 sheets/min MAX Encoder mountable' ?></td>
 					</tr>
 					<tr>
 						<th><?php echo (get_current_blog_id()==1)?'文字種':'Character type' ?></th>

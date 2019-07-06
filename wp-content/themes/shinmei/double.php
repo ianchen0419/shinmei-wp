@@ -2,7 +2,7 @@
 <?php get_header();?>
 
 <div id="visual">
-	<h1 class="visual-title">卓上型 両面同時ダイレクトサーマル プリンター</h1>
+	<h1 class="visual-title"><?php echo (get_current_blog_id()==1)?'卓上型 両面同時ダイレクトサーマル プリンター':'Desktop Type Duplex Direct Thermal Printer' ?></h1>
 </div>
 <main id="contact">
 	<div class="wrapper-size">
@@ -40,12 +40,12 @@
 			<h3><?php echo (get_current_blog_id()==1)?'上下面の印字内容をPCで簡単管理':'Easy management of printed contents on upper and lower sides by PC' ?></h3>
 		</div>
 		<ul>
-			<li><?php echo (get_current_blog_id()==1)?'上下面の印字内容をPCで簡単管理':'Easy management of printed contents on upper and lower sides by PC' ?></li>
-			<li><?php echo (get_current_blog_id()==1)?'日付など印字データが少ないときはヘッドアップ。':'Head up when there is little print data such as date.' ?></li>
+			<li><?php echo (get_current_blog_id()==1)?'日付など印字データが少ないときはヘッドアップ':'Head up when there is little print data such as date.' ?></li>
 			<li><?php echo (get_current_blog_id()==1)?'データ長に比例してリボンを節約':'Save ribblon proportional to data length.' ?></li>
-			<li><?php echo (get_current_blog_id()==1)?'多彩な印字が袋やフィルムのアイテムを減らします。':'It enables you to print four directions: forward, reverse, vertical, and horizontal.' ?></li>
-			<li><?php echo (get_current_blog_id()==1)?'正・逆・縦・横、4方向の印字が可能です。':'We support a large variety of characters, barcodes, ruled lines, QR code, 2D codes, image files and serial numbers.' ?></li>
-			<li><?php echo (get_current_blog_id()==1)?'大小多彩な文字・バーコード・罫線・シリアルナンバーが印字可能です。':'' ?></li>
+			<li><?php echo (get_current_blog_id()==1)?'多彩な印字が袋やフィルムのアイテムを減らします':'It enables you to print four directions: forward, reverse, vertical, and horizontal.' ?></li>
+			<li><?php echo (get_current_blog_id()==1)?'正・逆・縦・横、4方向の印字が可能です':'We support a large variety of characters, barcodes, ruled lines, QR code, 2D codes, image files and serial numbers.' ?></li>
+			<li <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>大小多彩な文字・バーコード・罫線・シリアルナンバーが印字可能です</li>
+			<li <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>QRコード等、各種二次元コードやイメージファイルの印字</li>
 		</ul>
 		<div class="link-area">
 			<a href="<?php bloginfo('url') ?>/solution/food" class="link-item">

@@ -72,6 +72,10 @@
 	display: none;
 }
 
+.products-button button {
+	padding: 4px 30px;
+}
+
 @media (max-width: 768px) {
 	.company-intro p {
 		letter-spacing: 0;
