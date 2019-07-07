@@ -57,7 +57,7 @@
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'処理能力':'Capacity' ?></th>
-					<td><?php echo (get_current_blog_id()==1)?'10〜30枚/分　※2':'10〜30 sheets/min　*2' ?></td>
+					<td><?php echo (get_current_blog_id()==1)?'10〜30枚/分　※2':'10〜30 sheets/min　※2' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'印字データ':'Print data' ?></th>
@@ -89,15 +89,15 @@
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'重量':'Weight' ?></th>
-					<td><?php echo (get_current_blog_id()==1)?'約130kg　※3':'Approx. 130kg　*3' ?></td>
+					<td><?php echo (get_current_blog_id()==1)?'約130kg　※3':'Approx. 130kg　※3' ?></td>
 				</tr>
 			</tbody>
 		</table>
 		<ul class="nostyle-list pad_lt0">
-			<li><?php echo (get_current_blog_id()==1)?'※1.　斜めセンサー有効　300〜600(W) × 200(W) × 750(L)':'*1. Diagonal sensor effective 300-600 (W) × 200 (W) × 750 (L)' ?></li>
-			<li><?php echo (get_current_blog_id()==1)?'※2.　ワーク寸法により、処理能力は変化します。小さいサイズのワークほど処理能力がアップします。':'*2. The processing capacity changes with the work dimensions. The smaller the work size, the better the processing power.' ?></li>
-			<li><?php echo (get_current_blog_id()==1)?'※3.　本体、手差しガイド、受け皿の重量です。':'*3. Weight of main unit, manual feed guide, and pan.' ?></li>
-			<li><?php echo (get_current_blog_id()==1)?'※4.　仕様等は改良により予告なく変更になる場合があります。':'*4. Specifications are subject to change without notice.' ?></li>
+			<li><?php echo (get_current_blog_id()==1)?'※1.　斜めセンサー有効　300〜600(W) × 200(W) × 750(L)':'※1. Diagonal sensor effective 300-600 (W) × 200 (W) × 750 (L)' ?></li>
+			<li><?php echo (get_current_blog_id()==1)?'※2.　ワーク寸法により、処理能力は変化します。小さいサイズのワークほど処理能力がアップします。':'※2. The processing capacity changes with the work dimensions. The smaller the work size, the better the processing power.' ?></li>
+			<li><?php echo (get_current_blog_id()==1)?'※3.　本体、手差しガイド、受け皿の重量です。':'※3. Weight of main unit, manual feed guide, and pan.' ?></li>
+			<li><?php echo (get_current_blog_id()==1)?'※4.　仕様等は改良により予告なく変更になる場合があります。':'※4. Specifications are subject to change without notice.' ?></li>
 		</ul>
 	</div>
 </main>
