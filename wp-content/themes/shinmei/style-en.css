@@ -76,6 +76,8 @@
 	padding: 4px 30px;
 }
 
+/*test*/
+
 @media (max-width: 768px) {
 	.company-intro p {
 		letter-spacing: 0;
