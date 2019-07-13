@@ -2,16 +2,16 @@
 <?php get_header();?>
 
 <div id="visual">
-	<h1 class="visual-title">ニュース一覧</h1>
+	<h1 class="visual-title"><?php echo (get_current_blog_id()==1)?'ニュース一覧':'News' ?></h1>
 </div>
 <main id="contact">
 	<div class="wrapper-size">
 		<ol class="contact-path">
 			<li>
-				<a href="<?php bloginfo('url') ?>">ホーム</a>
+				<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'Home' ?></a>
 			</li>
 			<li>
-				<a href="<?php bloginfo('url') ?>/news-all">ニュース一覧</a>
+				<a href="<?php bloginfo('url') ?>/news-all"><?php echo (get_current_blog_id()==1)?'ニュース一覧':'News' ?></a>
 			</li>
 		</ol>
 		<div class="news-area mar_top40">
