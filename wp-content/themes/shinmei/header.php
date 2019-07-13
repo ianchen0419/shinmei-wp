@@ -12,10 +12,9 @@
 	<meta http-equiv="Content-Language" content="ja" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 	<link rel="icon" href="<?php bloginfo('template_directory') ?>/inc/img/top/favicon.ico" />
-	<meta name="title" content="<?php bloginfo('title') ?>" />
 	<meta name="description" content="<?php bloginfo('description') ?>" />
 	<meta name="keywords" content="<?php echo (get_current_blog_id()==1)?'サーマルプリンター,オートラベラー,チェックスタンパー,フィーダー,スタッカー,包装機用サーマルプリンター,卓上型サーマルプリンター,ロールフィルムサーマルプリンター,オートラベリングシステム ,チェックスタンパー':'Industrial Thermal printer,Industrial Automatic labeler,Check Stamper,Feeder,Stacker,Packaging Machine Manufacturers,Thermal printer for packaging machine,Tabletop-type thermal printer,Packaging Priner,Egg Grating & Packaging center' ?>" />
-	<title><?php bloginfo('title') ?></title>
+	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="stylesheet prefetch" href="<?php bloginfo('template_directory') ?>/inc/lib/font-awesome/css/font-awesome.min.css" />
 	<link rel="stylesheet prefetch" href="<?php bloginfo('template_directory') ?>/style.css" />
 	<?php if(get_current_blog_id()==2){ ?>
