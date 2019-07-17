@@ -267,8 +267,7 @@
 					<input type="checkbox" name="your_agree" required />
 					<i class="fa fa-check"></i>
 					<span>I agree with</span>
-					<a href="<?php bloginfo('url') ?>/privacy" target="_blank" class="link-text">privacy policy</a>
-					<span>.</span>
+					<a href="<?php bloginfo('url') ?>/privacy" target="_blank" class="link-text">privacy policy</a><span>.</span>
 				</label>
 				<div class="badge agree-badge">Required</div>
 			</div>

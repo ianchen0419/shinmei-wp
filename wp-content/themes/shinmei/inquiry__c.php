@@ -36,7 +36,7 @@
 					</div>
 					<div>
 						<label class="checkbox two-row">
-							<input type="checkbox" disabled readonly name="your_type[]" value="サーマルリボン・ラベル・シール<br>など消耗品に関する" <?php echo isset($_POST['your_type3'])?'checked':''; ?> />
+							<input type="checkbox" disabled readonly name="your_type[]" value="サーマルリボン・ラベル・シールなど消耗品に関する" <?php echo isset($_POST['your_type3'])?'checked':''; ?> />
 							<i class="fa fa-check"></i>
 							<span>サーマルリボン・ラベル・シール<br>など消耗品に関する</span>
 						</label>

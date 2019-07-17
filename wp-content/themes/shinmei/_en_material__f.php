@@ -236,7 +236,7 @@
 				'【部署名】'._post('your_division')."<br>".
 				'【役職名】'._post('your_job_title')."<br>".
 				'【ご担当者名】'._post('your_name')."<br>".
-				'【所在地】〒'._post('your_address')."<br>".
+				'【所在地】'._post('your_address')."<br>".
 				'【電話番号】'._post('your_phone')."<br>".
 				'【メールアドレス】'._post('your_mail')."<br>".
 				'【メールアドレス（確認用）】'._post('your_mail_confirm')."<br>".
