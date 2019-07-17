@@ -1,8 +1,8 @@
-<?php /* Template Name: _en_inquiry-010__f */ ?>
+<?php /* Template Name: _en_inquiry-001__f */ ?>
 <?php get_header();?>
 
 <div id="visual">
-	<h1 class="visual-title">Inquiry about printing test</h1>
+	<h1 class="visual-title">Product inquiry</h1>
 </div>
 <main id="contact">
 	<div class="wrapper-size">
@@ -52,18 +52,20 @@
 				'Thank you for your interest in Shinmei.'."<br>".
 				'We will review your inquiry and contact you soon.'."<br><br><br><br>".
 
-
-				'【Title】Inquiry about printing test'."<br>".
-				'【Print / display contents】'."<br>".
-				str_replace("\n","<br>",_post('print_content'))."<br>".
-				'【Print and display size】'._post('print_size')."<br>".
-				'【Print / display color】'._post('print_color')."<br>".
-				'【包Material of packaging】'._post('package_material')."<br>".
-				'【Package size and thickness】'._post('package_size')."<br>".
-				'【Function of packaging】'._post('package_function')."<br>".
+				'【Product Name】Direct Thermal Printer for Packaging Machine SCS'."<br>".
+				'【Schedule】'.implode(', ', $_POST['hope_schedule'])."<br>".
+				'【Purpose】'.implode(', ', $_POST['ask_type'])."<br>".
+				'【Message】'."<br>".
+				str_replace("\n","<br>",_post('add_content'))."<br>".
+				'【Type of product to be packaged】'._post('package_type')."<br>".
+				'【Packaging machine specifications】'._post('machine_detail')."<br>".
+				'【Packaging machine pillow type】'.implode(', ', $_POST['pillow_type'])."<br>".
+				'【Packaging machine operation method】'.implode(', ', $_POST['operate_method'])."<br>".
+				'【Print contents】'.implode(', ', $_POST['print_content'])."<br>".
+				'【Printing pitch】'._post('print_pitch')."<br>".
+				'【Number of print shots】'._post('print_short')."<br>".
 				'【Process from filling to shipping】'._post('engineer_flow')."<br>".
 				'【Adhesion of chemical substances】'._post('chemical_element')."<br>".
-				'【Number of print samples prepared】'._post('sample_amount')."<br>".
 				'【Company】'._post('your_company')."<br>".
 				'【Industry】'._post('your_career_type')."<br>".
 				'【Department / Section】'._post('your_division')."<br>".
@@ -93,23 +95,26 @@
 
 			//担当者へのメール
 			$mailer->setFrom(_post('your_mail'), _post('your_name')); 
-			$mailer->Subject = 'ホームページ）印字テストのお問い合わせ'; 
+			$mailer->Subject = 'ホームページ）製品のお問い合わせ'; 
 			$mailer->Body = 
 				'各位'."<br><br>".
 				'ホームページからお問い合わせがありました。'."<br>".
 				'下記ご確認、ご対応をお願いします。'."<br><br><br><br>".
 
-				'【お問い合わせ内容】印字テストのご依頼'."<br>".
-				'【印字・表示内容】'."<br>".
-				str_replace("\n","<br>",_post('print_content'))."<br>".
-				'【印字・表示のサイズ】'._post('print_size')."<br>".
-				'【印字・表示の色】'._post('print_color')."<br>".
-				'【包装（印字対象）の材質】'._post('package_material')."<br>".
-				'【包装（印字対象）のサイズ・厚さ】'._post('package_size')."<br>".
-				'【包装（印字対象）の機能】'._post('package_function')."<br>".
+				'【製品名】包装機用 超小型ダイレクトサーマルプリンター SCS'."<br>".
+				'【導入ご希望予定時期】'.implode(', ', $_POST['hope_schedule'])."<br>".
+				'【内容】'.implode(', ', $_POST['ask_type'])."<br>".
+				'【補足内容】'."<br>".
+				str_replace("\n","<br>",_post('add_content'))."<br>".
+				'【包装する製品の種類】'._post('package_type')."<br>".
+				'【包装機明細】'._post('machine_detail')."<br>".
+				'【包装機ピロー種類】'.implode(', ', $_POST['pillow_type'])."<br>".
+				'【包装機稼働方法】'.implode(', ', $_POST['operate_method'])."<br>".
+				'【印字内容】'.implode('、', $_POST['print_content'])."<br>".
+				'【印字ピッチ】'._post('print_pitch')."<br>".
+				'【印字ショット数】'._post('print_short')."<br>".
 				'【充填から出荷までの工程】'._post('engineer_flow')."<br>".
 				'【化学物質等の付着】'._post('chemical_element')."<br>".
-				'【印字サンプル用意枚数】'._post('sample_amount')."<br>".
 				'【貴社名】'._post('your_company')."<br>".
 				'【業種】'._post('your_career_type')."<br>".
 				'【部署名】'._post('your_division')."<br>".
@@ -120,7 +125,6 @@
 				'【メールアドレス】'._post('your_mail')."<br>".
 				'【メールアドレス（確認用）】'._post('your_mail_confirm')."<br>".
 				'【ホームページアドレス】'._post('your_website')."<br>";
-
 
 			$mailer->ClearAllRecipients( );
 			$mailer->AddAddress('ianchen0419@gmail.com');
@@ -142,5 +146,6 @@
 	</div>
 
 </main>
+
 <?php unset($_SESSION['finish']); ?>
 <?php get_footer(); ?>
