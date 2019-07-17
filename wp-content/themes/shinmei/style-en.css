@@ -76,7 +76,13 @@
 	padding: 4px 30px;
 }
 
-/*test*/
+.info-box figcaption {
+	width: 70%;
+}
+
+#contact {
+    min-height: calc(100vh - 661px);
+}
 
 @media (max-width: 768px) {
 	.company-intro p {
@@ -120,4 +126,18 @@
 	.mobile-anchor-item i {
 		margin-right: 5px;
 	}
+
+	.info-box figcaption {
+		width: 100%;
+    		margin-top: 20px;
+	}
+
+	.type-table.combo-table th, .type-table.combo-table td {
+		word-break: break-word;
+	}
+
+	.jprs figcaption {
+		margin-top: 20px;
+	}
+
 }

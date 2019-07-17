@@ -215,7 +215,7 @@
 					<td><?php echo (get_current_blog_id()==1)?'AC85～132V 50/60HZ 待機時 6W 印字時 54W (KCのみ76W) ※3':'AC 85 to 132 V 50/60 Hz   Standby 6W Print 54W (KC only 76W) ※3' ?></td>
 				</tr>
 				<tr>
-					<th colspan="2">使用環境 ※4</th>
+					<th colspan="2"><?php echo (get_current_blog_id()==1)?'使用環境 ※4':'Operating environment ※4' ?></th>
 					<td><?php echo (get_current_blog_id()==1)?'温度 5℃～40℃湿度 35％～80％RH（結露なきこと）':'Temperature 5°C~40°C  Humidity 35%!80% RH (no condensation)' ?></td>
 				</tr>
 				<tr>

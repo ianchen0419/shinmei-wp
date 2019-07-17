@@ -56,7 +56,7 @@
 			<h3><?php echo (get_current_blog_id()==1)?'分離構造のイメージ':'Image of separation structure' ?></h3>
 		</div>
 		<div class="image-area">
-			<img src="<?php bloginfo('template_directory') ?>/inc/img/products/feeder.png" alt="分離構造のイメージ" width="800" />
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/products/<?php echo (get_current_blog_id()==1)?'feeder.png':'feeder_en.png' ?>" alt="分離構造のイメージ" width="800" />
 		</div>
 
 		<div class="section-title full-line">

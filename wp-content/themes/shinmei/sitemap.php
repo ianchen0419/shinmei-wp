@@ -206,7 +206,7 @@
 							<span><?php echo (get_current_blog_id()==1)?'沿革':'History' ?></span>
 						</a>
 					</li>
-					<li>
+					<li style="display: none">
 						<a href="<?php bloginfo('url') ?>/company/client" class="link-item">
 							<i class="fa fa-caret-right"></i>
 							<span><?php echo (get_current_blog_id()==1)?'取引先':'Customers' ?></span>

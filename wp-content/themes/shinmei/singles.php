@@ -63,7 +63,7 @@
 		<ul>
 			<li><?php echo (get_current_blog_id()==1)?'正・逆・縦・横、4方向の印字が可能です。':'It enables you to print four directions: forward, reverse, vertical, and horizontal.' ?></li>
 			<li><?php echo (get_current_blog_id()==1)?'大小多彩な文字・バーコード・罫線・シリアルナンバーが印字可能です。':'We support a large variety of characters, barcodes, ruled lines, QR code, 2D codes, image files and serial numbers.' ?></li>
-			<li><?php echo (get_current_blog_id()==1)?'QRコード等、各種二次元コードやイメージファイルの印字。':'' ?></li>
+			<li <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>QRコード等、各種二次元コードやイメージファイルの印字。</li>
 		</ul>
 		<div class="link-area">
 			<a href="<?php bloginfo('url') ?>/solution/thermal" class="link-item block">

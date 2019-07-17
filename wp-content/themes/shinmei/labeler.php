@@ -388,7 +388,7 @@
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'ラベル紙管':'Label paper tube' ?></th>
-					<td colspan="2"><?php echo (get_current_blog_id()==1)?'φ25・φ45(標準)φ75も可':'φ25・φ45(標準)φ75も可' ?></td>
+					<td colspan="2"><?php echo (get_current_blog_id()==1)?'φ25・φ45(標準)φ75も可':'φ25・φ45(Standard) φ75' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'プリセットカウンター':'Preset counter' ?></th>
@@ -445,7 +445,7 @@
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'処理能力':'Capacity' ?></th>
-					<td colspan="2"><?php echo (get_current_blog_id()==1)?'10ヶパック 89パック/分 6ヶパック131パック/分':'10 * 89 packs/分 6 * 131 packs/min' ?></td>
+					<td colspan="2"><?php echo (get_current_blog_id()==1)?'10ヶパック 89パック/分 6ヶパック131パック/分':'10 * 89 packs/min 6 * 131 packs/min' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'コンベアスピード・長':'Conveyor speed' ?></th>
@@ -488,7 +488,7 @@
 					<td colspan="2"><?php echo (get_current_blog_id()==1)?'SDカード(SDHC非対応)':'SD card (SDHC incompatible)' ?></td>
 				</tr>
 				<tr>
-					<th><?php echo (get_current_blog_id()==1)?'印字入力方式':'Print input method' ?>印字入力方式</th>
+					<th><?php echo (get_current_blog_id()==1)?'印字入力方式':'Print input method' ?></th>
 					<td colspan="2"><?php echo (get_current_blog_id()==1)?'パソコンで入力したデータメディアを挿入':'Insert the data media input on the PC' ?></td>
 				</tr>
 				<tr>

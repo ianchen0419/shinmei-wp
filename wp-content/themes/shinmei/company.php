@@ -52,7 +52,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="company-block">
+			<div class="company-block" style="display: none">
 				<a href="<?php bloginfo('url') ?>/company/client">
 					<img src="<?php bloginfo('template_directory') ?>/inc/img/company/company_5.jpg" alt="取引先" width="400">
 					<div class="company-text">

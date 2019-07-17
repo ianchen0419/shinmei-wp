@@ -8,10 +8,10 @@
 	<div class="wrapper-size">
 		<ol class="contact-path">
 			<li>
-				<a href="<?php bloginfo('url') ?>">ホーム</a>
+				<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'Home' ?></a>
 			</li>
 			<li>
-				<a href="<?php bloginfo('url') ?>/news-all">ニュース一覧</a>
+				<a href="<?php bloginfo('url') ?>/news-all"><?php echo (get_current_blog_id()==1)?'ニュース一覧':'News' ?></a>
 			</li>
 			<li>
 				<a href="javascript:;"><?php the_title(); ?></a>
