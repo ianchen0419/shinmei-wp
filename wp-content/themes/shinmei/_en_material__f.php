@@ -229,8 +229,8 @@
 
 				'【ご希望の資料】'."<br>".
 				implode('<br>', array_filter($your_data))."<br>".
-				'【資料入手の目的】'.implode('、', $_POST['your_purpose'])."<br>".
-				'【導入ご希望予定時期】'.implode('、', $_POST['your_schedule'])."<br>".
+				'【資料入手の目的】'.implode(', ', $_POST['your_purpose'])."<br>".
+				'【導入ご希望予定時期】'.implode(', ', $_POST['your_schedule'])."<br>".
 				'【貴社名】'._post('your_company')."<br>".
 				'【業種】'._post('your_career_type')."<br>".
 				'【部署名】'._post('your_division')."<br>".

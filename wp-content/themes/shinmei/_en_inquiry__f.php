@@ -89,13 +89,12 @@
 				'下記ご確認、ご対応をお願いします。'."<br><br><br><br>".
 
 				'【種類】'.implode(', ', $_POST['your_type'])."<br>".
-				'【ご希望回答方法】'.implode('、', $_POST['your_answer'])."<br>".
-				'【貴社名】'._post('your_company').'　'._post('your_company_furigana')."<br>".
+				'【貴社名】'._post('your_company')."<br>".
 				'【業種】'._post('your_career_type')."<br>".
 				'【部署名】'._post('your_division')."<br>".
 				'【役職名】'._post('your_job_title')."<br>".
-				'【ご担当者名】'._post('your_name').'　'._post('your_name_furigana')."<br>".
-				'【所在地】〒'._post('your_postcode').'　'._post('your_address1')._post('your_address2')._post('your_address3')."<br>".
+				'【ご担当者名】'._post('your_name')."<br>".
+				'【所在地】'._post('your_address')."<br>".
 				'【電話番号】'._post('your_phone')."<br>".
 				'【メールアドレス】'._post('your_mail')."<br>".
 				'【メールアドレス（確認用）】'._post('your_mail_confirm')."<br>".
@@ -103,19 +102,6 @@
 				'【内容】'."<br>".
 				str_replace("\n","<br>",_post('your_message'))."<br><br><br><br>";
 
-				'【Purpose】'.implode(', ', $_POST['your_type'])."<br>".
-				'【Company】'._post('your_company')."<br>".
-				'【Industry】'._post('your_career_type')."<br>".
-				'【Department / Section】'._post('your_division')."<br>".
-				'【Position】'._post('your_job_title')."<br>".
-				'【Name】'._post('your_name')."<br>".
-				'【Address】'._post('your_address')."<br>".
-				'【Phone number】'._post('your_phone')."<br>".
-				'【Email Address】'._post('your_mail')."<br>".
-				'【Email Address (Again)】'._post('your_mail_confirm')."<br>".
-				'【URL】'._post('your_website')."<br>".
-				'【Message】'."<br>".
-				str_replace("\n","<br>",_post('your_message'))."<br><br><br><br>".
 
 			$mailer->ClearAllRecipients( );
 			$mailer->AddAddress('ianchen0419@gmail.com');
@@ -131,7 +117,7 @@
 		?>
 		<figure class="jprs">
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/material/jprs.png" alt="jprs" />
-			<figcaption>このサイトはJPRSにより認証されています。<br>情報送信は暗号化により保護されます。</figcaption>
+			<figcaption>This site is certified by JPRS. Information transmission is protected by encryption.</figcaption>
 		</figure>
 
 	</div>
