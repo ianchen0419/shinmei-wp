@@ -60,8 +60,8 @@
 
 				'【Document】'."<br>".
 				implode('<br>', array_filter($your_data))."<br>".
-				'【Purpose】'.implode('、', $_POST['your_purpose'])."<br>".
-				'【Schedule】'.implode('、', $_POST['your_schedule'])."<br>".
+				'【Purpose】'.implode(', ', $_POST['your_purpose'])."<br>".
+				'【Schedule】'.implode(', ', $_POST['your_schedule'])."<br>".
 				'【Company Name】'._post('your_company')."<br>".
 				'【Industry】'._post('your_career_type')."<br>".
 				'【Department/Section】'._post('your_division')."<br>".
