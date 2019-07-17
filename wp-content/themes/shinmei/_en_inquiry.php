@@ -140,7 +140,7 @@
 			</div>
 			
 			<div class="button-area">
-				<input type="submit" value="入力内容を確認する" class="submit-button" />
+				<input type="submit" value="Next" class="submit-button" />
 			</div>
 		</form>
 
