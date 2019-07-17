@@ -163,12 +163,6 @@
 					</div>
 					<input disabled readonly type="url" name="your_website" value="<?php echo $_POST['your_website'] ?>" />
 				</div>
-				<div class="contact-item">
-					<div class="title">
-						<span>内容</span>
-					</div>
-					<textarea name="your_message" disabled readonly cols="30" rows="10"><?php echo $_POST['your_message'] ?></textarea>
-				</div>
 
 				<label class="checkbox agree-checkbox">
 					<input type="checkbox" disabled checked readonly name="your_agree" required />

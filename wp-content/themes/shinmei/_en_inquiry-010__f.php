@@ -1,15 +1,15 @@
-<?php /* Template Name: inquiry-010__f */ ?>
+<?php /* Template Name: _en_inquiry-010__f */ ?>
 <?php get_header();?>
 
 <div id="visual">
-	<h1 class="visual-title">印字テストのご依頼</h1>
+	<h1 class="visual-title">Inquiry about printing test</h1>
 </div>
 <main id="contact">
 	<div class="wrapper-size">
 		<ol class="contact-path step">
-			<li>入力</li>
-			<li>確認</li>
-			<li class="active">完了</li>
+			<li>Input</li>
+			<li>Confirmation</li>
+			<li class="active">Complete</li>
 		</ol>
 
 		<?php
@@ -33,7 +33,7 @@
 			$mailer->Port = 465;
 			$mailer->CharSet = "utf-8";    
 			$mailer->Username = "inquiry.workcapital@gmail.com";     
-			// $mailer->Username = "info@co-shinmei.com";     
+			// $mailer->Username = "overseainfo@co-shinmei.com";     
 			$mailer->Password = "contactwc180623@";
 			// $mailer->Password = "snm3921";
 			$mailer->IsSMTP();
@@ -42,53 +42,50 @@
 			$mailer->Encoding = "base64";
 			$mailer->IsHTML(true); 
 			$mailer->AddReplyTo('inquiry.workcapital@gmail.com');
-			// $mailer->AddReplyTo('info@co-shinmei.com');
-			$mailer->setFrom('inquiry.workcapital@gmail.com', '株式会社シンメイ'); 
-			// $mailer->setFrom('info@co-shinmei.com', '株式会社シンメイ'); 
+			// $mailer->AddReplyTo('overseainfo@co-shinmei.com');
+			$mailer->setFrom('inquiry.workcapital@gmail.com', 'Shinmei Co.Ltd.'); 
+			// $mailer->setFrom('overseainfo@co-shinmei.com', 'Shinmei Co.Ltd.'); 
 			$mailer->Subject = '印字テストのご依頼をいただき有難うございます。'; 
 			$mailer->Body = 
-				_post('your_company')."<br>".
-				_post('your_name').'様'."<br><br>".
-				'この度はシンメイへお問い合わせいただき、誠に有難うございます。'."<br><br>".
-				'弊社担当者よりご連絡をさせていただきます。'."<br>".
-				'お問い合わせの内容によっては、'."<br>".
-				'回答にお時間を要する場合がございますが、今しばらくお待ちください。'."<br>".
-				'今後とも、宜しくお願いします。'."<br><br><br><br>".
+				'Dear '._post('your_name')."<br><br>".
 
-				'【お問い合わせ内容】印字テストのご依頼'."<br>".
-				'【印字・表示内容】'."<br>".
+				'Thank you for your interest in Shinmei.'."<br>".
+				'We will review your inquiry and contact you soon.'."<br><br><br><br>".
+
+
+				'【Title】Inquiry about printing test'."<br>".
+				'【Print / display contents】'."<br>".
 				str_replace("\n","<br>",_post('print_content'))."<br>".
-				'【印字・表示のサイズ】'._post('print_size')."<br>".
-				'【印字・表示の色】'._post('print_color')."<br>".
-				'【包装（印字対象）の材質】'._post('package_material')."<br>".
-				'【包装（印字対象）のサイズ・厚さ】'._post('package_size')."<br>".
-				'【包装（印字対象）の機能】'._post('package_function')."<br>".
-				'【充填から出荷までの工程】'._post('engineer_flow')."<br>".
-				'【化学物質等の付着】'._post('chemical_element')."<br>".
-				'【印字サンプル用意枚数】'._post('sample_amount')."<br>".
-				'【ご希望回答方法】'.implode('、', $_POST['your_answer'])."<br>".
-				'【貴社名】'._post('your_company').'　'._post('your_company_furigana')."<br>".
-				'【業種】'._post('your_career_type')."<br>".
-				'【部署名】'._post('your_division')."<br>".
-				'【役職名】'._post('your_job_title')."<br>".
-				'【ご担当者名】'._post('your_name').'　'._post('your_name_furigana')."<br>".
-				'【所在地】〒'._post('your_postcode').'　'._post('your_address1')._post('your_address2')._post('your_address3')."<br>".
-				'【電話番号】'._post('your_phone')."<br>".
-				'【メールアドレス】'._post('your_mail')."<br>".
-				'【メールアドレス（確認用）】'._post('your_mail_confirm')."<br>".
-				'【ホームページアドレス】'._post('your_website')."<br>".
+				'【Print and display size】'._post('print_size')."<br>".
+				'【Print / display color】'._post('print_color')."<br>".
+				'【包Material of packaging】'._post('package_material')."<br>".
+				'【Package size and thickness】'._post('package_size')."<br>".
+				'【Function of packaging】'._post('package_function')."<br>".
+				'【Process from filling to shipping】'._post('engineer_flow')."<br>".
+				'【Adhesion of chemical substances】'._post('chemical_element')."<br>".
+				'【Number of print samples prepared】'._post('sample_amount')."<br>".
+				'【Company】'._post('your_company')."<br>".
+				'【Industry】'._post('your_career_type')."<br>".
+				'【Department / Section】'._post('your_division')."<br>".
+				'【Position】'._post('your_job_title')."<br>".
+				'【Name】'._post('your_name')."<br>".
+				'【Address】'._post('your_address')."<br>".
+				'【Phone number】'._post('your_phone')."<br>".
+				'【Email Address】'._post('your_mail')."<br>".
+				'【Email Address (Again)】'._post('your_mail_confirm')."<br>".
+				'【URL】'._post('your_website')."<br>".
 
 				'---'."<br>".
-				'株式会社シンメイ'."<br>".
-				'東京都中央区日本橋馬喰町2-3-3　ファッションフェイスビル3F/4F'."<br>".
-				'TEL：03(3831)3921(代)'."<br>".
-				'FAX：03(3831)7541'."<br>".
+				'Shinmei Co., Ltd.'."<br>".
+				'2-3-3 Nihonbashi Bakucho Chuo-ku, Tokyo Fashion Face Building 3F / 4F'."<br>".
+				'TEL:+81-3-3831-3921'."<br>".
+				'FAX:+81-3-3831-7541'."<br>".
 				'https://www.co-shinmei.com';
 
 			$mailer->AddAddress(_post('your_mail'));
 
 			if($mailer->Send()){
-				echo '<p>お問い合わせありがとうございました。<br>内容によりましては、ご返答にお時間をいただく場合もございますので、あらかじめご了承ください。<br>今後ともシンメイをよろしくお願いいたします。</p>';
+				echo '<p>Thank you for your interest in Shinmei.<br>We will review your inquiry and contact you soon.</p>';
 
 		 	}else{
 				echo '<p>失敗しました</p>';
@@ -113,17 +110,17 @@
 				'【充填から出荷までの工程】'._post('engineer_flow')."<br>".
 				'【化学物質等の付着】'._post('chemical_element')."<br>".
 				'【印字サンプル用意枚数】'._post('sample_amount')."<br>".
-				'【ご希望回答方法】'.implode('、', $_POST['your_answer'])."<br>".
-				'【貴社名】'._post('your_company').'　'._post('your_company_furigana')."<br>".
+				'【貴社名】'._post('your_company')."<br>".
 				'【業種】'._post('your_career_type')."<br>".
 				'【部署名】'._post('your_division')."<br>".
 				'【役職名】'._post('your_job_title')."<br>".
-				'【ご担当者名】'._post('your_name').'　'._post('your_name_furigana')."<br>".
-				'【所在地】〒'._post('your_postcode').'　'._post('your_address1')._post('your_address2')._post('your_address3')."<br>".
+				'【ご担当者名】'._post('your_name')."<br>".
+				'【所在地】'._post('your_address')."<br>".
 				'【電話番号】'._post('your_phone')."<br>".
 				'【メールアドレス】'._post('your_mail')."<br>".
 				'【メールアドレス（確認用）】'._post('your_mail_confirm')."<br>".
 				'【ホームページアドレス】'._post('your_website')."<br>";
+
 
 			$mailer->ClearAllRecipients( );
 			$mailer->AddAddress('ianchen0419@gmail.com');
@@ -140,7 +137,7 @@
 
 		<figure class="jprs">
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/material/jprs.png" alt="jprs" />
-			<figcaption>このサイトはJPRSにより認証されています。<br>情報送信は暗号化により保護されます。</figcaption>
+			<figcaption>This site is certified by JPRS. Information transmission is protected by encryption.</figcaption>
 		</figure>
 	</div>
 
