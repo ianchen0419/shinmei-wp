@@ -254,7 +254,7 @@
 						<span>Email Address (Again)</span>
 						<div class="badge">Required</div>
 					</div>
-					<input type="email" name="your_mail_confirm" id="confirmMail" required onblur="checkEmail(this)" oninput="checkEmail(this)" disabled />
+					<input type="email" name="your_mail_confirm" id="confirmMail" required onblur="checkEmail(this, 'en')" oninput="checkEmail(this, 'en')" disabled />
 				</div>
 				<div class="contact-item">
 					<div class="title">
@@ -299,13 +299,13 @@
 			var Acheckbox_checked=document.querySelectorAll('input[name*="your_purpose"]:checked');
 			var Bcheckbox_checked=document.querySelectorAll('input[name*="your_schedule"]:checked');
 			if(Acheckbox_checked.length<1){
-				Acheckbox_first.setCustomValidity("チェックボックスを最低一つ選んでください");
+				Acheckbox_first.setCustomValidity("Please select at least one.");
 			}else{
 				Acheckbox_first.setCustomValidity("");
 			}
 
 			if(Bcheckbox_checked.length<1){
-				Bchcekbox_first.setCustomValidity("チェックボックスを最低一つ選んでください");
+				Bchcekbox_first.setCustomValidity("Please select at least one.");
 			}else{
 				Bchcekbox_first.setCustomValidity("");
 			}

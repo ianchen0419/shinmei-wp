@@ -156,7 +156,7 @@
 			<h2>鶏卵用</h2>
 		</div>
 		<div>
-			<a href="<?php bloginfo('template_directory') ?>/inc/download/egg-1.pdf" class="blue-button download-button <?php echo isset($_POST['your_data11'])?'':'disabled'; ?>" download="鶏卵中身有無装置">
+			<a href="<?php bloginfo('template_directory') ?>/inc/download/egg-1.pdf" class="blue-button download-button <?php echo isset($_POST['your_data11'])?'':'disabled'; ?>" download="鶏卵パック上貼り機 ＡＬＳ-１０００ＳＣＳシリーズ">
 				<i class="fa fa-file-text-o fa-fw"></i>
 				<span>鶏卵パック上貼り機<br>ＡＬＳ-１０００ＳＣＳシリーズ</span>
 			</a>

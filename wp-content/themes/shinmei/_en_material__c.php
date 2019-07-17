@@ -72,124 +72,124 @@
 								<span>ALS-100Ⅱ Series,<br>In-line auto labeling system </span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data10" disabled readonly <?php echo isset($_POST['your_data10'])?'checked':''; ?> value="ボトルラベラーK.I.2001" />
+								<input type="checkbox" name="your_data10" disabled readonly <?php echo isset($_POST['your_data10'])?'checked':''; ?> value="Bottle labeler K.I. 2001" />
 								<i class="fa fa-check"></i>
-								<span>ボトルラベラーK.I.2001</span>
+								<span>Bottle labeler K.I. 2001</span>
 							</label>
-							<h4>鶏卵用</h4>
+							<h4>For eggs</h4>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data11" disabled readonly <?php echo isset($_POST['your_data11'])?'checked':''; ?> value="鶏卵パック上貼り機 ＡＬＳ-１０００ＳＣＳシリーズ" />
+								<input type="checkbox" name="your_data11" disabled readonly <?php echo isset($_POST['your_data11'])?'checked':''; ?> value="ALS1000SCS for labeling on eggs" />
 								<i class="fa fa-check"></i>
-								<span>鶏卵パック上貼り機<br>ＡＬＳ-１０００ＳＣＳシリーズ</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data12" disabled readonly <?php echo isset($_POST['your_data12'])?'checked':''; ?> value="インパックラベル日付印字プリンター ＣＰＳ-８５ＥⅢシリーズ" />
-								<i class="fa fa-check"></i>
-								<span>インパックラベル日付印字プリンター<br>ＣＰＳ-８５ＥⅢシリーズ</span>
+								<span>ALS1000SCS for labeling on eggs</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data13" disabled readonly <?php echo isset($_POST['your_data13'])?'checked':''; ?> value="鶏卵中身有無装置" />
+								<input type="checkbox" name="your_data12" disabled readonly <?php echo isset($_POST['your_data12'])?'checked':''; ?> value="In-pack label date printing CPS-85EⅢ" />
 								<i class="fa fa-check"></i>
-								<span>鶏卵中身有無装置</span>
+								<span>In-pack label date printing CPS-85EⅢ</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data14" disabled readonly <?php echo isset($_POST['your_data14'])?'checked':''; ?> value="鶏卵ライン用日付検査カメラ" />
+								<input type="checkbox" name="your_data13" disabled readonly <?php echo isset($_POST['your_data13'])?'checked':''; ?> value="Egg content check device" />
 								<i class="fa fa-check"></i>
-								<span>鶏卵ライン用日付検査カメラ</span>
-							</label>
-							<h4>フィーダー・スタッカー</h4>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data15" disabled readonly <?php echo isset($_POST['your_data15'])?'checked':''; ?> value="フィーダー・スタッカー" />
-								<i class="fa fa-check"></i>
-								<span>フィーダー・スタッカー</span>
-							</label>
-							<h4>チェックスタンパー</h4>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data16" disabled readonly <?php echo isset($_POST['your_data16'])?'checked':''; ?> value="自動汎用計数押印機 ＣＳシリーズ" />
-								<i class="fa fa-check"></i>
-								<span>自動汎用計数押印機<br>ＣＳシリーズ</span>
+								<span>Egg content check device</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data17" disabled readonly <?php echo isset($_POST['your_data17'])?'checked':''; ?> value="手形振出・裏書用押印機 ＣＳ-ＢⅡシリーズ" />
+								<input type="checkbox" name="your_data14" disabled readonly <?php echo isset($_POST['your_data14'])?'checked':''; ?> value="Date inspection camera for egg line" />
 								<i class="fa fa-check"></i>
-								<span>手形振出・裏書用押印機<br>ＣＳ-ＢⅡシリーズ</span>
+								<span>Date inspection camera for egg line</span>
+							</label>
+							<h4>Feeder / Stacker</h4>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data15" disabled readonly <?php echo isset($_POST['your_data15'])?'checked':''; ?> value="Feeder / Stacker" />
+								<i class="fa fa-check"></i>
+								<span>Feeder / Stacker</span>
+							</label>
+							<h4>Stamper</h4>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data16" disabled readonly <?php echo isset($_POST['your_data16'])?'checked':''; ?> value="Automatic general-purpose counting and sealing machine: CS Series" />
+								<i class="fa fa-check"></i>
+								<span>Automatic general-purpose counting<br>and sealing machine: CS Series</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" name="your_data18" disabled readonly <?php echo isset($_POST['your_data18'])?'checked':''; ?> value="パンフレットスタンパー" />
+								<input type="checkbox" name="your_data17" disabled readonly <?php echo isset($_POST['your_data17'])?'checked':''; ?> value="Handprinter, sealer for endorsement: CS-BⅡ Series" />
 								<i class="fa fa-check"></i>
-								<span>パンフレットスタンパー</span>
-							</label>
-							<h4>その他</h4>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data19" disabled readonly <?php echo isset($_POST['your_data19'])?'checked':''; ?> value="ラベル / シール" />
-								<i class="fa fa-check"></i>
-								<span>ラベル / シール</span>
-							</label>
-						</td>
-					</tr>
-					<tr>
-						<th>
-							<span>資料入手の目的</span>
-							<div class="badge">必須</div>
-						</th>
-						<td>
-							<label class="checkbox">
-								<input type="checkbox" checked disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose1'])?'checked':''; ?> value="新規導入の検討" />
-								<i class="fa fa-check"></i>
-								<span>新規導入の検討</span>
+								<span>Handprinter, sealer for endorsement:<br>CS-BⅡ Series</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose2'])?'checked':''; ?> value="入れ替え導入の検討" />
+								<input type="checkbox" name="your_data18" disabled readonly <?php echo isset($_POST['your_data18'])?'checked':''; ?> value="Brochure stamper" />
 								<i class="fa fa-check"></i>
-								<span>入れ替え導入の検討</span>
+								<span>Brochure stamper</span>
 							</label>
+							<h4>Others</h4>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose3'])?'checked':''; ?> value="試験導入の検討" />
+								<input type="checkbox" name="your_data19" disabled readonly <?php echo isset($_POST['your_data19'])?'checked':''; ?> value="Label / Seal" />
 								<i class="fa fa-check"></i>
-								<span>試験導入の検討</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose4'])?'checked':''; ?> value="情報収集" />
-								<i class="fa fa-check"></i>
-								<span>情報収集</span>
+								<span>Label / Seal</span>
 							</label>
 						</td>
 					</tr>
 					<tr>
 						<th>
-							<span>導入ご希望予定時期</span>
-							<div class="badge">必須</div>
+							<span>Purpose</span>
+							<div class="badge">Required</div>
 						</th>
 						<td>
 							<label class="checkbox">
-								<input type="checkbox" checked disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule1'])?'checked':''; ?> value="すぐにでも" />
+								<input type="checkbox" checked disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose1'])?'checked':''; ?> value="New Introduction" />
 								<i class="fa fa-check"></i>
-								<span>すぐにでも</span>
+								<span>New Introduction</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule2'])?'checked':''; ?> value="1ヶ月以内" />
+								<input type="checkbox" disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose2'])?'checked':''; ?> value="Replacement" />
 								<i class="fa fa-check"></i>
-								<span>1ヶ月以内</span>
+								<span>Replacement</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule3'])?'checked':''; ?> value="3ヶ月以内" />
+								<input type="checkbox" disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose3'])?'checked':''; ?> value="Test introduction" />
 								<i class="fa fa-check"></i>
-								<span>3ヶ月以内</span>
+								<span>Test introduction</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule4'])?'checked':''; ?> value="半年以内" />
+								<input type="checkbox" disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose4'])?'checked':''; ?> value="Collecting information" />
 								<i class="fa fa-check"></i>
-								<span>半年以内</span>
+								<span>Collecting information</span>
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<span>Schedule</span>
+							<div class="badge">Required</div>
+						</th>
+						<td>
+							<label class="checkbox">
+								<input type="checkbox" checked disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule1'])?'checked':''; ?> value="Soon" />
+								<i class="fa fa-check"></i>
+								<span>Soon</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule5'])?'checked':''; ?> value="1年以内" />
+								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule2'])?'checked':''; ?> value="Within 1 month" />
 								<i class="fa fa-check"></i>
-								<span>1年以内</span>
+								<span>Within 1 month</span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule6'])?'checked':''; ?> value="未定" />
+								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule3'])?'checked':''; ?> value="Within 3 months" />
 								<i class="fa fa-check"></i>
-								<span>未定</span>
+								<span>Within 3 months</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule4'])?'checked':''; ?> value="Within half a year" />
+								<i class="fa fa-check"></i>
+								<span>Within half a year</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule5'])?'checked':''; ?> value="Within a year" />
+								<i class="fa fa-check"></i>
+								<span>Within a year</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule6'])?'checked':''; ?> value="Undecided" />
+								<i class="fa fa-check"></i>
+								<span>Undecided</span>
 							</label>
 						</td>
 					</tr>
@@ -198,86 +198,70 @@
 			<div class="form-center">
 				<div class="contact-item">
 					<div class="title">
-						<span>貴社名</span>
-						<div class="badge">必須</div>
+						<span>Company Name</span>
+						<div class="badge">Required</div>
 					</div>
-					<input disabled readonly type="text" name="your_company" class="short" required value="<?php echo $_POST['your_company'] ?>" />
-					<input disabled readonly type="text" name="your_company_furigana" class="short" required value="<?php echo $_POST['your_company_furigana'] ?>" />
+					<input disabled readonly type="text" name="your_company" required value="<?php echo $_POST['your_company'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>業種</span>
-						<div class="badge">必須</div>
+						<span>Industry</span>
+						<div class="badge">Required</div>
 					</div>
 					<input disabled readonly type="text" name="your_career_type" required value="<?php echo $_POST['your_career_type'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>部署名</span>
-						<div class="badge">必須</div>
+						<span>Department/Section</span>
+						<div class="badge">Required</div>
 					</div>
 					<input disabled readonly type="text" name="your_division" required value="<?php echo $_POST['your_division'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>役職名</span>
-						<div class="badge">必須</div>
+						<span>Position</span>
+						<div class="badge">Required</div>
 					</div>
 					<input disabled readonly type="text" name="your_job_title" required value="<?php echo $_POST['your_job_title'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>ご担当者名</span>
-						<div class="badge">必須</div>
+						<span>Name</span>
+						<div class="badge">Required</div>
 					</div>
-					<input disabled readonly type="text" name="your_name" class="short" required value="<?php echo $_POST['your_name'] ?>" />
-					<input disabled readonly type="text" name="your_name_furigana" class="short" required value="<?php echo $_POST['your_name_furigana'] ?>" />
+					<input disabled readonly type="text" name="your_name" required value="<?php echo $_POST['your_name'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>所在地</span>
-						<div class="badge">必須</div>
+						<span>Address</span>
+						<div class="badge">Required</div>
 					</div>
-					<div>
-						<input disabled readonly type="number" name="your_postcode" id="postcode" class="short" required maxlength="7" value="<?php echo $_POST['your_postcode'] ?>" />
-					</div>
-					<div>
-						<div id="dropdownWrapper">
-							<div class="dropdown-bar disabled">
-								<input id="dropdownInput" type="text" autocomplete="new-password" name="your_address1" required="required" value="<?php echo $_POST['your_address1'] ?>" disabled readonly />
-							</div>
-						</div>
-						<input disabled readonly type="text" name="your_address2" id="address2" class="short" required value="<?php echo $_POST['your_address2'] ?>" />
-					</div>
-					<div>
-						<input disabled readonly type="text" name="your_address3" required value="<?php echo $_POST['your_address3'] ?>" />
-					</div>
-					<p>＊代理店の方は、顧客の所在地を選択してください。<br>不明な場合は、貴社の所在地を選択してください。</p>
+					<input disabled readonly type="text" name="your_address" required value="<?php echo $_POST['your_address'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>電話番号</span>
-						<div class="badge">必須</div>
+						<span>Phone number</span>
+						<div class="badge">Required</div>
 					</div>
 					<input disabled readonly type="tel" name="your_phone" required value="<?php echo $_POST['your_phone'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>メールアドレス</span>
-						<div class="badge">必須</div>
+						<span>Email Address</span>
+						<div class="badge">Required</div>
 					</div>
 					<input disabled readonly type="email" name="your_mail" required value="<?php echo $_POST['your_mail'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>メールアドレス（確認用）</span>
-						<div class="badge">必須</div>
+						<span>Email Address (Again)</span>
+						<div class="badge">Required</div>
 					</div>
 					<input disabled readonly type="email" name="your_mail_confirm" required value="<?php echo $_POST['your_mail_confirm'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>ホームページアドレス</span>
+						<span>URL</span>
 					</div>
 					<input disabled readonly type="url" name="your_website" value="<?php echo $_POST['your_website'] ?>" />
 				</div>
@@ -285,19 +269,21 @@
 				<label class="checkbox agree-checkbox">
 					<input type="checkbox" name="your_agree" required checked disabled readonly />
 					<i class="fa fa-check"></i>
-					<span>「</span><a href="<?php bloginfo('url') ?>/privacy" target="_blank" class="link-text">個人情報保護方針</a><span>」に同意する</span>
+					<span>I agree with</span>
+					<a href="<?php bloginfo('url') ?>/privacy" target="_blank" class="link-text">privacy policy</a>
+					<span>.</span>
 				</label>
-				<div class="badge agree-badge">必須</div>
+				<div class="badge agree-badge">Required</div>
 			</div>
 			
 			<div class="button-area">
-				<button type="button" class="cancel-button" onclick="history.back();">戻る</button>
-				<input type="submit" value="送信" class="submit-button" />
+				<button type="button" class="cancel-button" onclick="history.back();">Back</button>
+				<input type="submit" value="Confirm" class="submit-button" />
 			</div>
 		</form>
 		<figure class="jprs">
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/material/jprs.png" alt="jprs" />
-			<figcaption>このサイトはJPRSにより認証されています。<br>情報送信は暗号化により保護されます。</figcaption>
+			<figcaption>This site is certified by JPRS. Information transmission is protected by encryption.</figcaption>
 		</figure>
 
 	</div>
