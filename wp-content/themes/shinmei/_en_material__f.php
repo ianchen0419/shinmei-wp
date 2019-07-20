@@ -38,7 +38,7 @@
 			$mailer->Port = 465;
 			$mailer->CharSet = "utf-8";    
 			$mailer->Username = "inquiry.workcapital@gmail.com";     
-			// $mailer->Username = "overseacontact@co-shinmei.com";     
+			// $mailer->Username = "overseascontact@co-shinmei.com";     
 			$mailer->Password = "contactwc180623@";
 			// $mailer->Password = "snm3921";
 			$mailer->IsSMTP();
@@ -47,9 +47,9 @@
 			$mailer->Encoding = "base64";
 			$mailer->IsHTML(true); 
 			$mailer->AddReplyTo('inquiry.workcapital@gmail.com');
-			// $mailer->AddReplyTo('overseacontact@co-shinmei.com');
+			// $mailer->AddReplyTo('overseascontact@co-shinmei.com');
 			$mailer->setFrom('inquiry.workcapital@gmail.com', 'Shinmei Co.Ltd.'); 
-			// $mailer->setFrom('overseacontact@co-shinmei.com', 'Shinmei Co.Ltd.'); 
+			// $mailer->setFrom('overseascontact@co-shinmei.com', 'Shinmei Co.Ltd.'); 
 			$mailer->Subject = 'Thank you for downloading our brochure.'; 
 			$mailer->Body = 
 				'Dear '._post('your_name')."<br><br>".
@@ -246,12 +246,7 @@
 
 			$mailer->ClearAllRecipients( );
 			$mailer->AddAddress('ianchen0419@gmail.com');
-			// $mailer->AddAddress('sadao.yoshii@co-shinmei.com');
-			// $mailer->AddAddress('takaharu.inoue@co-shinmei.com');
-			// $mailer->AddAddress('norihira_inoue@co-shinmei.com');
-			// $mailer->AddAddress('manabu.kayama@co-shinmei.com');
-			// $mailer->AddAddress('Kanda88ryu@co-shinmei.com');
-			// $mailer->AddAddress('s-yamano@co-shinmei.com');
+			// $mailer->AddAddress('domesticcontact@co-shinmei.com');
 			$mailer->Send();
 		}
 

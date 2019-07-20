@@ -38,7 +38,7 @@
 			$mailer->Port = 465;
 			$mailer->CharSet = "utf-8";    
 			$mailer->Username = "inquiry.workcapital@gmail.com";     
-			// $mailer->Username = "contact@co-shinmei.com";     
+			// $mailer->Username = "domesticcontact@co-shinmei.com";     
 			$mailer->Password = "contactwc180623@";
 			// $mailer->Password = "snm3921";
 			$mailer->IsSMTP();
@@ -47,9 +47,9 @@
 			$mailer->Encoding = "base64";
 			$mailer->IsHTML(true); 
 			$mailer->AddReplyTo('inquiry.workcapital@gmail.com');
-			// $mailer->AddReplyTo('contact@co-shinmei.com');
+			// $mailer->AddReplyTo('domesticcontact@co-shinmei.com');
 			$mailer->setFrom('inquiry.workcapital@gmail.com', '株式会社シンメイ'); 
-			// $mailer->setFrom('contact@co-shinmei.com', '株式会社シンメイ'); 
+			// $mailer->setFrom('domesticcontact@co-shinmei.com', '株式会社シンメイ'); 
 			$mailer->Subject = '製品カタログをダウンロードしていただき有難うございます。'; 
 			$mailer->Body = 
 				_post('your_company')."<br>".
@@ -245,12 +245,7 @@
 
 			$mailer->ClearAllRecipients( );
 			$mailer->AddAddress('ianchen0419@gmail.com');
-			// $mailer->AddAddress('sadao.yoshii@co-shinmei.com');
-			// $mailer->AddAddress('takaharu.inoue@co-shinmei.com');
-			// $mailer->AddAddress('norihira_inoue@co-shinmei.com');
-			// $mailer->AddAddress('manabu.kayama@co-shinmei.com');
-			// $mailer->AddAddress('Kanda88ryu@co-shinmei.com');
-			// $mailer->AddAddress('s-yamano@co-shinmei.com');
+			// $mailer->AddAddress('domesticcontact@co-shinmei.com');
 			$mailer->Send();
 		}
 

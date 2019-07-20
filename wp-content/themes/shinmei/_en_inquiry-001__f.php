@@ -128,12 +128,7 @@
 
 			$mailer->ClearAllRecipients( );
 			$mailer->AddAddress('ianchen0419@gmail.com');
-			// $mailer->AddAddress('sadao.yoshii@co-shinmei.com');
-			// $mailer->AddAddress('takaharu.inoue@co-shinmei.com');
-			// $mailer->AddAddress('norihira_inoue@co-shinmei.com');
-			// $mailer->AddAddress('manabu.kayama@co-shinmei.com');
-			// $mailer->AddAddress('Kanda88ryu@co-shinmei.com');
-			// $mailer->AddAddress('s-yamano@co-shinmei.com');
+			// $mailer->AddAddress('domesticinfo@co-shinmei.com');
 			$mailer->Send();
 		}
 
