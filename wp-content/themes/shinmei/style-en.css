@@ -84,6 +84,10 @@
     min-height: calc(100vh - 661px);
 }
 
+input.short {
+	width: 625px;
+}
+
 @media (max-width: 768px) {
 	.company-intro p {
 		letter-spacing: 0;
