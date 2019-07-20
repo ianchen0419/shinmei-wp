@@ -111,7 +111,7 @@
 				</div>
 				<?php if(get_current_blog_id()==2){ ?>
 				<!-- 英語用 -->
-				<div class="contact-item" <?php echo (get_current_blog_id()==2)?'':'hidden' ?>>
+				<div class="contact-item">
 					<div class="title">
 						<span>Address</span>
 						<div class="badge">Required</div>
@@ -120,7 +120,7 @@
 				</div>
 				<?php }else{ ?>
 				<!-- 日本語用 -->
-				<div class="contact-item" <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
+				<div class="contact-item">
 					<div class="title">
 						<span>所在地</span>
 						<div class="badge">必須</div>
