@@ -178,12 +178,12 @@ function saveValue5(th, e, name){
 	location.href=th.href;
 }
 
-function checkEmail(th, lang){
+function checkEmail(th){
 	var firstEmail=document.querySelector('input[name="your_mail"]');
 	if(th.value==firstEmail.value){
 		th.setCustomValidity("");
 	}else{
-		if(lang=='en'){
+		if(location.href.indexOf('/en/')!==-1){
 			th.setCustomValidity("Entered email address does not match.");
 		}else{
 			th.setCustomValidity("メールアドレス（確認用）の内容に誤りがあります");

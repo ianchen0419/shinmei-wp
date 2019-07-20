@@ -78,7 +78,7 @@
 						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input type="text" name="your_company" class="short" required />
-					<input type="text" name="your_company_furigana" placeholder="フリガナ" class="short" required <?php echo (get_current_blog_id()==1)?'':'hidden' ?> />
+					<input type="text" name="your_company_furigana" placeholder="フリガナ" class="short" required <?php echo (get_current_blog_id()==1)?'':'hidden disabled' ?> />
 				</div>
 				<div class="contact-item">
 					<div class="title">
@@ -107,8 +107,9 @@
 						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input type="text" name="your_name" class="short" required />
-					<input type="text" name="your_name_furigana" class="short" required placeholder="フリガナ" <?php echo (get_current_blog_id()==1)?'':'hidden' ?> />
+					<input type="text" name="your_name_furigana" class="short" required placeholder="フリガナ" <?php echo (get_current_blog_id()==1)?'':'hidden disabled' ?> />
 				</div>
+				<?php if(get_current_blog_id()==2){ ?>
 				<!-- 英語用 -->
 				<div class="contact-item" <?php echo (get_current_blog_id()==2)?'':'hidden' ?>>
 					<div class="title">
@@ -117,6 +118,7 @@
 					</div>
 					<input type="text" name="your_address" required />
 				</div>
+				<?php }else{ ?>
 				<!-- 日本語用 -->
 				<div class="contact-item" <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
 					<div class="title">
@@ -192,6 +194,8 @@
 					</div>
 					<p>＊代理店の方は、顧客の所在地を選択してください。<br>不明な場合は、貴社の所在地を選択してください。</p>
 				</div>
+				<?php } ?>
+				
 				<div class="contact-item">
 					<div class="title">
 						<span><?php echo (get_current_blog_id()==1)?'電話番号':'Phone number' ?></span>
@@ -211,7 +215,7 @@
 						<span><?php echo (get_current_blog_id()==1)?'メールアドレス（確認用）':'Email Address (Again)' ?></span>
 						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
-					<input type="email" name="your_mail_confirm" id="confirmMail" required onblur="checkEmail(this<?php echo (get_current_blog_id()==1)?'':', "en"' ?>)" oninput="checkEmail(this<?php echo (get_current_blog_id()==1)?'':', "en"' ?>)" disabled />
+					<input type="email" name="your_mail_confirm" id="confirmMail" required onblur="checkEmail(this)" oninput="checkEmail(this)" disabled />
 				</div>
 				<div class="contact-item">
 					<div class="title">
@@ -229,7 +233,7 @@
 				<label class="checkbox agree-checkbox">
 					<input type="checkbox" name="your_agree" required />
 					<i class="fa fa-check"></i>
-					<span><?php echo (get_current_blog_id()==1)?'「':'I agree with' ?></span><a href="<?php bloginfo('url') ?>/privacy" target="_blank" class="link-text"><?php echo (get_current_blog_id()==1)?'個人情報保護方針':'privacy policy' ?></a><span><?php echo (get_current_blog_id()==1)?'」に同意する':'.' ?></span>
+					<span><?php echo (get_current_blog_id()==1)?'「':'I agree with' ?></span><a href="<?php bloginfo('url') ?>/privacy" target="_blank" class="link-text"><?php echo (get_current_blog_id()==1)?'個人情報保護方針':'&nbsp;privacy policy' ?></a><span><?php echo (get_current_blog_id()==1)?'」に同意する':'.' ?></span>
 				</label>
 				<div class="badge agree-badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 			</div>
