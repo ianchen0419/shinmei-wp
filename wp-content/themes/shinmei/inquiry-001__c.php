@@ -250,6 +250,8 @@
 					</div>
 					<p>＊代理店の方は、顧客の所在地を選択してください。<br>不明な場合は、貴社の所在地を選択してください。</p>
 				</div>
+				<?php } ?>
+				
 				<div class="contact-item">
 					<div class="title">
 						<span><?php echo (get_current_blog_id()==1)?'電話番号':'Phone number' ?></span>
