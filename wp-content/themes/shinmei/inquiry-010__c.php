@@ -119,7 +119,7 @@
 				<!-- 英語用 -->
 				<div class="contact-item">
 					<div class="title">
-						<span>所在地</span>
+						<span>Address</span>
 						<div class="badge">Required</div>
 					</div>
 					<input disabled readonly type="text" name="your_address" required value="<?php echo $_POST['your_address3'] ?>" />
