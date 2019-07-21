@@ -22,7 +22,7 @@
 			<div class="form-center">
 				<div class="contact-item">
 					<div class="title"><?php echo (get_current_blog_id()==1)?'製品名':'Product Name' ?></div>
-					<textarea class="product-name" name="product_name" rows="3"><?php echo $_POST['product_name'] ?></textarea>
+					<textarea class="product-name" name="product_name" rows="3" readonly disabled><?php echo $_POST['product_name'] ?></textarea>
 				</div>
 				<div class="contact-item threerow-checkbox">
 					<div class="title">

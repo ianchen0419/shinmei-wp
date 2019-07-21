@@ -17,7 +17,7 @@
 			<div class="form-center">
 				<div class="contact-item">
 					<div class="title"><?php echo (get_current_blog_id()==1)?'製品名':'Product Name' ?></div>
-					<textarea id="inquiry002" class="product-name" name="product_name" rows="3">★★製品名★★</textarea>
+					<textarea id="inquiry002" class="product-name" name="product_name" rows="3" readonly>★★製品名★★</textarea>
 				</div>
 				<div class="contact-item threerow-checkbox">
 					<div class="title">

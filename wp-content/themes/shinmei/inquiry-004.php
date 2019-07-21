@@ -17,7 +17,7 @@
 			<div class="form-center">
 				<div class="contact-item">
 					<div class="title"><?php echo (get_current_blog_id()==1)?'製品名':'Product Name' ?></div>
-					<textarea id="inquiry004" class="product-name" name="product_name" rows="3"></textarea>
+					<textarea id="inquiry004" class="product-name" name="product_name" rows="3" readonly></textarea>
 				</div>
 				<div class="contact-item threerow-checkbox">
 					<div class="title">
@@ -355,9 +355,9 @@
 				localStorage['inquiry004'].replace('オートラベラー ALS-100Ⅱ', 'Auto labeler ALS 100Ⅱ')
 				.replace('オートラベラー ALS-350NSⅡ', 'Auto labeler ALS350NSⅡ')
 				.replace('オートラベラー ALS-350NWⅡ', 'Auto labeler ALS-350NWⅡ')
-				.replace('オートラベラー ALS-350NP', 'Auto labeler ALS-350NP');
-				.replace('オートラベラー ALS-350BⅡ', 'Auto labeler ALS350BⅡ');
-				.replace('オートラベラー ALS-1000SCS', 'Auto labeler 1000SCS');
+				.replace('オートラベラー ALS-350NP', 'Auto labeler ALS-350NP')
+				.replace('オートラベラー ALS-350BⅡ', 'Auto labeler ALS350BⅡ')
+				.replace('オートラベラー ALS-1000SCS', 'Auto labeler 1000SCS')
 				.replace('オートラベラー ALS-1200SCS', 'Auto labeler ALS1200SCS');
 		}else{
 			inquiry004.value=localStorage['inquiry004'];
