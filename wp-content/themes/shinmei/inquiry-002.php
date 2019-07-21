@@ -351,7 +351,16 @@
 
 	//製品名を代入
 	if(window['inquiry002']){
-		inquiry002.value=localStorage['inquiry002'];
+		if(location.href.indexOf('/en/')!==-1){
+			inquiry002.value=
+				localStorage['inquiry002'].replace('卓上型 片面ダイレクトサーマルプリンター SMP-350P', 'Desktop Type Single-Sided Direct Thermal Printer SMP-350P')
+				.replace('卓上型 両面同時ダイレクトサーマルプリンター CPS-UB', 'Desktop Type Duplex Direct Thermal Printer CPS-UB')
+				.replace('卓上型 一体ダイレクトサーマルプリンター  AFB-350P', 'Desktop Type Integrated Direct Thermal Printer AFB-350P')
+				.replace('卓上型 手差ダイレクトサーマルプリンター SMP-HP', 'Desktop Type Manual Feed Direct Thermal Printer SMP-HP');
+		}else{
+			inquiry002.value=localStorage['inquiry002'];
+
+		}
 	}else{
 		localStorage['inquiry002']='';
 	}
