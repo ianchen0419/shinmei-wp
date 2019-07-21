@@ -84,7 +84,7 @@
 			$mailer->AddAddress(_post('your_mail'));
 
 			if($mailer->Send()){
-				echo '<p>お問い合わせありがとうございました。<br>内容によりましては、ご返答にお時間をいただく場合もございますので、あらかじめご了承ください。<br>今後ともシンメイをよろしくお願いいたします。</p>';
+				echo '<p>Thank you for your interest in Shinmei.<br>We will review your inquiry and contact you soon.</p>';
 
 		 	}else{
 				echo '<p>失敗しました</p>';

@@ -347,7 +347,7 @@
 	//製品名を代入
 	if(window['inquiry005']){
 		if(location.href.indexOf('/en/')!==-1){
-			inquiry002.value=
+			inquiry005.value=
 				localStorage['inquiry005'].replace('汎用自動押印 / 計数機チェックスタンパー', 'General-purpose automatic stamping / Counter check stamper')
 				.replace('手形裏書・手形振出用自動押印機チェックスタンパー', 'Handrail endorsement / automatic stamping machine for bill drawing')
 				.replace('パンフレット用自動押印機チェックスタンパー', 'Automatic sealer check stamper for A4 size travel brochure');
