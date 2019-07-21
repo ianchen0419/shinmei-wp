@@ -2,123 +2,123 @@
 <?php get_header();?>
 
 <div id="visual">
-	<h1 class="visual-title">製品についてのお問い合わせ</h1>
+	<h1 class="visual-title"><?php echo (get_current_blog_id()==1)?'製品についてのお問い合わせ':'Product inquiry' ?></h1>
 </div>
 <main id="contact">
 	<div class="wrapper-size">
 		<ol class="contact-path step">
-			<li class="active">入力</li>
-			<li>確認</li>
-			<li>完了</li>
+			<li class="active"><?php echo (get_current_blog_id()==1)?'入力':'Input' ?></li>
+			<li><?php echo (get_current_blog_id()==1)?'確認':'Confirmation' ?></li>
+			<li><?php echo (get_current_blog_id()==1)?'完了':'Complete' ?></li>
 		</ol>
-		<p>お問い合わせフォームのご利用、誠にありがとうございます。<br>必要な項目をご記入の上、「記入内容を確認」ボタンをクリックしてください。</p>
+		<p><?php echo (get_current_blog_id()==1)?'お問い合わせフォームのご利用ありがとうございます。<br>下記項目にご記入の上、「入力内容を確認する」ボタンを押してください。':'Thank you for your interest in our company.<br>Please fill in the required items and press the "Next" button.' ?></p>
 
 		<form action="<?php bloginfo('url') ?>/material/inquiry-005/conf" method="POST" class="mar_top40">
 			<div class="form-center">
 				<div class="contact-item">
-					<div class="title">製品名</div>
+					<div class="title"><?php echo (get_current_blog_id()==1)?'製品名':'Product Name' ?></div>
 					<textarea id="inquiry005" class="product-name" name="product_name" rows="3" readonly>★★製品名★★</textarea>
 				</div>
 				<div class="contact-item threerow-checkbox">
 					<div class="title">
-						<span>導入ご希望予定時期</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'導入ご希望予定時期':'Schedule' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<div class="mar_top10">
 						<label class="checkbox">
 							<input type="checkbox" name="hope_schedule1" />
 							<i class="fa fa-check"></i>
-							<span>すぐにでも</span>
+							<span><?php echo (get_current_blog_id()==1)?'すぐにでも':'Soon' ?></span>
 						</label>
 						<label class="checkbox">
 							<input type="checkbox" name="hope_schedule2" />
 							<i class="fa fa-check"></i>
-							<span>1ヶ月以内</span>
+							<span><?php echo (get_current_blog_id()==1)?'1ヶ月以内':'Within 1 month' ?></span>
 						</label>
 						<label class="checkbox">
 							<input type="checkbox" name="hope_schedule3" />
 							<i class="fa fa-check"></i>
-							<span>3ヶ月以内</span>
+							<span><?php echo (get_current_blog_id()==1)?'3ヶ月以内':'Within 3 months' ?></span>
 						</label>
 					</div>
 					<div>
 						<label class="checkbox">
 							<input type="checkbox" name="hope_schedule4" />
 							<i class="fa fa-check"></i>
-							<span>半年以内</span>
+							<span><?php echo (get_current_blog_id()==1)?'半年以内':'Within half a year' ?></span>
 						</label>
 						<label class="checkbox">
 							<input type="checkbox" name="hope_schedule5" />
 							<i class="fa fa-check"></i>
-							<span>1年以内</span>
+							<span><?php echo (get_current_blog_id()==1)?'1年以内':'Within 1 year' ?></span>
 						</label>
 						<label class="checkbox">
 							<input type="checkbox" name="hope_schedule6" />
 							<i class="fa fa-check"></i>
-							<span>2年以内</span>
+							<span><?php echo (get_current_blog_id()==1)?'2年以内':'Within 2 years' ?></span>
 						</label>
 						<label class="checkbox">
 							<input type="checkbox" name="hope_schedule7" />
 							<i class="fa fa-check"></i>
-							<span>未定</span>
+							<span><?php echo (get_current_blog_id()==1)?'未定':'Undecided' ?></span>
 						</label>
 					</div>
 				</div>
 				<div class="contact-item less-checkbox">
 					<div class="title">
-						<span>内容</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'内容':'Purpose' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<label class="checkbox">
 						<input type="checkbox" name="ask_type1" />
 						<i class="fa fa-check"></i>
-						<span>ご購入希望</span>
+						<span><?php echo (get_current_blog_id()==1)?'ご購入希望':'Purchase' ?></span>
 					</label>
 					<label class="checkbox">
 						<input type="checkbox" name="ask_type2" />
 						<i class="fa fa-check"></i>
-						<span>お見積り希望</span>
+						<span><?php echo (get_current_blog_id()==1)?'お見積り希望':'Quotation' ?></span>
 					</label>
 					<label class="checkbox">
 						<input type="checkbox" name="ask_type3" />
 						<i class="fa fa-check"></i>
-						<span>ご質問</span>
+						<span><?php echo (get_current_blog_id()==1)?'ご質問':'Question' ?></span>
 					</label>
 					<label class="checkbox">
 						<input type="checkbox" name="ask_type4" />
 						<i class="fa fa-check"></i>
-						<span>その他</span>
+						<span><?php echo (get_current_blog_id()==1)?'その他':'Other' ?></span>
 					</label>
 				</div>
 				<div class="contact-item">
-					<div class="title">補足内容</div>
-					<textarea name="add_content" cols="30" rows="10" placeholder="補足事項があればご記入ください。"></textarea>
+					<div class="title"><?php echo (get_current_blog_id()==1)?'補足内容':'Message' ?></div>
+					<textarea name="add_content" cols="30" rows="10" placeholder="<?php echo (get_current_blog_id()==1)?'補足事項があればご記入ください。':'' ?>"></textarea>
 				</div>
 				<div class="contact-item">
-					<div class="title">用途</div>
-					<input type="text" name="use_type" placeholder="手形、小切手、商品券、入場券、パンフレットなど" />
+					<div class="title"><?php echo (get_current_blog_id()==1)?'用途':'Use' ?></div>
+					<input type="text" name="use_type" placeholder="<?php echo (get_current_blog_id()==1)?'手形、小切手、商品券、入場券、パンフレットなど':'' ?>" />
 				</div>
 				<div class="contact-item">
-					<div class="title">現在の方法</div>
-					<input type="text" name="now_method" placeholder="手押印　自動押印（機種名）など" />
+					<div class="title"><?php echo (get_current_blog_id()==1)?'現在の方法':'Current method' ?></div>
+					<input type="text" name="now_method" placeholder="<?php echo (get_current_blog_id()==1)?'手押印　自動押印（機種名）など':'' ?>" />
 				</div>
 				<div class="contact-item">
-					<div class="title">押印内容</div>
-					<input type="text" name="print_content" placeholder="日付印、社印・丸印など捺印、受領印、ロットナンバーなど" />
+					<div class="title"><?php echo (get_current_blog_id()==1)?'押印内容':'Stamped content' ?></div>
+					<input type="text" name="print_content" placeholder="<?php echo (get_current_blog_id()==1)?'日付印、社印・丸印など捺印、受領印、ロットナンバーなど':'' ?>" />
 				</div>
 				<div class="contact-item">
-					<div class="title">印字対象の1日の使用量</div>
-					<input type="text" name="print_amount" placeholder="何枚" />
+					<div class="title"><?php echo (get_current_blog_id()==1)?'印字対象の1日の使用量':'Daily usage for printing object' ?></div>
+					<input type="text" name="print_amount" placeholder="<?php echo (get_current_blog_id()==1)?'何枚':'' ?>" />
+				</div>
+				<div class="contact-item"><?php echo (get_current_blog_id()==1)?'押印する紙の材質':'Material of stamped paper' ?>
+					<div class="title"></div>
+					<input type="text" name="paper_type" placeholder="<?php echo (get_current_blog_id()==1)?'普通紙、コート紙など':'' ?>" />
 				</div>
 				<div class="contact-item">
-					<div class="title">押印する紙の材質</div>
-					<input type="text" name="paper_type" placeholder="普通紙、コート紙など" />
+					<div class="title"><?php echo (get_current_blog_id()==1)?'紙のサイズ・厚さ':'Paper size / thickness' ?></div>
+					<input type="text" name="paper_size" placeholder="<?php echo (get_current_blog_id()==1)?'縦　mm・横　mm・厚さ　mm':'' ?>" />
 				</div>
-				<div class="contact-item">
-					<div class="title">紙のサイズ・厚さ</div>
-					<input type="text" name="paper_size" placeholder="縦　mm・横　mm・厚さ　mm" />
-				</div>
-				<div class="contact-item less-checkbox">
+				<div class="contact-item less-checkbox" <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
 					<div class="title">ご希望回答方法</div>
 					<label class="checkbox">
 						<input type="checkbox" name="your_answer1" />
@@ -138,41 +138,52 @@
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>貴社名</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'貴社名':'Company' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input type="text" name="your_company" class="short" required />
-					<input type="text" name="your_company_furigana" placeholder="フリガナ" class="short" required />
+					<input type="text" name="your_company_furigana" placeholder="フリガナ" class="short" required <?php echo (get_current_blog_id()==1)?'':'hidden disabled' ?> />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>業種</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'業種':'Industry' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input type="text" name="your_career_type" required />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>部署名</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'部署名':'Department / Section' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input type="text" name="your_division" required />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>役職名</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'役職名':'Position' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input type="text" name="your_job_title" required />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>ご担当者名</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'ご担当者名':'Name' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input type="text" name="your_name" class="short" required />
-					<input type="text" name="your_name_furigana" class="short" required placeholder="フリガナ" />
+					<input type="text" name="your_name_furigana" class="short" required placeholder="フリガナ" <?php echo (get_current_blog_id()==1)?'':'hidden disabled' ?> />
 				</div>
+				<?php if(get_current_blog_id()==2){ ?>
+				<!-- 英語用 -->
+				<div class="contact-item">
+					<div class="title">
+						<span>Address</span>
+						<div class="badge">Required</div>
+					</div>
+					<input type="text" name="your_address" required />
+				</div>
+				<?php }else{ ?>
+				<!-- 日本語用 -->
 				<div class="contact-item">
 					<div class="title">
 						<span>所在地</span>
@@ -247,30 +258,32 @@
 					</div>
 					<p>＊代理店の方は、顧客の所在地を選択してください。<br>不明な場合は、貴社の所在地を選択してください。</p>
 				</div>
+				<?php } ?>
+
 				<div class="contact-item">
 					<div class="title">
-						<span>電話番号</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'電話番号':'Phone number' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input type="tel" name="your_phone" required />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>メールアドレス</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'メールアドレス':'Email Address' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input type="email" name="your_mail" required oninput="confirmMail.disabled=false" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>メールアドレス（確認用）</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'メールアドレス（確認用）':'Email Address (Again)' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input type="email" name="your_mail_confirm" id="confirmMail" required onblur="checkEmail(this)" oninput="checkEmail(this)" disabled />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>ホームページアドレス</span>
+						<span><?php echo (get_current_blog_id()==1)?'ホームページアドレス':'URL' ?></span>
 					</div>
 					<input type="url" name="your_website" />
 				</div>
@@ -278,19 +291,19 @@
 				<label class="checkbox agree-checkbox">
 					<input type="checkbox" name="your_agree" required />
 					<i class="fa fa-check"></i>
-					<span>「</span><a href="<?php bloginfo('url') ?>/privacy" target="_blank" class="link-text">個人情報保護方針</a><span>」に同意する</span>
+					<span><?php echo (get_current_blog_id()==1)?'「':'I agree with' ?></span><a href="<?php bloginfo('url') ?>/privacy" target="_blank" class="link-text"><?php echo (get_current_blog_id()==1)?'個人情報保護方針':'&nbsp;privacy policy' ?></a><span><?php echo (get_current_blog_id()==1)?'」に同意する':'.' ?></span>
 				</label>
-				<div class="badge agree-badge">必須</div>
+				<div class="badge agree-badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 			</div>
 			
 			<div class="button-area">
-				<input type="submit" value="入力内容を確認する" class="submit-button" />
+				<input type="submit" value="<?php echo (get_current_blog_id()==1)?'入力内容を確認する':'Next' ?>" class="submit-button" />
 			</div>
 		</form>
 
 		<figure class="jprs">
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/material/jprs.png" alt="jprs" />
-			<figcaption>このサイトはJPRSにより認証されています。<br>情報送信は暗号化により保護されます。</figcaption>
+			<figcaption><?php echo (get_current_blog_id()==1)?'このサイトはJPRSにより認証されています。<br>情報送信は暗号化により保護されます。':'This site is certified by JPRS. Information transmission is protected by encryption.' ?></figcaption>
 		</figure>
 
 	</div>
@@ -304,18 +317,25 @@
 
 	var allInputs=document.querySelectorAll('form input');
 
+	var mustChecked='';
+	if(location.href.indexOf('/en/')!==-1){
+		mustChecked='Please select at least one.';
+	}else{
+		mustChecked='チェックボックスを最低一つ選んでください';
+	}
+
 	for(i=0;i<allInputs.length;i++){
 		allInputs[i].addEventListener('change', function(){
 			var Acheckbox_checked=document.querySelectorAll('input[name*="hope_schedule"]:checked');
 			var Bcheckbox_checked=document.querySelectorAll('input[name*="ask_type"]:checked');
 			if(Acheckbox_checked.length<1){
-				Acheckbox_first.setCustomValidity("チェックボックスを最低一つ選んでください");
+				Acheckbox_first.setCustomValidity(mustChecked);
 			}else{
 				Acheckbox_first.setCustomValidity("");
 			}
 
 			if(Bcheckbox_checked.length<1){
-				Bchcekbox_first.setCustomValidity("チェックボックスを最低一つ選んでください");
+				Bchcekbox_first.setCustomValidity(mustChecked);
 			}else{
 				Bchcekbox_first.setCustomValidity("");
 			}
@@ -326,7 +346,15 @@
 
 	//製品名を代入
 	if(window['inquiry005']){
-		inquiry005.value=localStorage['inquiry005'];
+		if(location.href.indexOf('/en/')!==-1){
+			inquiry002.value=
+				localStorage['inquiry005'].replace('汎用自動押印 / 計数機チェックスタンパー', 'General-purpose automatic stamping / Counter check stamper')
+				.replace('手形裏書・手形振出用自動押印機チェックスタンパー', 'Handrail endorsement / automatic stamping machine for bill drawing')
+				.replace('パンフレット用自動押印機チェックスタンパー', 'Automatic sealer check stamper for A4 size travel brochure');
+		}else{
+			inquiry005.value=localStorage['inquiry005'];
+
+		}
 	}else{
 		localStorage['inquiry005']='';
 	}

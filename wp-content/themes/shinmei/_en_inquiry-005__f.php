@@ -1,15 +1,15 @@
-<?php /* Template Name: inquiry-005__f */ ?>
+<?php /* Template Name: _en_inquiry-005__f */ ?>
 <?php get_header();?>
 
 <div id="visual">
-	<h1 class="visual-title">製品についてのお問い合わせ</h1>
+	<h1 class="visual-title">Product inquiry</h1>
 </div>
 <main id="contact">
 	<div class="wrapper-size">
 		<ol class="contact-path step">
-			<li>入力</li>
-			<li>確認</li>
-			<li class="active">完了</li>
+			<li>Input</li>
+			<li>Confirmation</li>
+			<li class="active">Complete</li>
 		</ol>
 
 		<?php
@@ -33,7 +33,7 @@
 			$mailer->Port = 465;
 			$mailer->CharSet = "utf-8";    
 			$mailer->Username = "inquiry.workcapital@gmail.com";     
-			// $mailer->Username = "domesticinfo@co-shinmei.com";     
+			// $mailer->Username = "overseainfo@co-shinmei.com";     
 			$mailer->Password = "contactwc180623@";
 			// $mailer->Password = "snm3921";
 			$mailer->IsSMTP();
@@ -42,44 +42,43 @@
 			$mailer->Encoding = "base64";
 			$mailer->IsHTML(true); 
 			$mailer->AddReplyTo('inquiry.workcapital@gmail.com');
-			// $mailer->AddReplyTo('domesticinfo@co-shinmei.com');
-			$mailer->setFrom('inquiry.workcapital@gmail.com', '株式会社シンメイ'); 
-			// $mailer->setFrom('domesticinfo@co-shinmei.com', '株式会社シンメイ'); 
-			$mailer->Subject = 'シンメイへお問い合わせをいただき有難うございます。'; 
+			// $mailer->AddReplyTo('overseainfo@co-shinmei.com');
+			$mailer->setFrom('inquiry.workcapital@gmail.com', 'Shinmei Co.Ltd.'); 
+			// $mailer->setFrom('overseainfo@co-shinmei.com', 'Shinmei Co.Ltd.'); 
+			$mailer->Subject = 'Thank you for contacting us.'; 
 			$mailer->Body = 
-				_post('your_company')."<br>".
-				_post('your_name').'様'."<br><br>".
-				'この度はシンメイへお問い合わせいただき、誠に有難うございます。'."<br>".
-				'弊社担当者よりご連絡をさせていただきます。'."<br><br><br><br>".
+				'Dear '._post('your_name')."<br><br>".
 
-				'【製品名】'._post('product_name')."<br>".
-				'【導入ご希望予定時期】'.implode('、', $_POST['hope_schedule'])."<br>".
-				'【内容】'.implode('、', $_POST['ask_type'])."<br>".
-				'【補足内容】'."<br>".
+				'Thank you for your interest in Shinmei.'."<br>".
+				'We will review your inquiry and contact you soon.'."<br><br><br><br>".
+
+				'【Product name】'._post('product_name')."<br>".
+				'【Schedule】'.implode(', ', $_POST['hope_schedule'])."<br>".
+				'【Purpose】'.implode(', ', $_POST['ask_type'])."<br>".
+				'【Message】'."<br>".
 				str_replace("\n","<br>",_post('add_content'))."<br>".
-				'【用途】'._post('use_type')."<br>".
-				'【現在の方法】'._post('now_method')."<br>".
-				'【押印内容】'._post('print_content')."<br>".
-				'【印字対象の1日の使用量】'._post('print_amount')."<br>".
-				'【押印する紙の材質】'._post('paper_type')."<br>".
-				'【紙のサイズ・厚さ】'._post('paper_size')."<br>".
-				'【ご希望回答方法】'.implode('、', $_POST['your_answer'])."<br>".
-				'【貴社名】'._post('your_company').'　'._post('your_company_furigana')."<br>".
-				'【業種】'._post('your_career_type')."<br>".
-				'【部署名】'._post('your_division')."<br>".
-				'【役職名】'._post('your_job_title')."<br>".
-				'【ご担当者名】'._post('your_name').'　'._post('your_name_furigana')."<br>".
-				'【所在地】〒'._post('your_postcode').'　'._post('your_address1')._post('your_address2')._post('your_address3')."<br>".
-				'【電話番号】'._post('your_phone')."<br>".
-				'【メールアドレス】'._post('your_mail')."<br>".
-				'【メールアドレス（確認用）】'._post('your_mail_confirm')."<br>".
-				'【ホームページアドレス】'._post('your_website')."<br>".
+				'【Use】'._post('use_type')."<br>".
+				'【Current method】'._post('now_method')."<br>".
+				'【Stamped content】'._post('print_content')."<br>".
+				'【Daily usage for printing object】'._post('print_amount')."<br>".
+				'【Material of stamped paper】'._post('paper_type')."<br>".
+				'【Paper size / thickness】'._post('paper_size')."<br>".
+				'【Company】'._post('your_company')."<br>".
+				'【Industry】'._post('your_career_type')."<br>".
+				'【Department / Section】'._post('your_division')."<br>".
+				'【Position】'._post('your_job_title')."<br>".
+				'【Name】'._post('your_name')."<br>".
+				'【Address】'._post('your_address')."<br>".
+				'【Phone number】'._post('your_phone')."<br>".
+				'【Email Address】'._post('your_mail')."<br>".
+				'【Email Address (Again)】'._post('your_mail_confirm')."<br>".
+				'【URL】'._post('your_website')."<br>".
 
 				'---'."<br>".
-				'株式会社シンメイ'."<br>".
-				'東京都中央区日本橋馬喰町2-3-3　ファッションフェイスビル3F/4F'."<br>".
-				'TEL：03(3831)3921(代)'."<br>".
-				'FAX：03(3831)7541'."<br>".
+				'Shinmei Co., Ltd.'."<br>".
+				'2-3-3 Nihonbashi Bakucho Chuo-ku, Tokyo Fashion Face Building 3F / 4F'."<br>".
+				'TEL:+81-3-3831-3921'."<br>".
+				'FAX:+81-3-3831-7541'."<br>".
 				'https://www.co-shinmei.com';
 
 			$mailer->AddAddress(_post('your_mail'));
@@ -100,8 +99,8 @@
 				'下記ご確認、ご対応をお願いします。'."<br><br><br><br>".
 
 				'【製品名】'._post('product_name')."<br>".
-				'【導入ご希望予定時期】'.implode('、', $_POST['hope_schedule'])."<br>".
-				'【内容】'.implode('、', $_POST['ask_type'])."<br>".
+				'【導入ご希望予定時期】'.implode(', ', $_POST['hope_schedule'])."<br>".
+				'【内容】'.implode(', ', $_POST['ask_type'])."<br>".
 				'【補足内容】'."<br>".
 				str_replace("\n","<br>",_post('add_content'))."<br>".
 				'【用途】'._post('use_type')."<br>".
@@ -110,13 +109,12 @@
 				'【印字対象の1日の使用量】'._post('print_amount')."<br>".
 				'【押印する紙の材質】'._post('paper_type')."<br>".
 				'【紙のサイズ・厚さ】'._post('paper_size')."<br>".
-				'【ご希望回答方法】'.implode('、', $_POST['your_answer'])."<br>".
-				'【貴社名】'._post('your_company').'　'._post('your_company_furigana')."<br>".
+				'【貴社名】'._post('your_company')."<br>".
 				'【業種】'._post('your_career_type')."<br>".
 				'【部署名】'._post('your_division')."<br>".
 				'【役職名】'._post('your_job_title')."<br>".
-				'【ご担当者名】'._post('your_name').'　'._post('your_name_furigana')."<br>".
-				'【所在地】〒'._post('your_postcode').'　'._post('your_address1')._post('your_address2')._post('your_address3')."<br>".
+				'【ご担当者名】'._post('your_name')."<br>".
+				'【所在地】'._post('your_address')."<br>".
 				'【電話番号】'._post('your_phone')."<br>".
 				'【メールアドレス】'._post('your_mail')."<br>".
 				'【メールアドレス（確認用）】'._post('your_mail_confirm')."<br>".
@@ -132,7 +130,7 @@
 
 		<figure class="jprs">
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/material/jprs.png" alt="jprs" />
-			<figcaption>このサイトはJPRSにより認証されています。<br>情報送信は暗号化により保護されます。</figcaption>
+			<figcaption>This site is certified by JPRS. Information transmission is protected by encryption.</figcaption>
 		</figure>
 
 	</div>
