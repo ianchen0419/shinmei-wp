@@ -2,17 +2,16 @@
 <?php get_header(); ?>
 
 <div id="visual">
-	<h1 class="visual-title">資料ダウンロード</h1>
+	<h1 class="visual-title"><?php echo (get_current_blog_id()==1)?'資料ダウンロード':'Product Brochure Download' ?></h1>
 </div>
 <main id="contact">
 	<div class="wrapper-size">
 		<ol class="contact-path step">
-			<li>入力</li>
-			<li class="active">確認</li>
-			<li>資料ダウンロード</li>
+			<li><?php echo (get_current_blog_id()==1)?'入力':'Input' ?></li>
+			<li class="active"><?php echo (get_current_blog_id()==1)?'確認':'Confirmation' ?></li>
+			<li><?php echo (get_current_blog_id()==1)?'資料ダウンロード':'Download' ?></li>
 		</ol>
-		<p>ご記入内容をお確かめの上、送信ボタンを押してください。<br>送信後には選択された資料のダウンロードが可能です。
-		</p>
+		<p><?php echo (get_current_blog_id()==1)?'ご記入内容をお確かめの上、送信ボタンを押してください。<br>送信後には選択された資料のダウンロードが可能です。':'Please press the button "Confirm".<br>You can download selected documents.' ?></p>
 		<?php 	
 		if ($_SESSION['conf']!=true){ ?>
 		<form action="" method="POST" hidden>
@@ -22,6 +21,48 @@
 			
 			<table width="100%" class="fertilizer-table">
 				<tbody>
+					<?php if(get_current_blog_id()==2){ ?>
+					<!-- 英語用 -->
+					<tr>
+						<th width="20%">Product Brochure</th>
+						<td width="80%">
+							<h4>General</h4>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data1" disabled readonly <?php echo isset($_POST['your_data1'])?'checked':''; ?> value="Total Product Brochure" />
+								<i class="fa fa-check"></i>
+								<span>Total Product Brochure</span>
+							</label>
+							<h4>Direct Thermal Printer</h4>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data2" disabled readonly <?php echo isset($_POST['your_data2'])?'checked':''; ?> value="Desktop Direct Thermal Printer" />
+								<i class="fa fa-check"></i>
+								<span>Desktop Direct Thermal Printer</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data3" disabled readonly <?php echo isset($_POST['your_data3'])?'checked':''; ?> value="Direct Thermal Printer for Packaging Machine" />
+								<i class="fa fa-check"></i>
+								<span>Direct Thermal Printer for Packaging Machine</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data4" disabled readonly <?php echo isset($_POST['your_data4'])?'checked':''; ?> value="Desktop Type Roll Film Direct Thermal Printer" />
+								<i class="fa fa-check"></i>
+								<span>Desktop Type Roll Film Direct Thermal Printer</span>
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data5" disabled readonly <?php echo isset($_POST['your_data5'])?'checked':''; ?> value="Desktop Type Semi Auto Printer" />
+								<i class="fa fa-check"></i>
+								<span>Desktop Type Semi Auto Printer</span>
+							</label>
+							<h4>Auto Labeler</h4>
+							<label class="checkbox">
+								<input type="checkbox" name="your_data6" disabled readonly <?php echo isset($_POST['your_data6'])?'checked':''; ?> value="Auto Labeler ALS-350 Series" />
+								<i class="fa fa-check"></i>
+								<span>Auto Labeler ALS-350 Series</span>
+							</label>
+						</td>
+					</tr>
+					<?php }else{ ?>
+					<!-- 日本語用 -->
 					<tr>
 						<th width="20%">ご希望の資料</th>
 						<td width="80%">
@@ -128,69 +169,71 @@
 							</label>
 						</td>
 					</tr>
+					<?php } ?>
+
 					<tr>
 						<th>
-							<span>資料入手の目的</span>
-							<div class="badge">必須</div>
+							<span><?php echo (get_current_blog_id()==1)?'資料入手の目的':'Purpose' ?></span>
+							<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 						</th>
 						<td>
 							<label class="checkbox">
-								<input type="checkbox" checked disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose1'])?'checked':''; ?> value="新規導入の検討" />
+								<input type="checkbox" checked disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose1'])?'checked':''; ?> value="<?php echo (get_current_blog_id()==1)?'新規導入の検討':'New introduction' ?>" />
 								<i class="fa fa-check"></i>
-								<span>新規導入の検討</span>
+								<span><?php echo (get_current_blog_id()==1)?'新規導入の検討':'New introduction' ?></span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose2'])?'checked':''; ?> value="入れ替え導入の検討" />
+								<input type="checkbox" disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose2'])?'checked':''; ?> value="<?php echo (get_current_blog_id()==1)?'入れ替え導入の検討':'Replacement' ?>" />
 								<i class="fa fa-check"></i>
-								<span>入れ替え導入の検討</span>
+								<span><?php echo (get_current_blog_id()==1)?'入れ替え導入の検討':'Replacement' ?></span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose3'])?'checked':''; ?> value="試験導入の検討" />
+								<input type="checkbox" disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose3'])?'checked':''; ?> value="<?php echo (get_current_blog_id()==1)?'試験導入の検討':'Test introduction' ?>" />
 								<i class="fa fa-check"></i>
-								<span>試験導入の検討</span>
+								<span><?php echo (get_current_blog_id()==1)?'試験導入の検討':'Test introduction' ?></span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose4'])?'checked':''; ?> value="情報収集" />
+								<input type="checkbox" disabled readonly name="your_purpose[]" required <?php echo isset($_POST['your_purpose4'])?'checked':''; ?> value="<?php echo (get_current_blog_id()==1)?'情報収集':'Collecting information' ?>" />
 								<i class="fa fa-check"></i>
-								<span>情報収集</span>
+								<span><?php echo (get_current_blog_id()==1)?'情報収集':'Collecting information' ?></span>
 							</label>
 						</td>
 					</tr>
 					<tr>
 						<th>
-							<span>導入ご希望予定時期</span>
-							<div class="badge">必須</div>
+							<span><?php echo (get_current_blog_id()==1)?'導入ご希望予定時期':'Schedule' ?></span>
+							<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 						</th>
 						<td>
 							<label class="checkbox">
-								<input type="checkbox" checked disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule1'])?'checked':''; ?> value="すぐにでも" />
+								<input type="checkbox" checked disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule1'])?'checked':''; ?> value="<?php echo (get_current_blog_id()==1)?'すぐにでも':'Soon' ?>" />
 								<i class="fa fa-check"></i>
-								<span>すぐにでも</span>
+								<span><?php echo (get_current_blog_id()==1)?'すぐにでも':'Soon' ?></span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule2'])?'checked':''; ?> value="1ヶ月以内" />
+								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule2'])?'checked':''; ?> value="<?php echo (get_current_blog_id()==1)?'1ヶ月以内':'Within 1 month' ?>" />
 								<i class="fa fa-check"></i>
-								<span>1ヶ月以内</span>
+								<span><?php echo (get_current_blog_id()==1)?'1ヶ月以内':'Within 1 month' ?></span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule3'])?'checked':''; ?> value="3ヶ月以内" />
+								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule3'])?'checked':''; ?> value="<?php echo (get_current_blog_id()==1)?'3ヶ月以内':'Within 3 months' ?>" />
 								<i class="fa fa-check"></i>
-								<span>3ヶ月以内</span>
+								<span><?php echo (get_current_blog_id()==1)?'3ヶ月以内':'Within 3 months' ?></span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule4'])?'checked':''; ?> value="半年以内" />
+								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule4'])?'checked':''; ?> value="<?php echo (get_current_blog_id()==1)?'半年以内':'Within half a year' ?>" />
 								<i class="fa fa-check"></i>
-								<span>半年以内</span>
+								<span><?php echo (get_current_blog_id()==1)?'半年以内':'Within half a year' ?></span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule5'])?'checked':''; ?> value="1年以内" />
+								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule5'])?'checked':''; ?> value="<?php echo (get_current_blog_id()==1)?'1年以内':'Within a year' ?>" />
 								<i class="fa fa-check"></i>
-								<span>1年以内</span>
+								<span><?php echo (get_current_blog_id()==1)?'1年以内':'Within a year' ?></span>
 							</label>
 							<label class="checkbox">
-								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule6'])?'checked':''; ?> value="未定" />
+								<input type="checkbox" disabled readonly name="your_schedule[]" required <?php echo isset($_POST['your_schedule6'])?'checked':''; ?> value="<?php echo (get_current_blog_id()==1)?'未定':'Undecided' ?>" />
 								<i class="fa fa-check"></i>
-								<span>未定</span>
+								<span><?php echo (get_current_blog_id()==1)?'未定':'Undecided' ?></span>
 							</label>
 						</td>
 					</tr>
@@ -199,41 +242,52 @@
 			<div class="form-center">
 				<div class="contact-item">
 					<div class="title">
-						<span>貴社名</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'貴社名':'Company' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input disabled readonly type="text" name="your_company" class="short" required value="<?php echo $_POST['your_company'] ?>" />
-					<input disabled readonly type="text" name="your_company_furigana" class="short" required value="<?php echo $_POST['your_company_furigana'] ?>" />
+					<input disabled readonly type="text" name="your_company_furigana" class="short" required value="<?php echo $_POST['your_company_furigana'] ?>" <?php echo (get_current_blog_id()==1)?'':'hidden' ?>  />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>業種</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'業種':'Industry' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input disabled readonly type="text" name="your_career_type" required value="<?php echo $_POST['your_career_type'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>部署名</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'部署名':'Department / Section' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input disabled readonly type="text" name="your_division" required value="<?php echo $_POST['your_division'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>役職名</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'役職名':'Position' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input disabled readonly type="text" name="your_job_title" required value="<?php echo $_POST['your_job_title'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>ご担当者名</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'ご担当者名':'Name' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input disabled readonly type="text" name="your_name" class="short" required value="<?php echo $_POST['your_name'] ?>" />
 					<input disabled readonly type="text" name="your_name_furigana" class="short" required value="<?php echo $_POST['your_name_furigana'] ?>" />
 				</div>
+				<?php if(get_current_blog_id()==2){ ?>
+				<!-- 英語用 -->
+				<div class="contact-item">
+					<div class="title">
+						<span>Address</span>
+						<div class="badge">Required</div>
+					</div>
+					<input disabled readonly type="text" name="your_address" required value="<?php echo $_POST['your_address3'] ?>" />
+				</div>
+				<?php }else{ ?>
+				<!-- 日本語用 -->
 				<div class="contact-item">
 					<div class="title">
 						<span>所在地</span>
@@ -255,50 +309,52 @@
 					</div>
 					<p>＊代理店の方は、顧客の所在地を選択してください。<br>不明な場合は、貴社の所在地を選択してください。</p>
 				</div>
+				<?php } ?>
+				
 				<div class="contact-item">
 					<div class="title">
-						<span>電話番号</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'電話番号':'Phone number' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input disabled readonly type="tel" name="your_phone" required value="<?php echo $_POST['your_phone'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>メールアドレス</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'メールアドレス':'Email Address' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input disabled readonly type="email" name="your_mail" required value="<?php echo $_POST['your_mail'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>メールアドレス（確認用）</span>
-						<div class="badge">必須</div>
+						<span><?php echo (get_current_blog_id()==1)?'メールアドレス（確認用）':'Email Address (Again)' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input disabled readonly type="email" name="your_mail_confirm" required value="<?php echo $_POST['your_mail_confirm'] ?>" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
-						<span>ホームページアドレス</span>
+						<span><?php echo (get_current_blog_id()==1)?'ホームページアドレス':'URL' ?></span>
 					</div>
 					<input disabled readonly type="url" name="your_website" value="<?php echo $_POST['your_website'] ?>" />
 				</div>
 
 				<label class="checkbox agree-checkbox">
-					<input type="checkbox" name="your_agree" required checked disabled readonly />
+					<input type="checkbox" disabled checked readonly name="your_agree" required />
 					<i class="fa fa-check"></i>
-					<span>「</span><a href="<?php bloginfo('url') ?>/privacy" target="_blank" class="link-text">個人情報保護方針</a><span>」に同意する</span>
+					<span><?php echo (get_current_blog_id()==1)?'「':'I agree with' ?></span><a href="<?php bloginfo('url') ?>/privacy" target="_blank" class="link-text"><?php echo (get_current_blog_id()==1)?'個人情報保護方針':'&nbsp;privacy policy' ?></a><span><?php echo (get_current_blog_id()==1)?'」に同意する':'.' ?></span>
 				</label>
-				<div class="badge agree-badge">必須</div>
+				<div class="badge agree-badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 			</div>
 			
 			<div class="button-area">
-				<button type="button" class="cancel-button" onclick="history.back();">戻る</button>
-				<input type="submit" value="送信" class="submit-button" />
+				<button type="button" class="cancel-button" onclick="history.back();"><?php echo (get_current_blog_id()==1)?'戻る':'Back' ?></button>
+				<input type="submit" value="<?php echo (get_current_blog_id()==1)?'送信':'Confirm' ?>" class="submit-button" />
 			</div>
 		</form>
 		<figure class="jprs">
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/material/jprs.png" alt="jprs" />
-			<figcaption>このサイトはJPRSにより認証されています。<br>情報送信は暗号化により保護されます。</figcaption>
+			<figcaption><?php echo (get_current_blog_id()==1)?'このサイトはJPRSにより認証されています。<br>情報送信は暗号化により保護されます。':'This site is certified by JPRS. Information transmission is protected by encryption.' ?></figcaption>
 		</figure>
 
 	</div>
