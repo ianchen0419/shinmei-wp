@@ -9,7 +9,7 @@ function twentyfourteen_wp_title( $title, $sep ) {
 			$title='Shinmei Co.Ltd.: Marketing & Innovating for Industrial Printing Solution';
 		}
 	}else{
-		$title=$title.get_bloginfo( 'name', 'display' );
+		$title=get_bloginfo( 'name', 'display' );
 	}
 
 	return $title;
