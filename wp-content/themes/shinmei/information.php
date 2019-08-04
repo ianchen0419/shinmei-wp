@@ -66,7 +66,7 @@
 		<p><?php echo (get_current_blog_id()==1)?'平成29年9月に食品表示基準が改正・施行され、国内で作られたすべての加工食品に対して、原料原産地表示を行うことが義務付けられました。本制度の経過措置期間は2022年3月までですので、それまでの間に新たな原料原産地表示に対応をしていかなければなりません。原料原産地表示に伴う印字システム、機械についてお困りのことがあれば、私どもシンメイへご相談下さい。':'The food labeling standards were revised and enforced in September 2017, and it was obliged to carry out raw material labeling for all processed foods made in Japan.<br>Since the transition period of this system is until March 2022, it is necessary for you to meet the new raw material origin indication until then.<br>Please contact us if you have any problems with the printing system or machine.' ?></p>
 		<p>
 			<span><?php echo (get_current_blog_id()==1)?'【参考】':'[Reference]' ?></span>
-			<a href="<?php bloginfo('url') ?>/column.html" target="_blank" class="link-text"><?php echo (get_current_blog_id()==1)?'印字の種類 加工食品の原料原産地表示制度について':'Print type:  About labeling system of raw material origin of processed food' ?></a>
+			<a href="http://www.maff.go.jp/j/syouan/hyoji/gengen_hyoji.html" target="_blank" class="link-text"><?php echo (get_current_blog_id()==1)?'印字の種類 加工食品の原料原産地表示制度について':'Print type:  About labeling system of raw material origin of processed food' ?></a>
 		</p>
 
 		<div class="section-title" id="export">

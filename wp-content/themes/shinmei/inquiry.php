@@ -109,7 +109,7 @@
 					<input type="text" name="your_name" class="short" required />
 					<input type="text" name="your_name_furigana" class="short" required placeholder="フリガナ" <?php echo (get_current_blog_id()==1)?'':'hidden disabled' ?> />
 				</div>
-				<?php if(get_current_blog_id()==2){ ?>
+				<?php if(get_current_blog_id()!==1){ ?>
 				<!-- 英語用 -->
 				<div class="contact-item">
 					<div class="title">

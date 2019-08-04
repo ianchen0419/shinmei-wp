@@ -39,6 +39,7 @@
 
 .image-part {
 	text-align: center;
+	width: 30%;
 }
 
 .egg-function-area .egg-and-icon {
@@ -142,6 +143,10 @@ input.short {
 
 	.jprs figcaption {
 		margin-top: 20px;
+	}
+
+	.image-part {
+		width: 100%;
 	}
 
 }

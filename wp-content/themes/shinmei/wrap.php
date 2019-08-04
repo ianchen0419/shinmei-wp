@@ -2,7 +2,7 @@
 <?php get_header();?>
 
 <div id="visual">
-	<h1 class="visual-title">包装機用ダイレクトサーマル プリンター (SCS)</h1>
+	<h1 class="visual-title"><?php echo (get_current_blog_id()==1)?'包装機用ダイレクトサーマル プリンター (SCS)':'Direct Thermal Printer for Packaging Machine (SCS)' ?></h1>
 </div>
 <main id="contact">
 	<div class="wrapper-size">

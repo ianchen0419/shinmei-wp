@@ -218,7 +218,7 @@
 					<input disabled readonly type="text" name="your_name" class="short" required value="<?php echo $_POST['your_name'] ?>" />
 					<input disabled readonly type="text" name="your_name_furigana" class="short" required value="<?php echo $_POST['your_name_furigana'] ?>" />
 				</div>
-				<?php if(get_current_blog_id()==2){ ?>
+				<?php if(get_current_blog_id()!==1){ ?>
 				<!-- 英語用 -->
 				<div class="contact-item">
 					<div class="title">

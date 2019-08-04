@@ -17,7 +17,7 @@
 	<title><?php wp_title(''); ?></title>
 	<link rel="stylesheet prefetch" href="<?php bloginfo('template_directory') ?>/inc/lib/font-awesome/css/font-awesome.min.css" />
 	<link rel="stylesheet prefetch" href="<?php bloginfo('template_directory') ?>/style.css" />
-	<?php if(get_current_blog_id()==2){ ?>
+	<?php if(get_current_blog_id()!==1){ ?>
 		<link rel="stylesheet prefetch" href="<?php bloginfo('template_directory') ?>/style-en.css" />
 	<?php } ?>
 </head>

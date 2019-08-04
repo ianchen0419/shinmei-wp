@@ -2,7 +2,7 @@
 <?php get_header();?>
 
 <div id="visual">
-	<h1 class="visual-title"><?php echo (get_current_blog_id()==1)?'卓上型 ロール フィルム ダイレクトサーマルプリンター':'Desktop Type Roll Film Direct Thermal rinter' ?></h1>
+	<h1 class="visual-title"><?php echo (get_current_blog_id()==1)?'卓上型 ロール フィルム ダイレクトサーマルプリンター':'Desktop Type Roll Film Direct Thermal Printer' ?></h1>
 </div>
 <main id="contact">
 	<div class="wrapper-size">
