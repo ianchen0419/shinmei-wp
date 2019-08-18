@@ -173,24 +173,24 @@
 							<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 						</th>
 						<td>
-							<label class="checkbox">
-								<input type="checkbox" name="your_purpose1" />
-								<i class="fa fa-check"></i>
+							<label class="radio">
+								<input type="radio" name="your_purpose" required value="<?php echo (get_current_blog_id()==1)?'新規導入の検討':'New introduction' ?>" />
+								<div class="radio-widget"></div>
 								<span><?php echo (get_current_blog_id()==1)?'新規導入の検討':'New introduction' ?></span>
 							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_purpose2" />
-								<i class="fa fa-check"></i>
+							<label class="radio">
+								<input type="radio" name="your_purpose" required value="<?php echo (get_current_blog_id()==1)?'入れ替え導入の検討':'Replacement' ?>" />
+								<div class="radio-widget"></div>
 								<span><?php echo (get_current_blog_id()==1)?'入れ替え導入の検討':'Replacement' ?></span>
 							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_purpose3" />
-								<i class="fa fa-check"></i>
+							<label class="radio">
+								<input type="radio" name="your_purpose" required value="<?php echo (get_current_blog_id()==1)?'試験導入の検討':'Test introduction' ?>" />
+								<div class="radio-widget"></div>
 								<span><?php echo (get_current_blog_id()==1)?'試験導入の検討':'Test introduction' ?></span>
 							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_purpose4" />
-								<i class="fa fa-check"></i>
+							<label class="radio">
+								<input type="radio" name="your_purpose" required value="<?php echo (get_current_blog_id()==1)?'情報収集':'Collecting information' ?>" />
+								<div class="radio-widget"></div>
 								<span><?php echo (get_current_blog_id()==1)?'情報収集':'Collecting information' ?></span>
 							</label>
 						</td>
@@ -201,34 +201,34 @@
 							<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 						</th>
 						<td>
-							<label class="checkbox">
-								<input type="checkbox" name="your_schedule1" />
-								<i class="fa fa-check"></i>
+							<label class="radio">
+								<input type="radio" name="your_schedule" required value="<?php echo (get_current_blog_id()==1)?'すぐにでも':'Soon' ?>" />
+								<div class="radio-widget"></div>
 								<span><?php echo (get_current_blog_id()==1)?'すぐにでも':'Soon' ?></span>
 							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_schedule2" />
-								<i class="fa fa-check"></i>
+							<label class="radio">
+								<input type="radio" name="your_schedule" required value="<?php echo (get_current_blog_id()==1)?'1ヶ月以内':'Within 1 month' ?>" />
+								<div class="radio-widget"></div>
 								<span><?php echo (get_current_blog_id()==1)?'1ヶ月以内':'Within 1 month' ?></span>
 							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_schedule3" />
-								<i class="fa fa-check"></i>
+							<label class="radio">
+								<input type="radio" name="your_schedule" required value="<?php echo (get_current_blog_id()==1)?'3ヶ月以内':'Within 3 months' ?>" />
+								<div class="radio-widget"></div>
 								<span><?php echo (get_current_blog_id()==1)?'3ヶ月以内':'Within 3 months' ?></span>
 							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_schedule4" />
-								<i class="fa fa-check"></i>
+							<label class="radio">
+								<input type="radio" name="your_schedule" required value="<?php echo (get_current_blog_id()==1)?'半年以内':'Within half a year' ?>" />
+								<div class="radio-widget"></div>
 								<span><?php echo (get_current_blog_id()==1)?'半年以内':'Within half a year' ?></span>
 							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_schedule5" />
-								<i class="fa fa-check"></i>
+							<label class="radio">
+								<input type="radio" name="your_schedule" required value="<?php echo (get_current_blog_id()==1)?'1年以内':'Within a year' ?>" />
+								<div class="radio-widget"></div>
 								<span><?php echo (get_current_blog_id()==1)?'1年以内':'Within a year' ?></span>
 							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_schedule6" />
-								<i class="fa fa-check"></i>
+							<label class="radio">
+								<input type="radio" name="your_schedule" required value="<?php echo (get_current_blog_id()==1)?'未定':'Undecided' ?>" />
+								<div class="radio-widget"></div>
 								<span><?php echo (get_current_blog_id()==1)?'未定':'Undecided' ?></span>
 							</label>
 						</td>
@@ -412,38 +412,5 @@
 
 </main>
 
-<script>
-	var Acheckbox_first=document.querySelectorAll('input[name*="your_purpose"]')[0];
-	var Bchcekbox_first=document.querySelectorAll('input[name*="your_schedule"]')[0];
-
-	var allInputs=document.querySelectorAll('form input');
-
-	var mustChecked='';
-	if(location.href.indexOf('/en/')!==-1){
-		mustChecked='Please select at least one.';
-	}else{
-		mustChecked='チェックボックスを最低一つ選んでください';
-	}
-
-	for(i=0;i<allInputs.length;i++){
-		allInputs[i].addEventListener('change', function(){
-			var Acheckbox_checked=document.querySelectorAll('input[name*="your_purpose"]:checked');
-			var Bcheckbox_checked=document.querySelectorAll('input[name*="your_schedule"]:checked');
-			if(Acheckbox_checked.length<1){
-				Acheckbox_first.setCustomValidity(mustChecked);
-			}else{
-				Acheckbox_first.setCustomValidity("");
-			}
-
-			if(Bcheckbox_checked.length<1){
-				Bchcekbox_first.setCustomValidity(mustChecked);
-			}else{
-				Bchcekbox_first.setCustomValidity("");
-			}
-
-
-		})
-	}
-</script>
 <?php $_SESSION['conf']=true; ?>
 <?php get_footer(); ?>

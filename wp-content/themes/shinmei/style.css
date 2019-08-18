@@ -1347,8 +1347,10 @@ a.light-button {
 	margin-top: 40px;
 }
 
-.fertilizer-table .checkbox {
+.fertilizer-table .checkbox,
+.fertilizer-table .radio {
 	width: 48%;
+	margin: 8px 0;
 }
 
 .tworow-checkbox .checkbox {
@@ -1380,11 +1382,11 @@ a.light-button {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-	border: 1px solid #ababab;
+	border: 1px solid #0a44a4;
 	border-radius: 100%;
 	position: relative;
 	margin-right: 5px;
-	background: radial-gradient(#ddd 20%, #fff 25%);
+	background: radial-gradient(#d4e3fc 20%, #fff 25%);
 	-webkit-transition-duration: 0.5s;
 	-o-transition-duration: 0.5s;
 	transition-duration: 0.5s;
@@ -1401,6 +1403,7 @@ a.light-button {
 
 .radio input[type="radio"]:disabled+.radio-widget {
 	border-color: #ddd;
+	background: radial-gradient(#ddd 20%, #fff 25%);
 }
 
 .radio input[type="radio"]:checked:disabled+.radio-widget {
