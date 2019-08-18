@@ -2355,7 +2355,8 @@ iframe.goog-te-banner-frame {
 		margin: 10px 0;
 	}
 
-	.fertilizer-table .checkbox {
+	.fertilizer-table .checkbox,
+	.fertilizer-table .radio {
 		width: 100%;
 	}
 

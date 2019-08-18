@@ -284,8 +284,9 @@
 				<div class="contact-item">
 					<div class="title">
 						<span><?php echo (get_current_blog_id()==1)?'ホームページアドレス':'URL' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
-					<input type="url" name="your_website" />
+					<input type="url" name="your_website" required />
 				</div>
 
 				<label class="checkbox agree-checkbox">

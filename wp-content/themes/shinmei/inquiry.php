@@ -50,6 +50,13 @@
 						<label class="checkbox">
 							<input type="checkbox" name="your_type6" />
 							<i class="fa fa-check"></i>
+							<span><?php echo (get_current_blog_id()==1)?'iファクトリーに関する':'Regarding iFactory' ?></span>
+						</label>
+					</div>
+					<div>
+						<label class="checkbox">
+							<input type="checkbox" name="your_type7" />
+							<i class="fa fa-check"></i>
 							<span><?php echo (get_current_blog_id()==1)?'その他':'Others' ?></span>
 						</label>
 					</div>
@@ -220,8 +227,9 @@
 				<div class="contact-item">
 					<div class="title">
 						<span><?php echo (get_current_blog_id()==1)?'ホームページアドレス':'URL' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
-					<input type="url" name="your_website" />
+					<input type="url" name="your_website" required />
 				</div>
 				<div class="contact-item">
 					<div class="title">

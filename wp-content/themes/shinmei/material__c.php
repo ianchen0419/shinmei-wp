@@ -335,8 +335,9 @@
 				<div class="contact-item">
 					<div class="title">
 						<span><?php echo (get_current_blog_id()==1)?'ホームページアドレス':'URL' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
-					<input disabled readonly type="url" name="your_website" value="<?php echo $_POST['your_website'] ?>" />
+					<input disabled readonly type="url" name="your_website" value="<?php echo $_POST['your_website'] ?>" required />
 				</div>
 
 				<label class="checkbox agree-checkbox">

@@ -53,7 +53,14 @@
 							<span><?php echo (get_current_blog_id()==1)?'代理店販売に関する':'Regarding distributor' ?></span>
 						</label>
 						<label class="checkbox">
-							<input type="checkbox" disabled readonly name="your_type[]" value="<?php echo (get_current_blog_id()==1)?'その他':'Others' ?>" <?php echo isset($_POST['your_type6'])?'checked':''; ?> />
+							<input type="checkbox" disabled readonly name="your_type[]" value="<?php echo (get_current_blog_id()==1)?'iファクトリーに関する':'Regarding iFactory' ?>" <?php echo isset($_POST['your_type6'])?'checked':''; ?> />
+							<i class="fa fa-check"></i>
+							<span><?php echo (get_current_blog_id()==1)?'iファクトリーに関する':'Regarding iFactory' ?></span>
+						</label>
+					</div>
+					<div>
+						<label class="checkbox">
+							<input type="checkbox" disabled readonly name="your_type[]" value="<?php echo (get_current_blog_id()==1)?'その他':'Others' ?>" <?php echo isset($_POST['your_type7'])?'checked':''; ?> />
 							<i class="fa fa-check"></i>
 							<span><?php echo (get_current_blog_id()==1)?'その他':'Others' ?></span>
 						</label>
@@ -172,8 +179,9 @@
 				<div class="contact-item">
 					<div class="title">
 						<span><?php echo (get_current_blog_id()==1)?'ホームページアドレス':'URL' ?></span>
+						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
-					<input disabled readonly type="url" name="your_website" value="<?php echo $_POST['your_website'] ?>" />
+					<input disabled readonly type="url" name="your_website" value="<?php echo $_POST['your_website'] ?>" required />
 				</div>
 				<div class="contact-item">
 					<div class="title">
