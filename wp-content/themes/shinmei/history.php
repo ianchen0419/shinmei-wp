@@ -135,6 +135,10 @@
 					<th><?php echo (get_current_blog_id()==1)?'平成３０年１１月':'November, 2018' ?></th>
 					<td><?php echo (get_current_blog_id()==1)?'会社創立５５周年を迎え、台湾への社員旅行を実施。':'Carried out employee trip to Taiwan on the 55th anniversary.' ?></td>
 				</tr>
+				<tr>
+					<th><?php echo (get_current_blog_id()==1)?'令和　元年　８月':'August, 2019' ?></th>
+					<td><?php echo (get_current_blog_id()==1)?'佐久工場、長野県東御市に新工場建設及び移転に伴ない、名称を長野東御工場に変更。':'Changed the name from Saku Factory to Nagano Tomi Factory along with the construction of a new factory in Tomi-City in Nagano Prefecture.' ?></td>
+				</tr>
 			</tbody>
 		</table>
 	</div>

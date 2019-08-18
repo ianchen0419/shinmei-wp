@@ -33,7 +33,7 @@
 			$mailer->Port = 465;
 			$mailer->CharSet = "utf-8";    
 			$mailer->Username = "inquiry.workcapital@gmail.com";     
-			// $mailer->Username = "domesticinfo@co-shinmei.com";     
+			// $mailer->Username = "domeiq@co-shinmei.com";     
 			$mailer->Password = "contactwc180623@";
 			// $mailer->Password = "snm3921";
 			$mailer->IsSMTP();
@@ -42,9 +42,9 @@
 			$mailer->Encoding = "base64";
 			$mailer->IsHTML(true); 
 			$mailer->AddReplyTo('inquiry.workcapital@gmail.com');
-			// $mailer->AddReplyTo('domesticinfo@co-shinmei.com');
+			// $mailer->AddReplyTo('domeiq@co-shinmei.com');
 			$mailer->setFrom('inquiry.workcapital@gmail.com', '株式会社シンメイ'); 
-			// $mailer->setFrom('domesticinfo@co-shinmei.com', '株式会社シンメイ'); 
+			// $mailer->setFrom('domeiq@co-shinmei.com', '株式会社シンメイ'); 
 			$mailer->Subject = 'シンメイへお問い合わせをいただき有難うございます。'; 
 			$mailer->Body = 
 				_post('your_company')."<br>".
@@ -73,7 +73,6 @@
 				'【所在地】〒'._post('your_postcode').'　'._post('your_address1')._post('your_address2')._post('your_address3')."<br>".
 				'【電話番号】'._post('your_phone')."<br>".
 				'【メールアドレス】'._post('your_mail')."<br>".
-				'【メールアドレス（確認用）】'._post('your_mail_confirm')."<br>".
 				'【ホームページアドレス】'._post('your_website')."<br>".
 
 				'---'."<br>".
@@ -121,12 +120,16 @@
 				'【所在地】〒'._post('your_postcode').'　'._post('your_address1')._post('your_address2')._post('your_address3')."<br>".
 				'【電話番号】'._post('your_phone')."<br>".
 				'【メールアドレス】'._post('your_mail')."<br>".
-				'【メールアドレス（確認用）】'._post('your_mail_confirm')."<br>".
 				'【ホームページアドレス】'._post('your_website')."<br>";
 
 			$mailer->ClearAllRecipients( );
 			$mailer->AddAddress('ianchen0419@gmail.com');
-			// $mailer->AddAddress('domesticinfo@co-shinmei.com');
+			// $mailer->AddAddress('sadao.yoshii@co-shinmei.com');
+			// $mailer->AddAddress('takaharu.inoue@co-shinmei.com');
+			// $mailer->AddAddress('norihira_inoue@co-shinmei.com');
+			// $mailer->AddAddress('s-yamano@co-shinmei.com');
+			// $mailer->AddAddress('kanda88@co-shinmei.com');
+			// $mailer->AddAddress('manabu.kayama@co-shinmei.com');
 			$mailer->Send();
 		}
 

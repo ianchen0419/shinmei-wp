@@ -46,7 +46,7 @@
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'従業員数':'Number of employees' ?></th>
-					<td><?php echo (get_current_blog_id()==1)?'56名（平成26年6月現在）':'64 (As of March, 2017)' ?></td>
+					<td><?php echo (get_current_blog_id()==1)?'66名（令和元年7月31日現在）':'66 (As of July, 2019)' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'決算期':'End of fiscal period' ?></th>

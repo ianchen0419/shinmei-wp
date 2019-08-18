@@ -1708,6 +1708,39 @@ form {
 iframe.goog-te-banner-frame {
 	display: block !important;
 }
+
+.round-button {
+	background: #0a46a4;
+    	color: #fff;
+    	border-radius: 30px;
+    	padding: 15px 60px;
+    	min-width: 200px;
+    	display: inline-block;
+}
+
+.section-title.list h2 {
+	border-left: none;
+    	border-bottom: none;
+}
+
+.section-title.list h2:after {
+	content: '';
+	width: calc(100% + 60px);
+    	border-bottom: 2px dotted #C3CEE7;
+    	display: block;
+    	position: relative;
+    	top: 15px;
+    	left: -60px;	
+}
+
+.section-title.list .number {
+	display: inline-block;
+    	color: #fff;
+    	background: #0844a4;
+    	padding: 10px 14px;
+    	border-radius: 100%;
+}
+
 @media (max-width: 768px) {
 	body,html {
 		width: 100vw;

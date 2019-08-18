@@ -40,7 +40,7 @@
 			</div>
 		</div>
 		<ul class="advantage-list">
-			<li><?php echo (get_current_blog_id()==1)?'①不可能を可能にする「技術力」':'①High techinical skills: make impossible to possible' ?></li>
+			<li><?php echo (get_current_blog_id()==1)?'①不可能を可能にする「技術力」':'①High techinical skills: make the impossible possible' ?></li>
 			<li><?php echo (get_current_blog_id()==1)?'②お客様のニーズを具現化する「対応力」':'②Application performance: emblody customers\' need' ?></li>
 			<li><?php echo (get_current_blog_id()==1)?'③現場に即したシステムを組み合わせられる「提案力」':'③Ability to make proposals: combine systems based on the site' ?></li>
 		</ul>

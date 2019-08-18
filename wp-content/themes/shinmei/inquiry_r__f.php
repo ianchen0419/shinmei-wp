@@ -33,7 +33,7 @@
 			$mailer->Port = 465;
 			$mailer->CharSet = "utf-8";    
 			$mailer->Username = "inquiry.workcapital@gmail.com";     
-			// $mailer->Username = "domesticrecruit@co-shinmei.com";     
+			// $mailer->Username = "domerc@co-shinmei.com";     
 			$mailer->Password = "contactwc180623@";
 			// $mailer->Password = "snm3921";
 			$mailer->IsSMTP();
@@ -42,9 +42,9 @@
 			$mailer->Encoding = "base64";
 			$mailer->IsHTML(true); 
 			$mailer->AddReplyTo('inquiry.workcapital@gmail.com');
-			// $mailer->AddReplyTo('domesticrecruit@co-shinmei.com');
+			// $mailer->AddReplyTo('domerc@co-shinmei.com');
 			$mailer->setFrom('inquiry.workcapital@gmail.com', '株式会社シンメイ'); 
-			// $mailer->setFrom('domesticrecruit@co-shinmei.com', '株式会社シンメイ'); 
+			// $mailer->setFrom('domerc@co-shinmei.com', '株式会社シンメイ'); 
 			$mailer->Subject = 'シンメイへお問い合わせをいただき有難うございます。'; 
 			$mailer->Body = 
 				_post('your_name').'様'."<br><br>".
@@ -59,7 +59,6 @@
 				'【希望勤務地】'._post('your_city')."<br>".
 				'【電話番号】'._post('your_phone')."<br>".
 				'【メールアドレス】'._post('your_mail')."<br>".
-				'【メールアドレス（確認用）】'._post('your_mail_confirm')."<br>".
 				'【内容】'."<br>".
 				str_replace("\n","<br>",_post('your_message'))."<br><br><br><br>".
 
@@ -92,13 +91,17 @@
 				'【希望勤務地】'._post('your_city')."<br>".
 				'【電話番号】'._post('your_phone')."<br>".
 				'【メールアドレス】'._post('your_mail')."<br>".
-				'【メールアドレス（確認用）】'._post('your_mail_confirm')."<br>".
 				'【内容】'."<br>".
 				str_replace("\n","<br>",_post('your_message'))."<br><br><br><br>";
 
 			$mailer->ClearAllRecipients( );
 			$mailer->AddAddress('ianchen0419@gmail.com');
-			// $mailer->AddAddress('domesticrecruit@co-shinmei.com');
+			// $mailer->AddAddress('sadao.yoshii@co-shinmei.com');
+			// $mailer->AddAddress('takaharu.inoue@co-shinmei.com');
+			// $mailer->AddAddress('norihira_inoue@co-shinmei.com');
+			// $mailer->AddAddress('s-yamano@co-shinmei.com');
+			// $mailer->AddAddress('kanda88@co-shinmei.com');
+			// $mailer->AddAddress('manabu.kayama@co-shinmei.com');
 			$mailer->Send();
 		}
 

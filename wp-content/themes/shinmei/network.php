@@ -97,9 +97,9 @@
 		<table width="100%" class="fertilizer-table">
 			<tbody>
 				<tr>
-					<th width="30%"><?php echo (get_current_blog_id()==1)?'佐久工場':'Saku Factory' ?></th>
+					<th width="30%"><?php echo (get_current_blog_id()==1)?'長野東御工場':'Nagano Tomi Factory' ?></th>
 					<td width="70%">
-						<p><?php echo (get_current_blog_id()==1)?'〒384-2201　長野県佐久市印内566':'566 Innai, Saku-shi, Nagano, 384-2201' ?></p>
+						<p><?php echo (get_current_blog_id()==1)?'〒389-0506　長野県東御市祢津1190-13':'1190-13 Netsu, Tomi-Shi, Nagano, 389-0506' ?></p>
 					</td>
 				</tr>
 				<tr>

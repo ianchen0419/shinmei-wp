@@ -52,6 +52,7 @@
 <main id="contact" class="font-bold">
 	<section>
 		<div class="wrapper-size">
+			<p class="mar_top40"><?php echo (get_current_blog_id()==1)?'シンメイは、産業用プリンターの製造販売、サービス、メンテナンスを行っています。軟包装や袋包装への直接印字や印刷、ラベル印刷の事ならシンメイへいつでもどんな事でもご相談下さい。シンメイのプリンターは、製造工場における様々な製品の軟包装や袋包装への製造日、賞味期限、バーコード、QRコードなどの印字そして識別マーク、原材料、成分などの表示を正確に印刷するプリンターです。皆様の製造現場における様々なご相談を心からお待ちしております。':'We are providing industrial printing machine and service, maintenance.<br>Please contact us Shinmei Co.,Ltd anytime and anything about direct printing or labeling on flexible packaging and bag packaging. Shinmei Co.,Ltd printer is printing correctly for date of shelf life, barcode, QR code Coding, identifying marks Marking, raw materials and ingredients indicating printing on flexible Packaging or bag packaging for various products in the industrial manufacturing factory. <br>We’re looking forward to hearing various inquire in your factory.' ?></p>
 			<div class="home-title">
 				<div class="en">Products</div>
 				<h2>製品</h2>
@@ -210,6 +211,37 @@
 					<span><?php echo (get_current_blog_id()==1)?'過去のニュース一覧':'Past news' ?></span>
 					<i class="fa fa-chevron-right"></i>
 				</a>
+			</div>
+		</div>
+	</section>
+	<section class="slide-up">
+		<div class="wrapper-size">
+			<div class="home-title">
+				<div class="en"><?php echo (get_current_blog_id()==1)?'印字テストのご依頼':'Inquiry about printing test' ?></div>
+			</div>
+			<p><?php echo (get_current_blog_id()==1)?'まずは、お気軽にご相談ください。<br>お客様の印字・表示に関わる課題に対して最適なソリューションをご提案し、生産性の向上を支援させていただきます。':'Please feel free to contact us.<br>We help the improvement of productivity by proposing the best solution for our customers\' problems regarding printing and display.' ?></p>
+			<p <?php echo (get_current_blog_id()==1)?'hidden':'' ?>>For those</p>
+			<ul>
+				<li><?php echo (get_current_blog_id()==1)?'決めた印字や表示内容を実際の包材で印字できるかテストをしてみたい。':'who would like to test printing on actual packaging.' ?></li>
+				<li><?php echo (get_current_blog_id()==1)?'決めた印字内容や包材でどれくらいの枚数を１分間に印刷できるか知りたい。':'who would like to know how many sheets can be printed per minute.' ?></li>
+				<li><?php echo (get_current_blog_id()==1)?'印字や表示内容がこれで良いか相談をしたい。':'who would like to consult with us about printing and display contents.' ?></li>
+				<li><?php echo (get_current_blog_id()==1)?'印字や表示内容は決めたがどのような包材を選んだらよいかわからない。':'who do not know what kind of packaging to choose.' ?></li>
+				<li><?php echo (get_current_blog_id()==1)?'工程に適した印字方法がわからない。  など':'who do not know the most suitable printing method.' ?></li>
+			</ul>
+			<div class="button-area">
+				<a href="<?php bloginfo('url') ?>/material/inquiry-010" class="round-button"><?php echo (get_current_blog_id()==1)?'印字テストのご依頼はこちら':'Contact us' ?></a>
+			</div>
+		</div>
+		
+	</section>
+	<section class="slide-up gray" <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
+		<div class="wrapper-size">
+			<div class="home-title">
+				<div class="en">シンメイiファクトリー</div>
+			</div>
+			<p>IT活用による食品製造業の生産性の大幅向上</p>
+			<div class="button-area">
+				<a href="<?php bloginfo('url') ?>/ifactory" class="round-button"><?php echo (get_current_blog_id()==1)?'シンメイiファクトリー概要はこちら':'Contact us' ?></a>
 			</div>
 		</div>
 	</section>

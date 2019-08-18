@@ -17,8 +17,19 @@
 				<a href="<?php bloginfo('url') ?>/column"><?php echo (get_current_blog_id()==1)?'印字の種類':'Print Type' ?></a>
 			</li>
 		</ol>
-
-		<p><?php echo (get_current_blog_id()==1)?'軟包装やラベル、パッケージに日付・時刻の製造年月日や製造ロット・シリアルナンバーなどの印字、成分・アレルギー・ブランド名・ロゴ・商標・マーケティング情報・容器材質識別などの表示そして可変情報の印字は、食品加工業界をはじめコンシューマ向けパッケージ品、医薬品、工業用品、流通業界等の業界や産業で実証済みです。包装への印字や表示についてお困りの事があれば、ご相談ください。また、軟包装の種類についてはこちらをご参考にご覧ください。':'We have variety of solutions, such as soft packaging and labels, printing date and time of production date and time, production lot and serial number on packaging, indication of components, allergy, brand name, logo, trademark, marketing information, container material identification, etc. and printing of variable information. It has been proved in food processing industry, consumer packaged goods, pharmaceuticals, industrial supplies, and distribution industry.<br>Please contact us if you have any problems with printing or marking on the packaging.' ?></p>
+		
+		<?php if(get_current_blog_id()==1){ ?>
+		<!-- 日本語 -->
+		<p>
+			<span>軟包装やラベル、パッケージに日付・時刻の製造年月日や製造ロット・シリアルナンバーなどの印字、成分・アレルギー・ブランド名・ロゴ・商標・マーケティング情報・容器材質識別などの表示そして可変情報の印字は、食品加工業界をはじめコンシューマ向けパッケージ品、医薬品、工業用品、流通業界等の業界や産業で実証済みです。包装への印字や表示についてお困りの事があれば、ご相談ください。また、軟包装の種類については</span>
+			<a href="<?php bloginfo('url') ?>/column/softpackaging" class="link-text">こちら</a>
+			<span>をご参考にご覧ください</span>
+		</p>
+		<?php }else{ ?>
+		<!-- 英語 -->
+		<p>We have variety of solutions, such as soft packaging and labels, printing date and time of production date and time, production lot and serial number on packaging, indication of components, allergy, brand name, logo, trademark, marketing information, container material identification, etc. and printing of variable information. It has been proved in food processing industry, consumer packaged goods, pharmaceuticals, industrial supplies, and distribution industry.<br>Please contact us if you have any problems with printing or marking on the packaging.</p>
+		<?php } ?>
+		
 
 		<div class="section-title">
 			<h2><?php echo (get_current_blog_id()==1)?'日付':'Date' ?></h2>
@@ -66,7 +77,19 @@
 		<div class="section-title">
 			<h2><?php echo (get_current_blog_id()==1)?'トレーサビリティ':'Traceability' ?></h2>
 		</div>
-		<p><?php echo (get_current_blog_id()==1)?'不当表示、産地偽装、コピー品の増加、異物混入など昨今のこれらの問題は、製品に対する信頼を根本から揺るがすものとなってきています。そうした中で、印字や表示の役割は、製造者と取引先そして消費者間における製品の安全や信頼そして安心を約束する証明としてその重要度は増す一方です。製品の安全性に対する消費者の要求が厳しくなるなか、印字や表示には品質や内容を証明をするという役割が課され、その社会的な責務も大きくなってきたといえます。また、万が一、製品事故が発生した場合、いつ、どこで、どれくらい生産されたかが分かれば、原因究明や迅速な製品回収が可能となります。消費者の製品に対する信頼が揺らぐなか、このような、生産・加工・流通の一つまたは複数の段階を通じて、ひとつひとつの製品の移動（履歴）を把握できるトレーサビリティの仕組みができていれば被害を最小限にまたは未然にすることが可能になります。印字や表示は中身や品質に対する証明に加え履歴としての役割も担っていくことが要求されてきています。コード印字や可変印字そしてそのコードを使ったシステムの構築で製品を管理するトレーサビリティシステムの構築も容易になります。トレーサビリティシステムの構築を可能にする製品管理クラウドサービスについてはこちらのpdfをご覧ください。':'Problems such as misrepresentation, impersonation of production area, increase of copy products, inclusion of foreign matter have become fundamentally swaying the trust in products.Under this circumstance, the role of printing and display has increased the importance as proof that promises safety, trust and security of products between manufacturers, business partners and consumers.<br>As consumer demands for product safety have risen up, the role of printing and labeling of proving quality and content becomes more important, and their social responsibilities have also become bigger.<br>Even when there is a problem with the products, you will be able to investigate the cause and promptly recover products if you know when, where, and how much it was produced.<br>You can minimize or prevent the problems if you build traceability system which enables to keep the data of all histories of each product.<br>It is required to have a function of keeping history as well as proof of content and quality.<br>It becomes easy to build treceability system that manages products. ' ?></p>
+
+		<?php if(get_current_blog_id()==1){ ?>
+		<!-- 日本語 -->
+		<p>
+			<span>不当表示、産地偽装、コピー品の増加、異物混入など昨今のこれらの問題は、製品に対する信頼を根本から揺るがすものとなってきています。そうした中で、印字や表示の役割は、製造者と取引先そして消費者間における製品の安全や信頼そして安心を約束する証明としてその重要度は増す一方です。製品の安全性に対する消費者の要求が厳しくなるなか、印字や表示には品質や内容を証明をするという役割が課され、その社会的な責務も大きくなってきたといえます。また、万が一、製品事故が発生した場合、いつ、どこで、どれくらい生産されたかが分かれば、原因究明や迅速な製品回収が可能となります。消費者の製品に対する信頼が揺らぐなか、このような、生産・加工・流通の一つまたは複数の段階を通じて、ひとつひとつの製品の移動（履歴）を把握できるトレーサビリティの仕組みができていれば被害を最小限にまたは未然にすることが可能になります。印字や表示は中身や品質に対する証明に加え履歴としての役割も担っていくことが要求されてきています。コード印字や可変印字そしてそのコードを使ったシステムの構築で製品を管理するトレーサビリティシステムの構築も容易になります。トレーサビリティシステムの構築を可能にする製品管理クラウドサービスについては</span>
+			<a href="https://drive.google.com/drive/folders/1KdBFq7ygTHy82FjejDJufk8k3e1QB4sf" target="_blank" class="link-text">こちらのpdf</a>
+			<span>をご覧ください。</span>	
+		</p>
+		<?php }else{ ?>
+		<!-- 英語 -->
+		<p>Problems such as misrepresentation, impersonation of production area, increase of copy products, inclusion of foreign matter have become fundamentally swaying the trust in products.Under this circumstance, the role of printing and display has increased the importance as proof that promises safety, trust and security of products between manufacturers, business partners and consumers.<br>As consumer demands for product safety have risen up, the role of printing and labeling of proving quality and content becomes more important, and their social responsibilities have also become bigger.<br>Even when there is a problem with the products, you will be able to investigate the cause and promptly recover products if you know when, where, and how much it was produced.<br>You can minimize or prevent the problems if you build traceability system which enables to keep the data of all histories of each product.<br>It is required to have a function of keeping history as well as proof of content and quality.<br>It becomes easy to build treceability system that manages products.</p>
+		<?php } ?>
+		
 		<p <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
 			<span>【参考】</span>
 			<a href="http://www.maff.go.jp/j/syouan/seisaku/trace/" class="link-text" target="_blank">農林水省トレーサビリティ</a>

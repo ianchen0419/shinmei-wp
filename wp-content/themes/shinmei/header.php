@@ -78,7 +78,7 @@
 			<?php } ?>
 			
 			<li>
-				<a href="<?php bloginfo('url') ?>/material"><?php echo (get_current_blog_id()==1)?'製品カタログ':'Catalog' ?></a>
+				<a href="<?php bloginfo('url') ?>/material"><?php echo (get_current_blog_id()==1)?'製品カタログ':'Brochure' ?></a>
 			</li>
 		</ul>
 	</div>
@@ -119,7 +119,7 @@
 			<li>
 				<a href="<?php bloginfo('url') ?>/material">
 					<i class="fa fa-file-text-o fa-fw"></i>
-					<span><?php echo (get_current_blog_id()==1)?'製品カタログ':'Catalog' ?></span>
+					<span><?php echo (get_current_blog_id()==1)?'製品カタログ':'Brochure' ?></span>
 				</a>
 			</li>
 			<li>

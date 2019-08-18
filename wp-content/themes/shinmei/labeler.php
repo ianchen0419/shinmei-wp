@@ -511,7 +511,7 @@
 			<thead>
 				<tr>
 					<th width="25%"><?php echo (get_current_blog_id()==1)?'型式':'Model' ?></th>
-					<th width="75%">AFB-350P</th>
+					<th width="75%"><?php echo (get_current_blog_id()==1)?'K.I.2001・H型・R型':'K.I.2001・Type-H・Type-R' ?></th>
 				</tr>
 			</thead>
 			<tbody>
