@@ -1395,6 +1395,10 @@ a.light-button {
 	background: radial-gradient(#0944a4 44%, transparent 50%);
 }
 
+.radio input[type="radio"]:checked+.radio-widget+span {
+	color: #0944a4;
+}
+
 .radio input[type="radio"]:disabled+.radio-widget {
 	border-color: #ddd;
 }
@@ -2366,6 +2370,17 @@ iframe.goog-te-banner-frame {
 	    letter-spacing: -1px;
 	}
 
+	.round-button {
+		width: 100%;
+		min-width: auto;
+		padding: 15px 0;
+	}
+	
+	.section-title.list h2 {
+		width: 84%;
+    		vertical-align: top;
+    		padding-top: 0;
+	}
 }
 
 @-webkit-keyframes show {
