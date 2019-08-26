@@ -117,7 +117,7 @@
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'平成２６年　２月':'February, 2014' ?></th>
-					<td><?php echo (get_current_blog_id()==1)?'中国に現地法人を設立　初めて国外に生産拠点を拡充し、国内と中国での生産体制を確立。':'Established a local corporation in China.<br>Expanded the first production base overseas and built production systems in Japan and China.' ?></td>
+					<td><?php echo (get_current_blog_id()==1)?'中国に現地法人を設立。':'Established a local corporation in China.' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'平成２６年　４月':'April 2014' ?></th>

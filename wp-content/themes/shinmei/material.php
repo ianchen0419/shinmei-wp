@@ -11,6 +11,11 @@
 			<li><?php echo (get_current_blog_id()==1)?'確認':'Confirmation' ?></li>
 			<li><?php echo (get_current_blog_id()==1)?'資料ダウンロード':'Download' ?></li>
 		</ol>
+
+		<?php if(get_current_blog_id()!==1){ ?>
+		<!-- 英語用 -->
+		<p class="red-text">Please fill in the form in English.</p>
+		<?php } ?>
 		
 		<p><?php echo (get_current_blog_id()==1)?'この度は資料ダウンロードのご希望をいただき、誠にありがとうございます。<br>必要な項目をご記入の上、「入力内容を確認する」ボタンをクリックしてください。<br>情報入力後に資料ダウンロードページが表示されます。':'Thank you for your interest in downloading Shinmei\'s product brochure.<br>Please fill in the required items and press the "Next" button.<br>After entering the information, the document download page is displayed.' ?></p>
 		<form action="<?php bloginfo('url') ?>/material/conf" method="POST">

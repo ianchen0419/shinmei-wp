@@ -132,12 +132,12 @@
 				<div class="solution-text">
 					<p><?php echo (get_current_blog_id()==1)?'導入実績4,000社以上。<br>正確、安心、使いやすい製品は幅広い業種で活用いただいています。':'More than 4,000 companies have installed our products.<br>Because it\'s accurate, secure, and easy to use, they are used in a wide range of industries.' ?></p>
 					<div class="solution-links">
-						<a href="solution/thermal"><?php echo (get_current_blog_id()==1)?'全業種向け':'All Industries' ?></a>
-						<a href="solution/food"><?php echo (get_current_blog_id()==1)?'包装機メーカー向け':'Packaging Machine Manufacturers' ?></a>
-						<a href="solution/wrap"><?php echo (get_current_blog_id()==1)?'金融・経理部門向け':'Financial and Accounting Department' ?></a>
-						<a href="solution/egg"><?php echo (get_current_blog_id()==1)?'食品加工メーカー向け':'Food Processing Manufacturers' ?></a>
-						<a href="solution/account"><?php echo (get_current_blog_id()==1)?'鶏卵GPセンター向け':'Chicken Egg GP Center' ?></a>
-						<a href="solution/pamphlet"><?php echo (get_current_blog_id()==1)?'旅行業界・流通百貨店向け':'Travel and Department Stores' ?></a>
+						<a href="solution/thermal"><?php echo (get_current_blog_id()==1)?'全業種様向け':'All Industries' ?></a>
+						<a href="solution/wrap"><?php echo (get_current_blog_id()==1)?'包装機メーカー様向け':'Packaging Machine Manufacturers' ?></a>
+						<a href="solution/account"><?php echo (get_current_blog_id()==1)?'金融・経理部門様向け':'Financial and Accounting Department' ?></a>
+						<a href="solution/food"><?php echo (get_current_blog_id()==1)?'食品加工メーカー様向け':'Food Processing Manufacturers' ?></a>
+						<a href="solution/egg"><?php echo (get_current_blog_id()==1)?'鶏卵GPセンター様向け':'Chicken Egg GP Center' ?></a>
+						<a href="solution/pamphlet"><?php echo (get_current_blog_id()==1)?'旅行業界・流通百貨店様向け':'Travel and Department Stores' ?></a>
 					</div>
 				</div>
 			</div>
@@ -239,7 +239,16 @@
 			<div class="home-title">
 				<div class="en">シンメイiファクトリー</div>
 			</div>
-			<p>IT活用による食品製造業の生産性の大幅向上</p>
+			<p>
+				IT活用による食品製造業の生産性の大幅向上<br>
+				食品製造業の生産性の大幅な向上のご提案をさせていただきます。<br>
+				ご相談をお待ちしています。
+			</p>
+			<ul>
+				<li>トレーサビリティデータを記録できるマネージメントシステムの導入</li>
+				<li>高付加価値商品の開発へ注力することができる生産システム</li>
+				<li>人手不足からくる生産プロセスの抜本的な見直しの必要性</li>
+			</ul>
 			<div class="button-area">
 				<a href="<?php bloginfo('url') ?>/ifactory" class="round-button"><?php echo (get_current_blog_id()==1)?'シンメイiファクトリー概要はこちら':'Contact us' ?></a>
 			</div>

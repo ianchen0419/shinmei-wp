@@ -70,7 +70,7 @@
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'工場':'Factory' ?></th>
-					<td><?php echo (get_current_blog_id()==1)?'佐久・長野':'Saku, Nagano' ?></td>
+					<td><?php echo (get_current_blog_id()==1)?'長野東御工場・長野工場':'Nagano Tomi Factory, Nagano Factory' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'海外':'Overseas' ?></th>
@@ -78,9 +78,15 @@
 				</tr>
 			</tbody>
 		</table>
-		<div class="image-area">
-			<img src="<?php bloginfo('template_directory') ?>/inc/img/company/about.jpg" alt="企業情報" width="600" />
-		</div>
+
+		<figure class="image-area">
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/company/about_head.jpg" alt="企業情報" width="600" />
+			<figcaption><?php echo (get_current_blog_id()==1)?'東京本社':'Tokyo Headquarters' ?></figcaption>
+		</figure>
+		<figure class="image-area">
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/company/about_factory.jpg" alt="企業情報" width="600" />
+			<figcaption><?php echo (get_current_blog_id()==1)?'長野東御工場':'Nagano Tomi Factory' ?></figcaption>
+		</figure>
 	</div>
 
 </main>

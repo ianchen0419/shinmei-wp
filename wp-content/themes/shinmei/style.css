@@ -452,35 +452,27 @@ body {
 	padding: 10px 0;
 }
 
-.sitemap-area .sitemap-block {
+.sitemap-area * {
 	color: #fff;
-	font-size: 12px;
-	width: 49%;
+}
+
+.copyright {
+	display: block;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 0px;
+	margin-top: 20px;
+}
+
+.sitemap-address {
+	margin-top: 20px;
+}
+
+.sitemap-address > * {
 	display: inline-block;
+	width: 49%;
 	vertical-align: top;
-}
-
-.sitemap-catch * {
-	font-size: 12px;
-	color: #fff;
-}
-
-.sitemap-catch h1 {
-	margin-right: 40px;
-}
-
-.sitemap-catch {
-	display: flex;
-	align-items: baseline;
-}
-
-.sitemap-block p {
-	color: #fff;
-	font-size: 12px;
-}
-
-.sitemap-block a {
-	margin-right: 20px;
+	text-align: center;
 }
 
 .gray {
@@ -1653,8 +1645,7 @@ input.short {
 }
 
 .mobile-menu-bar,
-#mobileMenu,
-.sitemap-mobile {
+#mobileMenu {
 	display: none;
 }
 
@@ -1973,14 +1964,6 @@ iframe.goog-te-banner-frame {
 	.sitemap-area .sitemap-catch,
 	.sitemap-area .sitemap-block {
 		display: none;
-	}
-
-	.sitemap-mobile {
-		display: block;
-		color: #fff;
-		font-size: 12px;
-		text-align: center;
-		letter-spacing: 0px;
 	}
 
 	.contact-area {
@@ -2384,6 +2367,17 @@ iframe.goog-te-banner-frame {
 		width: 84%;
     		vertical-align: top;
     		padding-top: 0;
+	}
+	
+	.sitemap-area h1,
+	.sitemap-area p,
+	.sitemap-area .sitemap-address {
+		display: none;
+	}
+
+	.copyright {
+		font-size: 10px;
+		margin-top: 0;
 	}
 }
 

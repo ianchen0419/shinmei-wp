@@ -41,11 +41,8 @@
 			<h2>高付加価値商品の開発へ注力することができる生産システム</h2>
 		</div>
 		<p>付加価値作業として調合、加工等、原材料に価値を加える製品へ作り上げる作業へ注力して、非付加価値作業として検品作業など人の目と判断に代わるAIとビジョンセンサーを使った不良品検査システムの導入</p>
-		<div class="deco-title">
-			<h3>ロボット導入の想定外の効果</h3>
-		</div>
 		<div class="image-area">
-			<img src="<?php bloginfo('template_directory') ?>/inc/img/ifactory/high-value.png" alt="高付加価値商品" width="100%" />
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/ifactory/process.png" alt="人手不足からくる生産プロセス" width="100%" />
 		</div>
 
 		<div class="section-title list">
@@ -53,9 +50,14 @@
 			<h2>人手不足からくる生産プロセスの抜本的な見直しの必要性</h2>
 		</div>
 		<p>梱包や運搬など手作業の部分をできるだけ減らしていくロボットオートメーションシステムの導入</p>
-		<div class="image-area">
-			<img src="<?php bloginfo('template_directory') ?>/inc/img/ifactory/process.png" alt="人手不足からくる生産プロセス" width="100%" />
+		<div class="deco-title">
+			<h3>ロボット導入の想定外の効果</h3>
 		</div>
+		<div class="image-area">
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/ifactory/high-value.png" alt="高付加価値商品" width="100%" />
+		</div>
+
+		
 		<p>私共シンメイは、産業用印字表示ソリューションカンパニーとしての観点から皆様と一緒になった解決方法をご提案させていただきます。<br>皆様からのご相談をお待ちしております。</p>
 		<div class="deco-title">
 			<h3>非付加価値作業やムダを止めて付加価値作業へ</h3>

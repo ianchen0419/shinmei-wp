@@ -11,6 +11,12 @@
 			<li><?php echo (get_current_blog_id()==1)?'確認':'Confirmation' ?></li>
 			<li><?php echo (get_current_blog_id()==1)?'完了':'Complete' ?></li>
 		</ol>
+
+		<?php if(get_current_blog_id()!==1){ ?>
+		<!-- 英語用 -->
+		<p class="red-text">Please fill in the form in English.</p>
+		<?php } ?>
+		
 		<p><?php echo (get_current_blog_id()==1)?'お問い合わせフォームのご利用ありがとうございます。<br>下記項目にご記入の上、「入力内容を確認する」ボタンを押してください。':'Thank you for your interest in our company.<br>Please fill in the required items and press the "Next" button.' ?></p>
 
 		<form action="<?php bloginfo('url') ?>/material/inquiry-010/conf" method="POST" class="mar_top40">
