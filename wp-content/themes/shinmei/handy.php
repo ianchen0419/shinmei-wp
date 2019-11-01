@@ -34,7 +34,7 @@
 				<img src="<?php bloginfo('template_directory') ?>/inc/img/products/handy_01.jpg" alt="MP-HPシリーズ" width="200" />
 			</div>
 			<div class="text-part">
-				<p><?php echo (get_current_blog_id()==1)?'小型タイプで事務所での少量多品質の印字には最適です。<br>1枚づつ手差し供給すると自動で印字して繰り出します。<br>日付印字やロット番号などの印字に限られる１インチタイプ。<br>一括表示など十分な印字スペースの２インチタイプと３インチタイプ。<br>機械本体の近くにパソコンを必要としません。':'It is a small type and suitable for printing small quantities and many types.<br>By manually feeding one sheet at a time, it prints out automatically and feeds it out.<br>We have 1 inch type which is limited to printing date and lot number, and 2 inch type and 3 inch type which does batch display. <br>You do not need a computer near the machine itself.' ?></p>
+				<p><?php echo (get_current_blog_id()==1)?'日付印字やロット番号などの印字に限られる１インチタイプ。<br>一括表示など十分な印字スペースの２インチタイプと３インチタイプ。<br>機械本体の近くにパソコンを必要としません。':'We have 1 inch type which is limited to printing date and lot number, and 2 inch type and 3 inch type which does batch display. <br>You do not need a computer near the machine itself.' ?></p>
 			</div>
 		</div>
 		<div class="deco-title">
@@ -45,7 +45,7 @@
 				<img src="<?php bloginfo('template_directory') ?>/inc/img/products/handy_02.jpg" alt="MP-HPシリーズ" width="200" />
 			</div>
 			<div class="text-part">
-				<p><?php echo (get_current_blog_id()==1)?'小型タイプで事務所での少量多品質の印字には最適です。<br>1枚づつ手差し供給すると自動で印字して繰り出します。<br>印字内容は上位機種と同様、印字エリア内であれば専用アプリケーションで自由に設定可能。あらかじめ専用のアプリケーションがインストールされたパソコンより印字出力ができ汎用性に優れます。<br>印字エリア　106mm×200mm':'It is a small type and suitable for printing small quantities and many types.<br>By manually feeding one sheet at a time, it prints out automatically and feeds it out.<br>The printing content is the same as the upper model, and it can be freely set by application if it\'s within the printing area.<br>Because it can print out from the PC which the application is installed, it has excellent versatility.<br>Print area: 106mm×200mm' ?></p>
+				<p><?php echo (get_current_blog_id()==1)?'印字内容は上位機種と同様、印字エリア内であれば専用アプリケーションで自由に設定可能。あらかじめ専用のアプリケーションがインストールされたパソコンより印字出力ができ汎用性に優れます。<br>印字エリア　106mm×200mm':'The printing content is the same as the upper model, and it can be freely set by application if it\'s within the printing area.<br>Because it can print out from the PC which the application is installed, it has excellent versatility.<br>Print area: 106mm×200mm' ?></p>
 			</div>
 		</div>
 

@@ -206,7 +206,7 @@
 					</tr>
 					<tr>
 						<th><?php echo (get_current_blog_id()==1)?'インターフェース':'Interface' ?></th>
-						<td colspan="3"><?php echo (get_current_blog_id()==1)?'USB・RS232C(オプション：LAN対応[SCS420.430])：CAN対応':'USB・RS232C(Option: LAN [SCS420.430])：CAN' ?></td>
+						<td colspan="3"><?php echo (get_current_blog_id()==1)?'USB・RS232C(オプション：LAN対応[SCS430])：CAN対応':'USB・RS232C(Option: LAN [SCS430])：CAN' ?></td>
 					</tr>
 					<tr>
 						<th><?php echo (get_current_blog_id()==1)?'カレンダー機能':'Calendar function' ?></th>

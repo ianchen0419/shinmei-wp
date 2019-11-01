@@ -357,7 +357,7 @@
 		</table>
 
 		<div class="deco-title">
-			<h3>ALS-350NSⅡ　ALS-350NWⅡ</h3>
+			<h3>ALS-350NP / ALS-350NSⅡ / ALS-350NWⅡ / ALS-350BⅡ</h3>
 		</div>
 		<table class="type-table combo-table" width="100%">
 			<thead>
@@ -417,7 +417,7 @@
 		</table>
 
 		<div class="deco-title">
-			<h3>ALS-1000SCS/ALS-1200SCS</h3>	
+			<h3>ALS-1000SCS / ALS-1200SCS</h3>	
 		</div>
 		<table class="type-table combo-table" width="100%">
 			<thead>

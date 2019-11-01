@@ -201,7 +201,7 @@
 			<thead>
 				<tr>
 					<th width="25%"><?php echo (get_current_blog_id()==1)?'型式':'Model' ?></th>
-					<th width="75%">SMP-350P1</th>
+					<th width="75%">SMP-350P4</th>
 				</tr>
 			</thead>
 			<tbody>

@@ -62,7 +62,7 @@
 		<p><?php echo (get_current_blog_id()==1)?'出荷ラベル、パーツラベル、保証書、カートン、受付伝票、商品券、入場券、出荷伝票、小切手、利札、請求書への日付印、入数印、丸印、受付印、検査合格印、品名印、ロット番号、パーツナンバーとして鶏卵業界、旅行会社、遊園地、スキー場、各種娯楽施設、ホテル、全酒販組合、専門店会、印刷会社、電機メーカー等でお取り扱いいただいております。':'Shipping label, parts label, warranty card, carton, reception slip, gift certificate, admission ticket, shipping slip, check, coupon, date stamp on invoice, number stamp, circle, reception seal, inspection pass mark, name seal, Lot number, part number chicken egg industry, travel agency, amusement park, ski resort, various entertainment facilities, hotel, liquor sales association, specialty store association, printing company, electric machine maker etc.' ?></p>
 
 		<div class="section-title full-line">
-			<h2><?php echo (get_current_blog_id()==1)?'CSシリーズ  CS-85BⅡ/CS-350BⅡ/CPS-SAPⅡ':'CS Series  CS-85BⅡ/CS-350BⅡ /CS-SAPⅡ' ?></h2>
+			<h2><?php echo (get_current_blog_id()==1)?'CSシリーズ  CS-85BⅡ / CS-350BⅡ / CPS-SAPⅡ':'CS Series  CS-85BⅡ / CS-350BⅡ / CS-SAPⅡ' ?></h2>
 			<div class="tag">金融・経理部門様向け</div>
 		</div>
 		<div class="deco-title">
