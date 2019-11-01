@@ -362,54 +362,63 @@
 		<table class="type-table combo-table" width="100%">
 			<thead>
 				<tr>
-					<th width="25%"><?php echo (get_current_blog_id()==1)?'型式':'Model' ?></th>
-					<th width="37.5%">ALS-350NSⅡ</th>
-					<th width="37.5%">ALS-350NWⅡ</th>
+					<th width="20%"><?php echo (get_current_blog_id()==1)?'型式':'Model' ?></th>
+					<th width="20%">ALS-350NP</th>
+					<th width="20%">ALS-350NSⅡ</th>
+					<th width="20%">ALS-350NWⅡ</th>
+					<th width="20%">ALS-350BⅡ</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'ワークサイズ':'Work size' ?></th>
-					<td colspan="2">50～340(W)・90～300(L)</td>
+					<td colspan="4">50～340(W)・90～300(L)</td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'処理能力':'Capacity' ?></th>
-					<td colspan="2"><?php echo (get_current_blog_id()==1)?'15～90枚/分 ※2':'15～90 sheets /min ※2' ?></td>
+					<td colspan="4"><?php echo (get_current_blog_id()==1)?'15～90枚/分 ※2':'15～90 sheets /min ※2' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'ラベルサイズ':'Label size' ?></th>
-					<td>30～90(W)・20～150(L) ※1</td>
-					<td>30～130(W)・20～150(L) ※1</td>
+					<td colspan="2">30～90(W)・20～150(L) ※1</td>
+					<td colspan="2">30～130(W)・20～150(L) ※1</td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'ラベル巻経':'Label winding' ?></th>
-					<td><?php echo (get_current_blog_id()==1)?'200(MAX)内巻・外巻':'200(MAX) Inner and outer winding' ?></td>
-					<td><?php echo (get_current_blog_id()==1)?'300(MAX)内巻・外巻':'300(MAX) Inner and outer winding' ?></td>
+					<td colspan="2"><?php echo (get_current_blog_id()==1)?'200(MAX)内巻・外巻':'200(MAX) Inner and outer winding' ?></td>
+					<td colspan="2"><?php echo (get_current_blog_id()==1)?'300(MAX)内巻・外巻':'300(MAX) Inner and outer winding' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'ラベル紙管':'Label paper tube' ?></th>
-					<td colspan="2"><?php echo (get_current_blog_id()==1)?'φ25・φ45(標準)φ75も可':'φ25・φ45(Standard) φ75' ?></td>
+					<td colspan="4"><?php echo (get_current_blog_id()==1)?'φ25・φ45(標準)φ75も可':'φ25・φ45(Standard) φ75' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'プリセットカウンター':'Preset counter' ?></th>
-					<td colspan="2"><?php echo (get_current_blog_id()==1)?'4桁 貼付位置コード表示001～999':'4-digit pasted position code display 001 to 999' ?></td>
+					<td colspan="4"><?php echo (get_current_blog_id()==1)?'4桁 貼付位置コード表示001～999':'4-digit pasted position code display 001 to 999' ?></td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'外形寸法':'External dimensions' ?></th>
-					<td>400mm(W)×650m(D)×600mm(H)</td>
-					<td>400mm(W)×650m(D)×900mm(H)</td>
+					<td>400(W)×650(D)×720(H)</td>
+					<td>400(W)×650(D)×750(H)</td>
+					<td>400(W)×650(D)×900(H)</td>
+					<td>480(W)×560(D)×540(H)</td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'電源':'Power supply' ?></th>
+					<td>AC100V・170W・50/60HZ</td>
 					<td>AC100V・150W・50/60HZ</td>
 					<td>AC100V・170W・50/60HZ</td>
+					<td>AC100V・50W・50/60HZ</td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'重量':'Weight' ?></th>
+					<td>63kg</td>
 					<td colspan="2">60kg</td>
+					<td>30kg</td>
 				</tr>
 				<tr>
 					<th><?php echo (get_current_blog_id()==1)?'オプション':'Option' ?></th>
+					<td colspan="2"><?php echo (get_current_blog_id()==1)?'ワイドタイプ（アンウインド付）':'Wide type (Unwind)' ?></td>
 					<td colspan="2"><?php echo (get_current_blog_id()==1)?'アンワインド（標準）':'Unwind (Standard)' ?></td>
 				</tr>
 			</tbody>
