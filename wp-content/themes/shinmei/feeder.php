@@ -109,7 +109,7 @@
 
 		<div class="section-title full-line">
 			<div class="type"><?php echo (get_current_blog_id()==1)?'オートフィーダー':'Auto feeder' ?></div>
-			<h2>AFZ-135</h2>
+			<h2>AFZ-350</h2>
 			<div class="tag">全業種向け</div>
 		</div>
 		<div class="deco-title">
