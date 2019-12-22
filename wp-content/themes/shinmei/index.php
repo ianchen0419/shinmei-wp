@@ -255,4 +255,9 @@
 		</div>
 	</section>
 </main>
+
+
 <?php get_footer(); ?>
+<script>
+	sliderShow();
+</script>

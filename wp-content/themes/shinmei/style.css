@@ -1991,11 +1991,12 @@ iframe.goog-te-banner-frame {
 
 	.deco-title:before {
 		margin-top: 2px;
-		margin-right: 4px;
+		margin-right: 8px;
 	}
 
 	.deco-title {
 		letter-spacing: 0;
+		display: flex;
 	}
 
 	.trademark-area figcaption {

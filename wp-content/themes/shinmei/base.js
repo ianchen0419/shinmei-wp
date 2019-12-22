@@ -89,10 +89,6 @@ function sliderShow(){
 
 }
 
-if(nowPath==''){
-	sliderShow();
-}
-
 var sections=document.querySelectorAll('section');
 var lastY;
 function sectionShowUp(e){
