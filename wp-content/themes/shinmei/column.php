@@ -82,7 +82,7 @@
 		<!-- 日本語 -->
 		<p>
 			<span>不当表示、産地偽装、コピー品の増加、異物混入など昨今のこれらの問題は、製品に対する信頼を根本から揺るがすものとなってきています。そうした中で、印字や表示の役割は、製造者と取引先そして消費者間における製品の安全や信頼そして安心を約束する証明としてその重要度は増す一方です。製品の安全性に対する消費者の要求が厳しくなるなか、印字や表示には品質や内容を証明をするという役割が課され、その社会的な責務も大きくなってきたといえます。また、万が一、製品事故が発生した場合、いつ、どこで、どれくらい生産されたかが分かれば、原因究明や迅速な製品回収が可能となります。消費者の製品に対する信頼が揺らぐなか、このような、生産・加工・流通の一つまたは複数の段階を通じて、ひとつひとつの製品の移動（履歴）を把握できるトレーサビリティの仕組みができていれば被害を最小限にまたは未然にすることが可能になります。印字や表示は中身や品質に対する証明に加え履歴としての役割も担っていくことが要求されてきています。コード印字や可変印字そしてそのコードを使ったシステムの構築で製品を管理するトレーサビリティシステムの構築も容易になります。トレーサビリティシステムの構築を可能にする製品管理クラウドサービスについては</span>
-			<a href="<?php bloginfo('template_directory') ?>/inc/img/infomation/tracing-i.pdf" target="_blank" class="link-text">こちらのpdf</a>
+			<a href="<?php bloginfo('template_directory') ?>/inc/img/information/tracing-i.pdf" target="_blank" class="link-text">こちらのpdf</a>
 			<span>をご覧ください。</span>	
 		</p>
 		<?php }else{ ?>
@@ -123,7 +123,7 @@
 			<h3><?php echo (get_current_blog_id()==1)?'地域団体商標':'Local group trademark' ?></h3>
 		</div>
 		<figure class="trademark-area">
-			<img src="<?php bloginfo('template_directory') ?>/inc/img/infomation/local.jpg" alt="地域団体商標" width="200" />
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/information/local.jpg" alt="地域団体商標" width="200" />
 			<figcaption>
 				<p><?php echo (get_current_blog_id()==1)?'地域団体商標制度は、地域ブランドを適切に保護することにより、信用力の維持による競争力の強化と地域経済の活性化を支援することを目的とし、平成１８年４月に創設されました。':'The local group trademark system was created in April 2006 for the purpose of strengthening competitiveness by maintaining creditworthiness and revitalizing the regional economy by appropriately protecting regional brands.' ?></p>
 				<p><?php echo (get_current_blog_id()==1)?'地域の事業協同組合や農業協同組合等の団体、商工会、商工会議所、NPO 法人が、「地名＋商品（サービス）名」からなる商標を、その地域との密接な関連性を有する商品（サービス）に使用して一定の地理的範囲で周知となっている場合には、地域団体商標として商標登録を受けることができる制度です。':'Local business cooperatives, groups such as agricultural cooperatives, Chamber of Commerce, NPO can apply. They can receive a trademark registration consisting of "location name + product (service) name" for a product that has a close relationship with the area.' ?></p>
@@ -138,7 +138,7 @@
 			<h3><?php echo (get_current_blog_id()==1)?'GI日本地理的表示':'GI Japan geographical display' ?></h3>
 		</div>
 		<figure class="trademark-area">
-			<img src="<?php bloginfo('template_directory') ?>/inc/img/infomation/gi.jpg" alt="GI日本地理的表示" width="200" />
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/information/gi.jpg" alt="GI日本地理的表示" width="200" />
 			<figcaption>
 				<p><?php echo (get_current_blog_id()==1)?'地域で育まれた伝統と特性を有する農林水産物・食品等のうち、品質等の特性が地域と結び付いている産品について、その名称を知的財産として保護することを目的とした「特定農林水産物等の名称の保護に関する法律（地理的表示法）」が平成27 年6 月に施行されました。':'The Law on the Protection of Names of Specified Agriculture, Forestry, and Fishery Products (Geographical Display Act) came into effect in June 2015.<br>The purpose of this law is to protect the name of the product whose characteristics are linked with the area as intellectual property.' ?></p>
 				<p <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
@@ -154,7 +154,7 @@
 			<h2>QRコード</h2>
 		</div>
 		<figure class="trademark-area">
-			<img src="<?php bloginfo('template_directory') ?>/inc/img/infomation/qrcode.jpg" alt="QRコード" width="200" />
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/information/qrcode.jpg" alt="QRコード" width="200" />
 			<figcaption>
 				<p><?php echo (get_current_blog_id()==1)?'必要な時に必要なだけ１個からその場で印字ができるオンデマンドのダイレクトサーマルプリンターでのコード印字は、QRコードの用途を更に広げています。':'Code printing with an on-demand direct thermal printer, which can print on the spot from one piece when needed, further expands the application of QR codes..' ?></p>
 				<p><?php echo (get_current_blog_id()==1)?'QRコード（キューアールコード）は、1994年にデンソーの開発部門（現在は分離しデンソーウェーブ）が開発したマトリックス型二次元コード である。なお、QRコードはデンソーウェーブの登録商標（第4075066号[1]）である[注 1]。':'QR code is a matrix-type two-dimensional code developed by the development department of Denso (currently separated Denso Wave) in 1994. The QR code is a registered trademark of Denso Wave (No. 4075066 [1])' ?></p>
@@ -171,7 +171,7 @@
 			<h2><?php echo (get_current_blog_id()==1)?'規格':'Standard' ?></h2>
 		</div>
 		<figure class="trademark-area">
-			<img src="<?php bloginfo('template_directory') ?>/inc/img/infomation/jas.jpg" alt="規格" width="200" />
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/information/jas.jpg" alt="規格" width="200" />
 			<figcaption>
 				<p><?php echo (get_current_blog_id()==1)?'JASマークは、しょうゆや木材などに表示され、広く知られているいわゆる丸JASマークと、「地鶏肉」や「熟成ハム」など、特色のある規格のマークに大きく分けられます。':'JAS Mark is displayed on soy sauce, wood and etc..  It is divided into the widely known so-called Maru JAS mark and distinctive standard marks used in "Jidori" and "aged ham".' ?></p>
 				<p><?php echo (get_current_blog_id()==1)?'この特色のある規格のマークを統一し、国内、海外市場において特色をアピールできる新たなJASマークが決定されました。':'By unifying the mark of this distinctive standard, a new JAS mark has been decided to appeal the feature in domestic and foreign markets.' ?></p>

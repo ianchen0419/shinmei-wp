@@ -336,13 +336,13 @@ body {
 	margin: 5px 0;
 }
 
-.infomation-area {
+.information-area {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
 
-.infomation-block {
+.information-block {
 	width: 25%;
 	border: 1px solid #BFBFBF;
 	vertical-align: top;
@@ -352,11 +352,11 @@ body {
 	margin: 20px 0;
 }
 
-.infomation-block .fa {
+.information-block .fa {
 	color: #BFBFBF;
 }
 
-.infomation-block h4 {
+.information-block h4 {
 	color: #0D6CE5;
 	text-align: center;
 	width: 75%;
@@ -1917,7 +1917,7 @@ iframe.goog-te-banner-frame {
 		width: 100%;
 	}
 
-	.infomation-block {
+	.information-block {
 		width: 80%;
 	}
 

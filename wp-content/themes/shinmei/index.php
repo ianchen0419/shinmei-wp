@@ -149,28 +149,28 @@
 				<div class="en">Information</div>
 				<h2>インフォメーション</h2>
 			</div>
-			<div class="infomation-area">
-				<a class="infomation-block" href="information#printing">
+			<div class="information-area">
+				<a class="information-block" href="information#printing">
 					<h4><?php echo (get_current_blog_id()==1)?'包装印字':'Package printing' ?></h4>
 					<i class="fa fa-caret-right fafw fa-2x"></i>
 				</a>
-				<a class="infomation-block" href="information#industry">
+				<a class="information-block" href="information#industry">
 					<h4><?php echo (get_current_blog_id()==1)?'農林漁業の<br>「6次産業化」':'"Sixth industrialization" of agriculture, forestry and fisheries' ?></h4>
 					<i class="fa fa-caret-right fafw fa-2x"></i>
 				</a>
-				<a class="infomation-block" href="information#merit">
+				<a class="information-block" href="information#merit">
 					<h4><?php echo (get_current_blog_id()==1)?'リース契約での<br>導入メリット':'Advantages of a lease agreement' ?></h4>
 					<i class="fa fa-caret-right fafw fa-2x"></i>
 				</a>
-				<a class="infomation-block" href="information#food">
+				<a class="information-block" href="information#food">
 					<h4><?php echo (get_current_blog_id()==1)?'食品表示法切り替え<br>（2020年4月1日〜）':'Change of food labeling method (April 1, 2020-)' ?></h4>
 					<i class="fa fa-caret-right fafw fa-2x"></i>
 				</a>
-				<a class="infomation-block" href="information#origin">
+				<a class="information-block" href="information#origin">
 					<h4><?php echo (get_current_blog_id()==1)?'加工食品の原料原産地<br>表示（2022年4月1日〜）':'Raw material indication of processed food (April 1, 2022)' ?></h4>
 					<i class="fa fa-caret-right fafw fa-2x"></i>
 				</a>
-				<a class="infomation-block" href="information#export">
+				<a class="information-block" href="information#export">
 					<h4><?php echo (get_current_blog_id()==1)?'「GFP」農林水産物<br>食品輸出プロジェクト':'"GFP" Agriculture, Forestry and Fisheries Food Export Project' ?></h4>
 					<i class="fa fa-caret-right fafw fa-2x"></i>
 				</a>
