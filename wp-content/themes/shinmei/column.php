@@ -21,23 +21,24 @@
 		<?php if(get_current_blog_id()==1){ ?>
 		<!-- 日本語 -->
 		<p>
-			<span>軟包装やラベル、パッケージに日付・時刻の製造年月日や製造ロット・シリアルナンバーなどの印字、成分・アレルギー・ブランド名・ロゴ・商標・マーケティング情報・容器材質識別などの表示そして可変情報の印字は、食品加工業界をはじめコンシューマ向けパッケージ品、医薬品、工業用品、流通業界等の業界や産業で実証済みです。包装への印字や表示についてお困りの事があれば、ご相談ください。また、軟包装の種類については</span>
+			<span>軟包装やラベル、ラベルシール、パッケージに日付・時刻の製造年月日や消費期限、製造ロット・シリアルナンバー、識別マークなどの印字、成分・アレルギー・ブランド名・ロゴ等・商標・マーケティング情報・容器材質識別などの表示、可変情報の印字そしてRFIDに対応したプリンティングシステムは、食品加工業界をはじめコンシューマ向けパッケージ品、医薬品、工業用品、流通業界等の業界や産業で実証済みです。軟包装への印字や表示についてお困りの事があれば、ご相談ください。また、軟包装の種類については</span>
 			<a href="<?php bloginfo('url') ?>/column/softpackaging" class="link-text">こちら</a>
 			<span>をご参考にご覧ください</span>
 		</p>
 		<?php }else{ ?>
 		<!-- 英語 -->
-		<p>We have variety of solutions, such as soft packaging and labels, printing date and time of production date and time, production lot and serial number on packaging, indication of components, allergy, brand name, logo, trademark, marketing information, container material identification, etc. and printing of variable information. It has been proved in food processing industry, consumer packaged goods, pharmaceuticals, industrial supplies, and distribution industry.<br>Please contact us if you have any problems with printing or marking on the packaging.</p>
+		<p>
+			<span>軟包装やラベル、ラベルシール、パッケージに日付・時刻の製造年月日や消費期限、製造ロット・シリアルナンバー、識別マークなどの印字、成分・アレルギー・ブランド名・ロゴ等・商標・マーケティング情報・容器材質識別などの表示、可変情報の印字そしてRFIDに対応したプリンティングシステムは、食品加工業界をはじめコンシューマ向けパッケージ品、医薬品、工業用品、流通業界等の業界や産業で実証済みです。軟包装への印字や表示についてお困りの事があれば、ご相談ください。また、軟包装の種類については</span>
+			<a href="<?php bloginfo('url') ?>/column/softpackaging" class="link-text">こちら</a>
+			<span>をご参考にご覧ください</span>
+		</p>
 		<?php } ?>
 		
 
 		<div class="section-title">
 			<h2><?php echo (get_current_blog_id()==1)?'日付':'Date' ?></h2>
 		</div>
-		<p><?php echo (get_current_blog_id()==1)?'ダイレクトサーマルプリンターは、熱を加えることで印字するプリンターのことで熱転写式プリンターともサーマルトランスファーオーバープリント（TTO）とも言いい、ホットスタンプやローラーコーダーなどのアナログ印字の技術から進化をしてきましたが、始まりは1970年代後期頃より業務用のファックスのプリンターとして普及が始まる。それまでに主流であったタイプライター的なインパクトプリンターと比較して、静音性が低いことなどが評価され、急速に広まってゆく。初のダイレクトサーマルプリンターは感熱紙と5x7ドット同時加熱印刷方式はICの発明の半導体技術からテキサス・インスツルメンツ社が発明し1969年にコンピュータ用印刷表示機SILENT 700として発表された。当時のタイプライター、IBMセレクトリック(通称回転ゴルフボール)やソレノイドによるワイヤー押出ドットなどの各方式のインパクト印刷騒音から静音化された。その後小型コンピュータではキーボード付き各方式の印刷機から現在の表示はCRTやLCDモニターへ、印刷はプリンターへと分担されてゆく。その後、ワープロやパソコンのプリンターとして普及するが、1980年代中期には、カラー印刷が可能な熱転写プリンターに置き換わった。現在、一般向けとしてはファックスのプリンターとして採用される程度に留まるが、業務用途のプリンターとしては、ランニングコストが重視され単色の印字で対応可能な、レジスター（レシート）や自動券売機（切符、チケット）、オーダーエントリーシステム（飲食店の伝票）のプリンターなどの機器で使用されています。出典: フリー百科事典『ウィキペディア（Wikipedia）』':'A thermal printer works by heat and is also called a thermal printer or thermal over print (TTO).<br>It has evolved from analog printing technology such as hot stamping and roller coder, but it began to spread as a business-use fax printer from the late 1970s.' ?></p>
-		<p><?php echo (get_current_blog_id()==1)?'また、産業用としてはランニングコストとオンデマンドでの印字や繊細さから製造年月日や賞味期限、消費期限等の日付やバーコード用の印字プリンターとして広く使われてきていますが、その内容そして印字の役割や用途は広がってきています。':'Compared with the typewriter-like impact printer that had been mainstream until then, the noise reduction was evaluated and spread rapidly.<br>The first thermal printer was invented by Texas Instruments Inc. and announced in 1969 as the printing display device SILENT 700 for a computer.  <br>It was made quiet from the impact printing noise of each type such as the typewriter, IBM Selectric (generally known as rotating golf ball) and wire extrusion dot by solenoid.<br>Later, it became popular as a word processor and printer of personal computer, but in the mid 1980\'s it was replaced by a thermal transfer printer capable of color printing.<br>At present, the printer for general use is limited to being adopted as a fax printer, but as a printer for business use, a cash register (receipt) and an automatic ticket vending machine (ticket, ticket, etc.) can be handled with emphasis on running cost.' ?></p>
-		<p><?php echo (get_current_blog_id()==1)?'':'For business use, it has been widely used as a printer for dates and barcodes such as production date, expiration date, expiration date, etc. because of its low running cost and on-demand printing. Therefore, the role and use of printing have been expanding.' ?></p>
-
+		<p><?php echo (get_current_blog_id()==1)?'サーマルプリンターは、熱を加えることで印字するプリンターのことで熱転写式プリンターともサーマルトランスファーオーバープリント（TTO）ともいい、ホットスタンプやローラーコーダーなどのアナログ印字の技術から進化をしてきましたが、始まりは1970年代後期頃より業務用のファックスのプリンターとして普及が始まりました。<br>また、産業用としてはランニングコストとオンデマンドでの印字や繊細さから製造年月日や賞味期限、消費期限等の日付やバーコード用の印字プリンターとして広く使われてきていますが、その内容そして印字の役割や用途は広がってきています。':'サーマルプリンターは、熱を加えることで印字するプリンターのことで熱転写式プリンターともサーマルトランスファーオーバープリント（TTO）ともいい、ホットスタンプやローラーコーダーなどのアナログ印字の技術から進化をしてきましたが、始まりは1970年代後期頃より業務用のファックスのプリンターとして普及が始まりました。<br>また、産業用としてはランニングコストとオンデマンドでの印字や繊細さから製造年月日や賞味期限、消費期限等の日付やバーコード用の印字プリンターとして広く使われてきていますが、その内容そして印字の役割や用途は広がってきています。' ?></p>
 		<div class="section-title" id="printing">
 			<h2><?php echo (get_current_blog_id()==1)?'バーコード':'Barcode' ?></h2>
 		</div>
@@ -74,6 +75,42 @@
 			<a href="https://www.keyence.co.jp/ss/products/autoid/codereader/" class="link-text" target="_blank">株式会社キーエンスバーコード講座</a>
 		</p>
 
+		<div class="deco-title">
+			<h3><?php echo (get_current_blog_id()==1)?'GS1 データマトリックス':'GS1 データマトリックス' ?></h3>
+		</div>
+		<div class="image-and-text">
+			<div class="text-part">
+				<p><?php echo (get_current_blog_id()==1)?'GS1データマトリックスは、GS1のアプリケーション識別子（AI：Application identifier）を利用して、データマトリックスと呼ばれる2次元バーコードシンボル体系で表現したものです。一般的なデータマトリックスと区別するため、「GS1データマトリックス」と呼びます。':'GS1データマトリックスは、GS1のアプリケーション識別子（AI：Application identifier）を利用して、データマトリックスと呼ばれる2次元バーコードシンボル体系で表現したものです。一般的なデータマトリックスと区別するため、「GS1データマトリックス」と呼びます。' ?></p>
+			</div>
+			<figure class="image-part">
+				<figcaption><?php echo (get_current_blog_id()==1)?'GS1データマトリックスシンボル表示例':'GS1データマトリックスシンボル表示例' ?></figcaption>
+				<img src="http://localhost/shinmei/wp-content/themes/shinmei/inc/img/information/GS1_1.png" alt="GS1 データマトリックス" width="200" />
+			</figure>
+		</div>
+
+		<h4 class="blue-title"><?php echo (get_current_blog_id()==1)?'GS1データマトリックスにエンコードする情報と順序':'GS1データマトリックスにエンコードする情報と順序' ?></h4>
+		<p><?php echo (get_current_blog_id()==1)?'データの先頭には、GS1のデータであることを示す記号であるFNC1を置きます。FNC1の後のデータの大まかな順序はAIを利用する他のGS1標準のバーコードと同様で、通常は、商品識別コード（GTIN）、属性情報の順となります。属性情報に固定長、可変長がある場合は、固定長データを先とします。可変長データの後ろに他のデータが続く場合は、可変長データの項目区切りとしてFNC1が必要となります。GS1データマトリックスにはGS1-128で使用されるような、スタート、ストップを示すキャラクタはありません。数字、アルファベットの他、ISO/IEC 646国際基準の内、GS1標準で規定された一部の記号が使用できます。':'データの先頭には、GS1のデータであることを示す記号であるFNC1を置きます。FNC1の後のデータの大まかな順序はAIを利用する他のGS1標準のバーコードと同様で、通常は、商品識別コード（GTIN）、属性情報の順となります。属性情報に固定長、可変長がある場合は、固定長データを先とします。可変長データの後ろに他のデータが続く場合は、可変長データの項目区切りとしてFNC1が必要となります。GS1データマトリックスにはGS1-128で使用されるような、スタート、ストップを示すキャラクタはありません。数字、アルファベットの他、ISO/IEC 646国際基準の内、GS1標準で規定された一部の記号が使用できます。' ?></p>
+		<div class="image-area">
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/information/GS1_2.png" width="400" alt="GS1データマトリックスにエンコードする情報と順序" />
+		</div>
+
+		<h4 class="blue-title"><?php echo (get_current_blog_id()==1)?'GS1データマトリックスのサイズ':'GS1データマトリックスのサイズ' ?></h4>
+		<p><?php echo (get_current_blog_id()==1)?'GS1データマトリックスのサイズはモジュール幅によって決定されます。モジュール幅は、シンボルの作成、読み取り装置の対応能力などを勘案し、使用目的などによって定められています。':'GS1データマトリックスのサイズはモジュール幅によって決定されます。モジュール幅は、シンボルの作成、読み取り装置の対応能力などを勘案し、使用目的などによって定められています。' ?></p>
+
+		<h4 class="blue-title"><?php echo (get_current_blog_id()==1)?'正方形と長方形のフォーマット':'正方形と長方形のフォーマット' ?></h4>
+		<p><?php echo (get_current_blog_id()==1)?'GS1データマトリックスには、正方形と長方形のフォーマットがあります。正方形フォーマットには、10 x 10モジュールから144 x 144モジュールまでの24種のサイズがあり、最大で数字3,116桁をエンコードすることができます。一方、長方形フォーマットには8×18モジュールから16×48モジュールまでの6種類のサイズがあり、最大で数字98桁をエンコードすることができます。正方形フォーマットの方が利用できるサイズの範囲が広く、大量のデータをエンコードすることも可能なので、通常、正方形フォーマットが使われます。':'GS1データマトリックスには、正方形と長方形のフォーマットがあります。正方形フォーマットには、10 x 10モジュールから144 x 144モジュールまでの24種のサイズがあり、最大で数字3,116桁をエンコードすることができます。一方、長方形フォーマットには8×18モジュールから16×48モジュールまでの6種類のサイズがあり、最大で数字98桁をエンコードすることができます。正方形フォーマットの方が利用できるサイズの範囲が広く、大量のデータをエンコードすることも可能なので、通常、正方形フォーマットが使われます。' ?></p>
+
+		<h4 class="blue-title"><?php echo (get_current_blog_id()==1)?'海外での利用例':'海外での利用例' ?></h4>
+		<p><?php echo (get_current_blog_id()==1)?'アメリカ、ヨーロッパをはじめ海外の多くの国では、医療用医薬品、医療機器などの規制ヘルスケア製品について、GS1データマトリックスの利用が始まっています。':'アメリカ、ヨーロッパをはじめ海外の多くの国では、医療用医薬品、医療機器などの規制ヘルスケア製品について、GS1データマトリックスの利用が始まっています。' ?></p>
+		<div class="image-area">
+			<figure>
+				<figcaption><?php echo (get_current_blog_id()==1)?'長方形と正方形のGS1データマトリックスシンボル例':'長方形と正方形のGS1データマトリックスシンボル例' ?></figcaption>
+				<img src="<?php bloginfo('template_directory') ?>/inc/img/information/GS1_3.png" width="400" alt="長方形と正方形のGS1データマトリックスシンボル例" />
+			</figure>
+			
+		</div>
+
+
 		<div class="section-title">
 			<h2><?php echo (get_current_blog_id()==1)?'トレーサビリティ':'Traceability' ?></h2>
 		</div>
@@ -81,13 +118,17 @@
 		<?php if(get_current_blog_id()==1){ ?>
 		<!-- 日本語 -->
 		<p>
-			<span>不当表示、産地偽装、コピー品の増加、異物混入など昨今のこれらの問題は、製品に対する信頼を根本から揺るがすものとなってきています。そうした中で、印字や表示の役割は、製造者と取引先そして消費者間における製品の安全や信頼そして安心を約束する証明としてその重要度は増す一方です。製品の安全性に対する消費者の要求が厳しくなるなか、印字や表示には品質や内容を証明をするという役割が課され、その社会的な責務も大きくなってきたといえます。また、万が一、製品事故が発生した場合、いつ、どこで、どれくらい生産されたかが分かれば、原因究明や迅速な製品回収が可能となります。消費者の製品に対する信頼が揺らぐなか、このような、生産・加工・流通の一つまたは複数の段階を通じて、ひとつひとつの製品の移動（履歴）を把握できるトレーサビリティの仕組みができていれば被害を最小限にまたは未然にすることが可能になります。印字や表示は中身や品質に対する証明に加え履歴としての役割も担っていくことが要求されてきています。コード印字や可変印字そしてそのコードを使ったシステムの構築で製品を管理するトレーサビリティシステムの構築も容易になります。トレーサビリティシステムの構築を可能にする製品管理クラウドサービスについては</span>
+			<span>不当表示、産地偽装、コピー品の増加、異物混入など昨今のこれらの問題は、製品に対する信頼を根本から揺るがすものとなってきています。そうした中で、印字や表示の役割は、製造者と取引先そして消費者間における製品の安全や信頼そして安心を約束する証明としてその重要度は増す一方です。製品の安全性に対する消費者の要求が厳しくなるなか、印字や表示には品質や内容を証明をするという役割が課され、その社会的な責務も大きくなってきたといえます。また、万が一、製品事故が発生した場合、いつ、どこで、どれくらい生産されたかが分かれば、原因究明や迅速な製品回収が可能となります。消費者の製品に対する信頼が揺らぐなか、このような、生産・加工・流通の一つまたは複数の段階を通じて、ひとつひとつの製品の移動（履歴）を把握できるトレーサビリティの仕組みができていれば被害を最小限にまたは未然にすることが可能になります。印字や表示は中身や品質に対する証明に加え履歴としての役割も担っていくことが要求されてきています。コード印字や可変印字そしてそのコードを使ったシステムの構築で製品を管理するトレーサビリティシステムの構築も容易になります。トレーサビリティの構築については</span>
 			<a href="<?php bloginfo('template_directory') ?>/inc/img/information/tracing-i.pdf" target="_blank" class="link-text">こちらのpdf</a>
 			<span>をご覧ください。</span>	
 		</p>
 		<?php }else{ ?>
 		<!-- 英語 -->
-		<p>Problems such as misrepresentation, impersonation of production area, increase of copy products, inclusion of foreign matter have become fundamentally swaying the trust in products.Under this circumstance, the role of printing and display has increased the importance as proof that promises safety, trust and security of products between manufacturers, business partners and consumers.<br>As consumer demands for product safety have risen up, the role of printing and labeling of proving quality and content becomes more important, and their social responsibilities have also become bigger.<br>Even when there is a problem with the products, you will be able to investigate the cause and promptly recover products if you know when, where, and how much it was produced.<br>You can minimize or prevent the problems if you build traceability system which enables to keep the data of all histories of each product.<br>It is required to have a function of keeping history as well as proof of content and quality.<br>It becomes easy to build treceability system that manages products.</p>
+		<p>
+			<span>不当表示、産地偽装、コピー品の増加、異物混入など昨今のこれらの問題は、製品に対する信頼を根本から揺るがすものとなってきています。そうした中で、印字や表示の役割は、製造者と取引先そして消費者間における製品の安全や信頼そして安心を約束する証明としてその重要度は増す一方です。製品の安全性に対する消費者の要求が厳しくなるなか、印字や表示には品質や内容を証明をするという役割が課され、その社会的な責務も大きくなってきたといえます。また、万が一、製品事故が発生した場合、いつ、どこで、どれくらい生産されたかが分かれば、原因究明や迅速な製品回収が可能となります。消費者の製品に対する信頼が揺らぐなか、このような、生産・加工・流通の一つまたは複数の段階を通じて、ひとつひとつの製品の移動（履歴）を把握できるトレーサビリティの仕組みができていれば被害を最小限にまたは未然にすることが可能になります。印字や表示は中身や品質に対する証明に加え履歴としての役割も担っていくことが要求されてきています。コード印字や可変印字そしてそのコードを使ったシステムの構築で製品を管理するトレーサビリティシステムの構築も容易になります。トレーサビリティの構築については</span>
+			<a href="<?php bloginfo('template_directory') ?>/inc/img/information/tracing-i.pdf" target="_blank" class="link-text">こちらのpdf</a>
+			<span>をご覧ください。</span>	
+		</p>
 		<?php } ?>
 		
 		<p <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
@@ -156,10 +197,11 @@
 		<figure class="trademark-area">
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/information/qrcode.jpg" alt="QRコード" width="200" />
 			<figcaption>
-				<p><?php echo (get_current_blog_id()==1)?'必要な時に必要なだけ１個からその場で印字ができるオンデマンドのダイレクトサーマルプリンターでのコード印字は、QRコードの用途を更に広げています。':'Code printing with an on-demand direct thermal printer, which can print on the spot from one piece when needed, further expands the application of QR codes..' ?></p>
+				<p><?php echo (get_current_blog_id()==1)?'必要な時に必要なだけ1個からその場で印字ができるオンデマンドのサーマルプリンターでのコード印字は、QRコードの用途を更に広げています。':'必要な時に必要なだけ1個からその場で印字ができるオンデマンドのサーマルプリンターでのコード印字は、QRコードの用途を更に広げています。' ?></p>
 				<p><?php echo (get_current_blog_id()==1)?'QRコード（キューアールコード）は、1994年にデンソーの開発部門（現在は分離しデンソーウェーブ）が開発したマトリックス型二次元コード である。なお、QRコードはデンソーウェーブの登録商標（第4075066号[1]）である[注 1]。':'QR code is a matrix-type two-dimensional code developed by the development department of Denso (currently separated Denso Wave) in 1994. The QR code is a registered trademark of Denso Wave (No. 4075066 [1])' ?></p>
-				<p><?php echo (get_current_blog_id()==1)?'QRはQuick Responseに由来し、高速読み取りができるように開発された。当初は自動車部品工場や配送センターなどでの使用を念頭に開発され、現在ではスマートフォンの普及などにより日本に限らず世界的に普及している。出典: フリー百科事典『ウィキペディア（Wikipedia）』':'QR is derived from Quick Response and has been developed to enable high-speed reading. Originally developed with the use in automobile parts factories and distribution centers. It is now widespread not only in Japan but worldwide as well as the spread of smartphones. Source: Free encyclopedia "Wikipedia (Wikipedia)"' ?></p>
-				<p><?php echo (get_current_blog_id()==1)?'QRコードはいろいろな現場の『便利』に役立っています。チラシや名刺といった印刷物だけでなく、決済システムなど身の回りの生活環境から工場や流通といったビジネスに至るまでの幅広い範囲で使われ、もはや暮らしに欠かせない存在であるQRコードになっています。':'QR code is useful for various fields. In addition to printed materials such as flyers and business cards, it is used in a wide range from the daily living environment such as payment systems to factories and distribution. ' ?></p>
+				<p><?php echo (get_current_blog_id()==1)?'QRコード（キューアールコード）は、1994年にデンソーの開発部門（現在は分離しデンソーウェーブ）が開発したマトリックス型二次元コード である。なお、QRコードはデンソーウェーブの登録商標（第4075066号[1]）である[注 1]。':'QRコード（キューアールコード）は、1994年にデンソーの開発部門（現在は分離しデンソーウェーブ）が開発したマトリックス型二次元コード である。なお、QRコードはデンソーウェーブの登録商標（第4075066号[1]）である[注 1]。' ?></p>
+				<p><?php echo (get_current_blog_id()==1)?'QRはQuick Responseに由来し、高速読み取りができるように開発された。当初は自動車部品工場や配送センターなどでの使用を念頭に開発され、現在ではスマートフォンの普及などにより日本に限らず世界的に普及している。出典: フリー百科事典『ウィキペディア（Wikipedia）』':'QRはQuick Responseに由来し、高速読み取りができるように開発された。当初は自動車部品工場や配送センターなどでの使用を念頭に開発され、現在ではスマートフォンの普及などにより日本に限らず世界的に普及している。出典: フリー百科事典『ウィキペディア（Wikipedia）』' ?></p>
+				<p><?php echo (get_current_blog_id()==1)?'QRコードはいろいろな現場の『便利』に役立っています。チラシや名刺といった印刷物だけでなく、決済システムなど身の回りの生活環境から工場や流通といったビジネスに至るまでの幅広い範囲で使われ、もはや暮らしに欠かせない存在であるQRコードになっています。':'QRコードはいろいろな現場の『便利』に役立っています。チラシや名刺といった印刷物だけでなく、決済システムなど身の回りの生活環境から工場や流通といったビジネスに至るまでの幅広い範囲で使われ、もはや暮らしに欠かせない存在であるQRコードになっています。' ?></p>
 				<p <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
 					<span>【参考】</span>
 					<a href="https://www.denso-wave.com/ja/adcd/katsuyou/" class="link-text" target="_blank">デンソーウェーブ活用シーン</a>
@@ -167,21 +209,186 @@
 			</figcaption>
 		</figure>
 
+		<div class="deco-title">
+			<h3><?php echo (get_current_blog_id()==1)?'QRコードのモデル1':'QRコードのモデル1' ?></h3>
+		</div>
+		<p><?php echo (get_current_blog_id()==1)?'最初に作られたQRコードで、最大バージョンは14 (73×73セル)で数字1167桁まで扱うことができます。':'最初に作られたQRコードで、最大バージョンは14 (73×73セル)で数字1167桁まで扱うことができます。' ?></p>
+
+		<div class="deco-title">
+			<h3><?php echo (get_current_blog_id()==1)?'QRコードのモデル2':'QRコードのモデル2' ?></h3>
+		</div>
+		<p><?php echo (get_current_blog_id()==1)?'コードが歪んでしまった場合でもスムーズに読取りが出来るように、モデル1を改良したコードです。コードが曲面に印字されたり、読み取り時の角度でコードが歪んだ状態でも、コード内部に配置したアライメントパターンによって、性能良く読み取ることができます。最大バージョンは40 (177×177セル)で、数字7089桁まで扱うことができます。':'コードが歪んでしまった場合でもスムーズに読取りが出来るように、モデル1を改良したコードです。コードが曲面に印字されたり、読み取り時の角度でコードが歪んだ状態でも、コード内部に配置したアライメントパターンによって、性能良く読み取ることができます。最大バージョンは40 (177×177セル)で、数字7089桁まで扱うことができます。' ?></p>
+
+		<div class="deco-title">
+			<h3><?php echo (get_current_blog_id()==1)?'マイクロQRコード':'マイクロQRコード' ?></h3>
+		</div>
+		<p><?php echo (get_current_blog_id()==1)?'マイクロQRコードの大きな特長は、切り出しシンボルが一つである事です。QRコードの場合、3つの角に切り出しシンボルを配置しているので、ある程度の大きさを必要とします。また、QRコードでは最低4セル分のマージンがコードの周りに必要でしたが、マイクロQRコードの場合、2セル分のマージンが確保できれば十分です。このような構造により、マイクロQRコードは、QRコードよりもさらに小さなスペースへの印字を可能としています。':'マイクロQRコードの大きな特長は、切り出しシンボルが一つである事です。QRコードの場合、3つの角に切り出しシンボルを配置しているので、ある程度の大きさを必要とします。また、QRコードでは最低4セル分のマージンがコードの周りに必要でしたが、マイクロQRコードの場合、2セル分のマージンが確保できれば十分です。このような構造により、マイクロQRコードは、QRコードよりもさらに小さなスペースへの印字を可能としています。' ?></p>
+		<div class="image-area">
+			<img src="<?php bloginfo('template_directory') ?>/inc/img/information/micro-QR.png" width="400" alt="マイクロQRコード" />
+		</div>
+		<p><?php echo (get_current_blog_id()==1)?'マイクロQRコードは、格納できるデータ量はそれほど多くありません。(数字で最大35文字)QRコードと比べると、コードサイズに対して効率よくデータを収納できるため、データ量が増えてもそれほどコードが大きくなりません。':'マイクロQRコードは、格納できるデータ量はそれほど多くありません。(数字で最大35文字)QRコードと比べると、コードサイズに対して効率よくデータを収納できるため、データ量が増えてもそれほどコードが大きくなりません。' ?></p>
+		<p><?php echo (get_current_blog_id()==1)?'マイクロQRコードは、バージョンM1〜M4までの4つのバージョンがあります。最大バージョンのM4でもQRコードバージョン1よりも格納できるデータ量は少なくなっています。':'マイクロQRコードは、バージョンM1〜M4までの4つのバージョンがあります。最大バージョンのM4でもQRコードバージョン1よりも格納できるデータ量は少なくなっています。' ?></p>
+
+		<div class="deco-title">
+			<h3><?php echo (get_current_blog_id()==1)?'iQRコード':'iQRコード' ?></h3>
+		</div>
+		<p><?php echo (get_current_blog_id()==1)?'コードの位置や大きさが簡単に読み取れるマトリックス方式の2次元コードです。従来のQRコードやマイクロQRコードより更に小さいコードから、より多くのデータを格納できる大型コードまで広範囲に渡るコードを生成できます。また、長方形にしたり、表裏反転・白黒反転・ドットパターン(ダイレクトパーツマーキング)で印字することも可能なため、幅広いフィールドで活用することができる最小サイズのQRコードです。':'コードの位置や大きさが簡単に読み取れるマトリックス方式の2次元コードです。従来のQRコードやマイクロQRコードより更に小さいコードから、より多くのデータを格納できる大型コードまで広範囲に渡るコードを生成できます。また、長方形にしたり、表裏反転・白黒反転・ドットパターン(ダイレクトパーツマーキング)で印字することも可能なため、幅広いフィールドで活用することができる最小サイズのQRコードです。' ?></p>
+
+		<div class="section-title" id="qrcode">
+			<h2>RFID</h2>
+		</div>
+		<p><?php echo (get_current_blog_id()==1)?'電波を用いてRFタグのデータを非接触で読み書きするシステムです。バーコードでの運用では、レーザなどでタグを1枚1枚スキャンするのに対し、RFIDの運用では、電波でタグを複数一気にスキャンすることができます。電波が届く範囲であれば、タグが遠くにあっても読み取りが可能です。':'電波を用いてRFタグのデータを非接触で読み書きするシステムです。バーコードでの運用では、レーザなどでタグを1枚1枚スキャンするのに対し、RFIDの運用では、電波でタグを複数一気にスキャンすることができます。電波が届く範囲であれば、タグが遠くにあっても読み取りが可能です。' ?></p>
+
+		<div class="deco-title">
+			<h3><?php echo (get_current_blog_id()==1)?'RFタグ':'RFタグ' ?></h3>
+		</div>
+		<p><?php echo (get_current_blog_id()==1)?'RFタグは、メモリが内蔵された記憶媒体です。数ミリ程度の大きさですが、メモリには電子情報を入力したり消去したり書き換えたりすることが可能で、これらは電波（電磁波の一種）を用いて行います。RFタグはICタグと呼ばれることもあります。また、バッテリーが内蔵されている「アクティブ型」もありタグから発信される電波をリーダライターが受信することで情報をよみとります。':'RFタグは、メモリが内蔵された記憶媒体です。数ミリ程度の大きさですが、メモリには電子情報を入力したり消去したり書き換えたりすることが可能で、これらは電波（電磁波の一種）を用いて行います。RFタグはICタグと呼ばれることもあります。また、バッテリーが内蔵されている「アクティブ型」もありタグから発信される電波をリーダライターが受信することで情報をよみとります。' ?></p>
+
+		<div class="deco-title">
+			<h3><?php echo (get_current_blog_id()==1)?'リーダライタ':'リーダライタ' ?></h3>
+		</div>
+		<p><?php echo (get_current_blog_id()==1)?'RFタグに入力されている電子情報を読み取る機器です。読取は、リーダをRFタグのほうにかざしてスイッチを押すだけで、読み取り（スキャン）は終了します。RFIDは、電波を使って情報の保管と引き出しができるシステムです。すでに日常生活に浸透していて、交通機関で使われているSuicaやプリペイド型電子マネー楽天EdyなどもRFIDを利用しています。':'RFタグに入力されている電子情報を読み取る機器です。読取は、リーダをRFタグのほうにかざしてスイッチを押すだけで、読み取り（スキャン）は終了します。RFIDは、電波を使って情報の保管と引き出しができるシステムです。すでに日常生活に浸透していて、交通機関で使われているSuicaやプリペイド型電子マネー楽天EdyなどもRFIDを利用しています。' ?></p>
+
+		<h4 class="blue-title"><?php echo (get_current_blog_id()==1)?'POSレジの効率化':'POSレジの効率化' ?></h4>
+		<p><?php echo (get_current_blog_id()==1)?'一括スキャンすることによってレジ作業が効率化するため、1人の客にかかる会計時間を削減することができます。':'一括スキャンすることによってレジ作業が効率化するため、1人の客にかかる会計時間を削減することができます。' ?></p>
+
+		<h4 class="blue-title"><?php echo (get_current_blog_id()==1)?'在庫管理作業の効率化':'在庫管理作業の効率化' ?></h4>
+		<p><?php echo (get_current_blog_id()==1)?'「いまの在庫」が常にリアルタイムで把握でき発注業務もスムーズに進みます。':'「いまの在庫」が常にリアルタイムで把握でき発注業務もスムーズに進みます。' ?></p>
+
+		<h4 class="blue-title"><?php echo (get_current_blog_id()==1)?'賞味期限・消費期限の管理':'賞味期限・消費期限の管理' ?></h4>
+		<p><?php echo (get_current_blog_id()==1)?'RFタグには食品の賞味期限や消費期限のデータを入力することもできます。すべての商品にRFタグを貼り付ければ、それらの消費期限・賞味期限をパソコン上で把握することができるので賞味期限が近づいた商品を管理しやすくなります。食品廃棄を減らし利益向上につなげることも可能になります。':'RFタグには食品の賞味期限や消費期限のデータを入力することもできます。すべての商品にRFタグを貼り付ければ、それらの消費期限・賞味期限をパソコン上で把握することができるので賞味期限が近づいた商品を管理しやすくなります。食品廃棄を減らし利益向上につなげることも可能になります。' ?></p>
+
+		<h4 class="blue-title"><?php echo (get_current_blog_id()==1)?'製造小売業での生産から消費者販売まで一括した管理':'製造小売業での生産から消費者販売まで一括した管理' ?></h4>
+		<p><?php echo (get_current_blog_id()==1)?'製品や食品を製造するメーカーがRFIDを導入すれば、生産から販売まで1個の商品・食品を追跡することができます。トレーサビリティを実現することができます。すぐに原因を追究でき、改善に取り組むことができます。責任の所在が明らかになるので、メーカー、卸会社、運送会社、販売会社などのバリューチェーンの関係各社が無駄なく対策を講じることが可能になります。また、これまで製品を「ロット」で管理するしかありませんでしたが、RFIDによって製品を「1個ごと」に管理・追跡することが可能になり、製品管理に関わる労力を減らすことも可能になります。':'製品や食品を製造するメーカーがRFIDを導入すれば、生産から販売まで1個の商品・食品を追跡することができます。トレーサビリティを実現することができます。すぐに原因を追究でき、改善に取り組むことができます。責任の所在が明らかになるので、メーカー、卸会社、運送会社、販売会社などのバリューチェーンの関係各社が無駄なく対策を講じることが可能になります。また、これまで製品を「ロット」で管理するしかありませんでしたが、RFIDによって製品を「1個ごと」に管理・追跡することが可能になり、製品管理に関わる労力を減らすことも可能になります。' ?></p>
+
+		<div class="deco-title">
+			<h3><?php echo (get_current_blog_id()==1)?'RFIDの周波数':'RFIDの周波数' ?></h3>
+		</div>
+		<p><?php echo (get_current_blog_id()==1)?'日本国内ではLF帯（中波帯）：120～130kHz、HF帯（短波帯）：13.56MHｚ、UHF帯（極超短波）：900MHｚ帯、マイクロ波：2.45GHｚ帯が主に使用されています。LF帯（中波帯）、HF帯（短波帯）、マイクロ波：2.45GHｚは世界的にほぼ同一規格になっていますが、UHF帯（極超短波）は国によって規格が異なります。':'日本国内ではLF帯（中波帯）：120～130kHz、HF帯（短波帯）：13.56MHｚ、UHF帯（極超短波）：900MHｚ帯、マイクロ波：2.45GHｚ帯が主に使用されています。LF帯（中波帯）、HF帯（短波帯）、マイクロ波：2.45GHｚは世界的にほぼ同一規格になっていますが、UHF帯（極超短波）は国によって規格が異なります。' ?></p>
+
+		<div class="deco-title">
+			<h3><?php echo (get_current_blog_id()==1)?'バーコードとタグ':'バーコードとタグ' ?></h3>
+		</div>
+		<p><?php echo (get_current_blog_id()==1)?'ID、個体識別の分野では、RFタグ（RFIDタグ、ICタグ、無線タグ）はバーコードと比較されますが、バーコードの利点はコストです。印字できる印字エリアがあれば大量に安く個体の識別が行えます。また社会インフラとして整っており、現在は商品にはバーコードがつけられ、各店舗でバーコードリーダーが普及しています。しかし、バーコードは一定の貼付エリアが必要であり、かつ汚れに弱い、データ量が少ない、データの書き換えができないといった点があります。QRコードやタグがそれらの欠点を補い、更に利用用途により選択の幅が広がっています。':'ID、個体識別の分野では、RFタグ（RFIDタグ、ICタグ、無線タグ）はバーコードと比較されますが、バーコードの利点はコストです。印字できる印字エリアがあれば大量に安く個体の識別が行えます。また社会インフラとして整っており、現在は商品にはバーコードがつけられ、各店舗でバーコードリーダーが普及しています。しかし、バーコードは一定の貼付エリアが必要であり、かつ汚れに弱い、データ量が少ない、データの書き換えができないといった点があります。QRコードやタグがそれらの欠点を補い、更に利用用途により選択の幅が広がっています。' ?></p>
+
+		<div class="deco-title">
+			<h3><?php echo (get_current_blog_id()==1)?'RFIDとバーコードの違い':'RFIDとバーコードの違い' ?></h3>
+		</div>
+		<table class="type-table combo-table" width="100%">
+			<thead>
+				<tr>
+					<th width="20%"></th>
+					<th width="40%">RFID</th>
+					<th width="40%">
+						<?php echo (get_current_blog_id()==1)?'バーコード':'バーコード' ?>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>
+						<?php echo (get_current_blog_id()==1)?'通信距離':'通信距離' ?>
+					</th>
+					<td>
+						<?php echo (get_current_blog_id()==1)?'長い（～数十m以上）':'長い（～数十m以上）' ?>
+					</td>
+					<td>
+						<?php echo (get_current_blog_id()==1)?'短い（数cm）':'短い（数cm）' ?>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<?php echo (get_current_blog_id()==1)?'同時読込':'同時読込' ?>
+					</th>
+					<td>
+						<?php echo (get_current_blog_id()==1)?'◯可能':'◯可能' ?>
+					</td>
+					<td>
+						<?php echo (get_current_blog_id()==1)?'×不可能':'×不可能' ?>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<?php echo (get_current_blog_id()==1)?'記憶容量':'記憶容量' ?>
+					</th>
+					<td>
+						<?php echo (get_current_blog_id()==1)?'大':'大' ?>
+					</td>
+					<td>
+						<?php echo (get_current_blog_id()==1)?'小（QRコード 中）':'小（QRコード 中）' ?>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<?php echo (get_current_blog_id()==1)?'書込み':'書込み' ?>
+					</th>
+					<td>
+						<?php echo (get_current_blog_id()==1)?'◯可能':'◯可能' ?>
+					</td>
+					<td>
+						<?php echo (get_current_blog_id()==1)?'×不可能':'×不可能' ?>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<?php echo (get_current_blog_id()==1)?'汚れ':'汚れ' ?>
+					</th>
+					<td>
+						<?php echo (get_current_blog_id()==1)?'◯強い':'◯強い' ?>
+					</td>
+					<td>
+						<?php echo (get_current_blog_id()==1)?'×弱い':'×弱い' ?>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<?php echo (get_current_blog_id()==1)?'コスト':'コスト' ?>
+					</th>
+					<td>
+						<?php echo (get_current_blog_id()==1)?'△高い':'△高い' ?>
+					</td>
+					<td>
+						<?php echo (get_current_blog_id()==1)?'◯安い':'◯安い' ?>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="deco-title">
+			<h3><?php echo (get_current_blog_id()==1)?'IoTとタグ':'IoTとタグ' ?></h3>
+		</div>
+		<p><?php echo (get_current_blog_id()==1)?'IoT とは Internet of Things の略で、モノのインターネット、つまり、いろいろなモノがインターネットにつながり、クラウドにデータが保管されることをいいます。電子タグ（RFID）はIoTにおいて、センサーなどと同じように情報を収集する仕組みの一つになります。例えば、アパレル業の場合、商品である服に電子タグをつけることで、工場での製造工程から、物流、小売、販売までの全てのサプライチェーンのトレーサビリティ（製品の管理）を行うことができます。 今、どこに、何が、どれくらいあるか、どういったお客様が買われたのか等の全ての情報はクラウドにビックデータとして蓄積されます。アパレル会社は、それらのデータをもとに、売れ筋商品の生産、流通在庫の低減、オペレーションの効率化、新商品の開発などに活用しています。':'IoT とは Internet of Things の略で、モノのインターネット、つまり、いろいろなモノがインターネットにつながり、クラウドにデータが保管されることをいいます。電子タグ（RFID）はIoTにおいて、センサーなどと同じように情報を収集する仕組みの一つになります。例えば、アパレル業の場合、商品である服に電子タグをつけることで、工場での製造工程から、物流、小売、販売までの全てのサプライチェーンのトレーサビリティ（製品の管理）を行うことができます。 今、どこに、何が、どれくらいあるか、どういったお客様が買われたのか等の全ての情報はクラウドにビックデータとして蓄積されます。アパレル会社は、それらのデータをもとに、売れ筋商品の生産、流通在庫の低減、オペレーションの効率化、新商品の開発などに活用しています。' ?></p>
+
 		<div class="section-title" id="qrcode">
 			<h2><?php echo (get_current_blog_id()==1)?'規格':'Standard' ?></h2>
 		</div>
-		<figure class="trademark-area">
-			<img src="<?php bloginfo('template_directory') ?>/inc/img/information/jas.jpg" alt="規格" width="200" />
-			<figcaption>
-				<p><?php echo (get_current_blog_id()==1)?'JASマークは、しょうゆや木材などに表示され、広く知られているいわゆる丸JASマークと、「地鶏肉」や「熟成ハム」など、特色のある規格のマークに大きく分けられます。':'JAS Mark is displayed on soy sauce, wood and etc..  It is divided into the widely known so-called Maru JAS mark and distinctive standard marks used in "Jidori" and "aged ham".' ?></p>
-				<p><?php echo (get_current_blog_id()==1)?'この特色のある規格のマークを統一し、国内、海外市場において特色をアピールできる新たなJASマークが決定されました。':'By unifying the mark of this distinctive standard, a new JAS mark has been decided to appeal the feature in domestic and foreign markets.' ?></p>
-				<p><?php echo (get_current_blog_id()==1)?'国内外において、「信頼の日本品質」を一目でイメージしていただくため、日本を象徴する「富士山」と、日の丸を連想させる「太陽」を組み合わせ、シンプルにデザインしました。それぞれの規格の内容を富士山の裾野部分に記載します。なお、配色の指定はしない予定です。':'In Japan and abroad, in order to give an image of "Japanese quality of trust" at a glance, it is combined "Mt.Fuji" which symbolizes Japan and "the sun" which is reminiscent of the Hinomaru.<br>The color scheme will not be specified.' ?></p>
+		<div class="deco-title">
+			<h3><?php echo (get_current_blog_id()==1)?'JASマーク':'JASマーク' ?></h3>
+		</div>
+		<div class="image-and-text">
+			<div class="text-part">
+				<p><?php echo (get_current_blog_id()==1)?'JASマークは、しょうゆや木材などに表示され、広く知られているいわゆる丸JASマークと、「地鶏肉」や「熟成ハム」など、特色のある規格のマークに大きく分けられます。':'JASマークは、しょうゆや木材などに表示され、広く知られているいわゆる丸JASマークと、「地鶏肉」や「熟成ハム」など、特色のある規格のマークに大きく分けられます。' ?></p>
+				<p><?php echo (get_current_blog_id()==1)?'この特色のある規格のマークを統一し、国内、海外市場において特色をアピールできる新たなJASマークが決定されました。':'この特色のある規格のマークを統一し、国内、海外市場において特色をアピールできる新たなJASマークが決定されました。' ?></p>
+				<p><?php echo (get_current_blog_id()==1)?'国内外において、「信頼の日本品質」を一目でイメージしていただくため、日本を象徴する「富士山」と、日の丸を連想させる「太陽」を組み合わせ、シンプルにデザインしました。それぞれの規格の内容を富士山の裾野部分に記載します。なお、配色の指定はしない予定です。':'国内外において、「信頼の日本品質」を一目でイメージしていただくため、日本を象徴する「富士山」と、日の丸を連想させる「太陽」を組み合わせ、シンプルにデザインしました。それぞれの規格の内容を富士山の裾野部分に記載します。なお、配色の指定はしない予定です。' ?></p>
 				<p <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
 					<span>【参考】</span>
 					<a href="http://www.maff.go.jp/j/press/shokusan/syoku_kikaku/181019.html" class="link-text" target="_blank">新JASマーク</a>
 				</p>
-			</figcaption>
-		</figure>
+			</div>
+			<figure class="image-part">
+				<img src="<?php bloginfo('template_directory') ?>/inc/img/information/jas.jpg" alt="規格" width="200" />
+			</figure>
+		</div>
+
+		<div class="deco-title">
+			<h3><?php echo (get_current_blog_id()==1)?'有機JASマーク':'有機JASマーク' ?></h3>
+		</div>
+		<p><?php echo (get_current_blog_id()==1)?'（農水省ページより抜粋）':'（農水省ページより抜粋）' ?></p>
+		<p><?php echo (get_current_blog_id()==1)?'有機JASマークは、太陽と雲植物をイメージしたマークです。農薬や化学肥料などの化学物質に頼らないで、自然界の力で生産された食品を表しており、農産物、加工食品、飼料および畜産物に付けられます。':'有機JASマークは、太陽と雲植物をイメージしたマークです。農薬や化学肥料などの化学物質に頼らないで、自然界の力で生産された食品を表しており、農産物、加工食品、飼料および畜産物に付けられます。' ?></p>
+		<p <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
+			<span>【参考】</span>
+			<a href="https://www.maff.go.jp/j/jas/jas_kikaku/yuuki.html" class="link-text" target="_blank">参考有機食品の検査認証制度</a>
+		</p>
 
 		<div class="contact-box">
 			<div class="contact-content">

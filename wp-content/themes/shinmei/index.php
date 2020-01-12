@@ -150,8 +150,12 @@
 				<h2>インフォメーション</h2>
 			</div>
 			<div class="information-area">
-				<a class="information-block" href="information#printing">
-					<h4><?php echo (get_current_blog_id()==1)?'包装印字':'Package printing' ?></h4>
+				<a class="information-block" href="column">
+					<h4><?php echo (get_current_blog_id()==1)?'印字の種類':'Print type' ?></h4>
+					<i class="fa fa-caret-right fafw fa-2x"></i>
+				</a>
+				<a class="information-block" href="column/softpackaging">
+					<h4><?php echo (get_current_blog_id()==1)?'軟包装の種類':'Type of soft packaging' ?></h4>
 					<i class="fa fa-caret-right fafw fa-2x"></i>
 				</a>
 				<a class="information-block" href="information#industry">
@@ -178,6 +182,28 @@
 		</div>
 	</section>
 	<section class="slide-up gray">
+		<div class="wrapper-size">
+			<div class="home-title">
+				<div class="en">Topics</div>
+				<h2>トピックス</h2>
+			</div>
+			<div class="information-area">
+				<a class="information-block" href="material/inquiry-010">
+					<h4><?php echo (get_current_blog_id()==1)?'印字のご依頼について':'About printing test' ?></h4>
+					<i class="fa fa-caret-right fafw fa-2x"></i>
+				</a>
+				<a class="information-block" href="traceability">
+					<h4><?php echo (get_current_blog_id()==1)?'トレーサビリティについて':'About traceability' ?></h4>
+					<i class="fa fa-caret-right fafw fa-2x"></i>
+				</a>
+				<a class="information-block" href="ifactory" <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
+					<h4>ファクトリーオートメーションについて</h4>
+					<i class="fa fa-caret-right fafw fa-2x"></i>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section class="slide-up">
 		<div class="wrapper-size">
 			<div class="home-title">
 				<div class="en">News</div>
@@ -213,26 +239,6 @@
 				</a>
 			</div>
 		</div>
-	</section>
-	<section class="slide-up">
-		<div class="wrapper-size">
-			<div class="home-title">
-				<div class="en"><?php echo (get_current_blog_id()==1)?'印字テストのご依頼':'Inquiry about printing test' ?></div>
-			</div>
-			<p><?php echo (get_current_blog_id()==1)?'まずは、お気軽にご相談ください。<br>お客様の印字・表示に関わる課題に対して最適なソリューションをご提案し、生産性の向上を支援させていただきます。':'Please feel free to contact us.<br>We help the improvement of productivity by proposing the best solution for our customers\' problems regarding printing and display.' ?></p>
-			<p <?php echo (get_current_blog_id()==1)?'hidden':'' ?>>For those</p>
-			<ul>
-				<li><?php echo (get_current_blog_id()==1)?'決めた印字や表示内容を実際の包材で印字できるかテストをしてみたい。':'who would like to test printing on actual packaging.' ?></li>
-				<li><?php echo (get_current_blog_id()==1)?'決めた印字内容や包材でどれくらいの枚数を１分間に印刷できるか知りたい。':'who would like to know how many sheets can be printed per minute.' ?></li>
-				<li><?php echo (get_current_blog_id()==1)?'印字や表示内容がこれで良いか相談をしたい。':'who would like to consult with us about printing and display contents.' ?></li>
-				<li><?php echo (get_current_blog_id()==1)?'印字や表示内容は決めたがどのような包材を選んだらよいかわからない。':'who do not know what kind of packaging to choose.' ?></li>
-				<li><?php echo (get_current_blog_id()==1)?'工程に適した印字方法がわからない。  など':'who do not know the most suitable printing method.' ?></li>
-			</ul>
-			<div class="button-area">
-				<a href="<?php bloginfo('url') ?>/material/inquiry-010" class="round-button"><?php echo (get_current_blog_id()==1)?'印字テストのご依頼はこちら':'Contact us' ?></a>
-			</div>
-		</div>
-		
 	</section>
 	<section class="slide-up gray" <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
 		<div class="wrapper-size">

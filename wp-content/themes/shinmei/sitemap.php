@@ -43,6 +43,24 @@
 							<span><?php echo (get_current_blog_id()==1)?'ニュース':'News' ?></span>
 						</a>
 					</li>
+					<li>
+						<a href="<?php bloginfo('url') ?>/material/inquiry-010" class="link-item">
+							<i class="fa fa-caret-right"></i>
+							<span><?php echo (get_current_blog_id()==1)?'印字テストのご依頼':'Printing test' ?></span>
+						</a>
+					</li>
+					<li <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
+						<a href="<?php bloginfo('url') ?>/ifactory" class="link-item">
+							<i class="fa fa-caret-right"></i>
+							<span><?php echo (get_current_blog_id()==1)?'シンメイiファクトリー':'News' ?></span>
+						</a>
+					</li>
+					<li>
+						<a href="<?php bloginfo('url') ?>/traceability" class="link-item">
+							<i class="fa fa-caret-right"></i>
+							<span><?php echo (get_current_blog_id()==1)?'トレーサビリティ':'Traceability' ?></span>
+						</a>
+					</li>
 				</ul>
 			</div>
 			<div class="sitemap-item">
