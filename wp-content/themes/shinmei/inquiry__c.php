@@ -62,7 +62,7 @@
 						<label class="checkbox">
 							<input type="checkbox" disabled readonly name="your_type[]" value="<?php echo (get_current_blog_id()==1)?'トレーサビリティプリンティングサービスに関する':'About traceability printing service' ?>" <?php echo isset($_POST['your_type7'])?'checked':''; ?> />
 							<i class="fa fa-check"></i>
-							<span><?php echo (get_current_blog_id()==1)?'トレーサビリティプリンティングサービスに関する':'About traceability printing service' ?></span>
+							<span><?php echo (get_current_blog_id()==1)?'トレーサビリティプリンティング<br>サービスに関する':'About traceability printing service' ?></span>
 						</label>
 						<label class="checkbox">
 							<input type="checkbox" disabled readonly name="your_type[]" value="<?php echo (get_current_blog_id()==1)?'その他':'Others' ?>" <?php echo isset($_POST['your_type8'])?'checked':''; ?> />

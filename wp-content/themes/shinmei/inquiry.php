@@ -63,7 +63,7 @@
 						<label class="checkbox">
 							<input type="checkbox" name="your_type7" />
 							<i class="fa fa-check"></i>
-							<span><?php echo (get_current_blog_id()==1)?'トレーサビリティプリンティングサービスに関する':'About traceability printing service' ?></span>
+							<span><?php echo (get_current_blog_id()==1)?'トレーサビリティプリンティング<br>サービスに関する':'About traceability printing service' ?></span>
 						</label>
 						<label class="checkbox">
 							<input type="checkbox" name="your_type8" />

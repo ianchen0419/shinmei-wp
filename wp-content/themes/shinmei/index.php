@@ -240,26 +240,6 @@
 			</div>
 		</div>
 	</section>
-	<section class="slide-up gray" <?php echo (get_current_blog_id()==1)?'':'hidden' ?>>
-		<div class="wrapper-size">
-			<div class="home-title">
-				<div class="en">シンメイiファクトリー</div>
-			</div>
-			<p>
-				IT活用による食品製造業の生産性の大幅向上<br>
-				食品製造業の生産性の大幅な向上のご提案をさせていただきます。<br>
-				ご相談をお待ちしています。
-			</p>
-			<ul>
-				<li>トレーサビリティデータを記録できるマネージメントシステムの導入</li>
-				<li>高付加価値商品の開発へ注力することができる生産システム</li>
-				<li>人手不足からくる生産プロセスの抜本的な見直しの必要性</li>
-			</ul>
-			<div class="button-area">
-				<a href="<?php bloginfo('url') ?>/ifactory" class="round-button"><?php echo (get_current_blog_id()==1)?'シンメイiファクトリー概要はこちら':'Contact us' ?></a>
-			</div>
-		</div>
-	</section>
 </main>
 
 

@@ -1930,8 +1930,18 @@ iframe.goog-te-banner-frame {
 		width: 100%;
 	}
 
+	.information-area {
+		justify-content: space-around;
+	}
+
 	.information-block {
 		width: 80%;
+		justify-content: space-around;
+		margin: 20px 0;
+	}
+
+	.information-block h4 {
+		margin: 10px 0;
 	}
 
 	.news-item .news-component {
