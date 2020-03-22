@@ -29,19 +29,22 @@
 define( 'DB_NAME', 'shinmei' );
 
 /** MySQL データベースのユーザー名 */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'shinmei' );
 
 /** MySQL データベースのパスワード */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'shinmei' );
 
 /** MySQL のホスト名 */
-define( 'DB_HOST', 'localhost' );
+// define( 'DB_HOST', $_SERVER['HTTP_HOST'] );
+define( 'DB_HOST', '192.168.1.111' );
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define( 'DB_CHARSET', 'utf8mb4' );
 
 /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
 define('DB_COLLATE', '');
+
+
 
 /**#@+
  * 認証用ユニークキー
@@ -81,16 +84,19 @@ $table_prefix = 'wp_';
  *
  * @link http://wpdocs.osdn.jp/WordPress%E3%81%A7%E3%81%AE%E3%83%87%E3%83%90%E3%83%83%E3%82%B0
  */
-define('WP_DEBUG', false);
+// define('WP_DEBUG', true);
 
 /* Multisite */
 define('WP_ALLOW_MULTISITE', true);
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', 'localhost');
+define('DOMAIN_CURRENT_SITE', '192.168.1.111');
+// define('DOMAIN_CURRENT_SITE', '36.225.13.239');
 define('PATH_CURRENT_SITE', '/shinmei/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
+
+// IP access
 /* 編集が必要なのはここまでです ! WordPress でのパブリッシングをお楽しみください。 */
 
 /** Absolute path to the WordPress directory. */

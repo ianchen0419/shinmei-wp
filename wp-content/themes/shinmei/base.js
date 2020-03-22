@@ -89,13 +89,13 @@ function sliderShow(){
 
 }
 
-var sections=document.querySelectorAll('section');
+var showUpItems=document.querySelectorAll('.wp-block-cover');
 var lastY;
-function sectionShowUp(e){
+function showUp(e){
 	if(lastY-pageYOffset<0){
-		for(each in sections){
-			if(sections[each].offsetTop-innerHeight<pageYOffset && !sections[each].classList.contains('uping')){
-				sections[each].classList.add('uping');
+		for(each in showUpItems){
+			if(showUpItems[each].offsetTop-innerHeight<pageYOffset && !showUpItems[each].classList.contains('uping')){
+				showUpItems[each].classList.add('uping');
 			}
 		}
 	}
@@ -104,42 +104,44 @@ function sectionShowUp(e){
 
 //for only loading in the middle of the page
 function middleLoad(){
-	for(each in sections){
-		if(sections[each].offsetTop-innerHeight<pageYOffset && !sections[each].classList.contains('uping')){
-			sections[each].classList.add('uping');
+	for(each in showUpItems){
+		if(showUpItems[each].offsetTop-innerHeight<pageYOffset && !showUpItems[each].classList.contains('uping')){
+			showUpItems[each].classList.add('uping');
 		}
 	}
 }
 middleLoad();
 
-window.addEventListener('scroll', sectionShowUp);
+window.addEventListener('scroll', showUp);
 
 function choose(content){
 	dropdownInput.value=content;
 	dropdownWrapper.classList.remove('show');
 }
 
-function jsonp(url){
-    var mailXhr=new XMLHttpRequest();
+function jsonp(){
+	var url=document.querySelector('#postcode').value;
+	var dropdownInputContent=document.querySelector('#dropdownInput');
+	var address2Content=document.querySelector('#address2');
+    	var mailXhr=new XMLHttpRequest();
+
 	mailXhr.open('POST', 'https://work-capital-server.com/postcode/index.php', true);
 	mailXhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	mailXhr.onreadystatechange=function(){
 		if(mailXhr.readyState==4 && mailXhr.status==200){
 			var json=JSON.parse(mailXhr.responseText);
-			// console.log(json.city);
-			// console.log(json.address);
 			// 都道府県
-			dropdownInput.value=json.city;
+			dropdownInputContent.value=json.city;
 			// 市区町村
-			address2.value=json.address;
+			address2Content.value=json.address;
 		}
 	};
 	mailXhr.send("code="+url);
+	// previousElementSibling
 }
 
 function openMobileMenu(){
 	document.body.classList.add('mobile-menu-opened');
-	mobileMenu.classList.add('opened');
 }
 
 // menu dropdown
@@ -147,32 +149,20 @@ function closeMobileMenu(){
 	//mobile menu dropdown
 	document.body.addEventListener('touchstart', function(event){
 
-		if(event.target.tagName=='BODY' && mobileMenu.classList.contains('opened')){
+		if(event.target.tagName=='BODY'){
 			document.body.classList.remove('mobile-menu-opened');
-			mobileMenu.classList.remove('opened');
 		}
 	})
 
 }
 closeMobileMenu();
 
-function saveValue2(th, e, name){
-	e.preventDefault();
-	localStorage['inquiry002']=name;
-	location.href=th.href;
+function loadProductName(){
+	if(window['productName']){
+		window['productName'].value=decodeURIComponent(location.href.split('#').pop());
+	}
 }
-
-function saveValue4(th, e, name){
-	e.preventDefault();
-	localStorage['inquiry004']=name;
-	location.href=th.href;
-}
-
-function saveValue5(th, e, name){
-	e.preventDefault();
-	localStorage['inquiry005']=name;
-	location.href=th.href;
-}
+loadProductName();
 
 function checkEmail(th){
 	var firstEmail=document.querySelector('input[name="your_mail"]');

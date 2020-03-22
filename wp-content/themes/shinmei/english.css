@@ -1,0 +1,104 @@
+* {
+	letter-spacing: 0;
+}
+
+.en-hide,
+.contact-area .data-download {
+	display: none;
+}
+
+.news-component .tag {
+	min-width: 44px;
+	text-align: center;
+}
+
+.section-title a::after {
+	content: 'Details'
+}
+
+.youtube-button a:before {
+	font-size: 18px;
+}
+
+.contact-area .tel-contact span,
+.contact-area .web-contact span,
+.contact-area .data-download span,
+.contact-area .extra-commerce span {
+	letter-spacing: 0;
+	font-size: 14px;
+}
+
+.contact-area .web-contact {
+	margin-right: 250px;
+}
+
+.maru-link:before {
+	padding: 2px 6px 2px 8px;
+}
+
+.blue-button {
+	padding: 4px 10px;
+	min-width: 80px;
+	text-align: center;
+}
+
+.two-button a {
+    min-width: 70px;
+}
+
+#contact {
+	min-height: calc(100vh - 661px);
+}
+
+input.short {
+	width: 625px;
+}
+
+@media (max-width: 768px) {
+	.company-intro p {
+		letter-spacing: 0;
+	}
+
+	.contact-area .web-contact {
+		margin-right: 0;
+	}
+
+	.contact-area .tel-contact,
+	.contact-area .web-contact, 
+	.contact-area .data-download, 
+	.contact-area .extra-commerce {
+		margin: 5px 0;
+	}
+
+	.company-intro {
+		margin-bottom: 10px;
+	}
+
+	.contact-area .extra-commerce {
+		margin-top: 20px;
+	}
+
+	.slider-item {
+		vertical-align: top;
+	}
+
+	.slider-text {
+		height: 140px;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.news-component .date {
+		margin-right: 0;
+	}
+
+	.type-table.combo-table th, .type-table.combo-table td {
+		word-break: break-word;
+	}
+
+	.jprs figcaption {
+		margin-top: 20px;
+	}
+
+}
