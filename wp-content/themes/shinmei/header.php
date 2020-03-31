@@ -33,7 +33,7 @@
 		</div>
 		<div class="contact-content">
 			<?php if(get_current_blog_id()==1){ ?>
-				<a href="<?php echo get_blog_option(2, 'siteurl'); ?>" class="english-area">English</a>
+				<a href="<?php echo get_blog_option(5, 'siteurl'); ?>" class="english-area">English</a>
 				<a href="<?php bloginfo('url') ?>/inquiry" class="contact-area">
 					<span>お問い合わせ</span>
 					<i class="fa fa-envelope"></i>

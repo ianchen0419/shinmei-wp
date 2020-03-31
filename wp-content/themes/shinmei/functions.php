@@ -1,6 +1,6 @@
 <?php 
 
-function twentyfourteen_wp_title( $title, $sep ) {
+function shinmei_wp_title( $title, $sep ) {
 	global $paged, $page;
 	if (is_home() || is_front_page() || is_404()) {
 		if(get_current_blog_id()==1){
@@ -14,7 +14,7 @@ function twentyfourteen_wp_title( $title, $sep ) {
 
 	return $title;
 }
-add_filter( 'wp_title', 'twentyfourteen_wp_title', 10, 2 );
+add_filter( 'wp_title', 'shinmei_wp_title', 10, 2 );
 
 
 function my_plugin_block_categories( $categories, $post ) {
@@ -32,8 +32,8 @@ add_filter( 'block_categories', 'my_plugin_block_categories', 10, 2 );
 
 
 function add_my_assets_to_block_editor() {
-    wp_enqueue_style( 'block-style', get_stylesheet_directory_uri() . './custom.css' );
-    wp_enqueue_script( 'block-custom', get_stylesheet_directory_uri() . './custom.js',array(), "", true);
+    wp_enqueue_style( 'block-style', get_stylesheet_directory_uri() . '/custom.css' );
+    wp_enqueue_script( 'block-custom', get_stylesheet_directory_uri() . '/custom.js',array(), "", true);
 }
 add_action( 'enqueue_block_editor_assets', 'add_my_assets_to_block_editor' );
 

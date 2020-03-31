@@ -68,25 +68,25 @@ body {
 	width: calc(100% - 40px);
 }
 
-#contact > .w400px  {
+#contact .w400px  {
 	width: 400px;
 	margin-right: auto;
 	margin-left: auto;
 }
 
-#contact > .w600px {
+#contact .w600px {
 	width: 600px;
 	margin-right: auto;
 	margin-left: auto;
 }
 
-#contact > .w800px {
+#contact .w800px {
 	width: 800px;
 	margin-right: auto;
 	margin-left: auto;
 }
 
-#contact > .w1000px {
+#contact .w1000px {
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
@@ -1543,10 +1543,10 @@ iframe.goog-te-banner-frame {
 		width: calc(100% - 40px);
 	}
 
-	#contact > .w400px,
-	#contact > .w600px,
-	#contact > .w800px,
-	#contact > .w1000px  {
+	#contact .w400px,
+	#contact .w600px,
+	#contact .w800px,
+	#contact .w1000px  {
 		width: 100%;
 		margin-right: 0;
 		margin-left: 0;
