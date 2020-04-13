@@ -1,5 +1,4 @@
-<
-?php /* Template Name: inquiry-004 */ ?>
+<?php /* Template Name: inquiry-004 */ ?>
 <?php get_header();?>
 
 <div id="visual">

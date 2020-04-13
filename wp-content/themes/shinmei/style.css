@@ -1546,7 +1546,8 @@ iframe.goog-te-banner-frame {
 	#contact .w400px,
 	#contact .w600px,
 	#contact .w800px,
-	#contact .w1000px  {
+	#contact .w1000px,
+	.news-area  {
 		width: 100%;
 		margin-right: 0;
 		margin-left: 0;
