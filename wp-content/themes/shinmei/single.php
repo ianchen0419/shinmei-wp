@@ -28,9 +28,6 @@
 		</div>
 	</div>
 	<?php 
-		while(have_posts()): the_post(); 
-			the_content();
-		endwhile;
 		edit_post_link('クリックして編集', '<div class="alignright mar_top40">', '</div>'); 
 	?>
 </main>
