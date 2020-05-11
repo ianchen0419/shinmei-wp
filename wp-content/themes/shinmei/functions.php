@@ -1,22 +1,5 @@
 <?php 
 
-function shinmei_wp_title( $title, $sep ) {
-	global $paged, $page;
-	if (is_home() || is_front_page() || is_404()) {
-		if(get_current_blog_id()==1){
-			$title='産業用印字表示ソリューションのシンメイ';
-		}else{
-			$title='Shinmei Co.Ltd.: Marketing & Innovating for Industrial Printing Solution';
-		}
-	}else{
-		$title=get_bloginfo( 'name', 'display' );
-	}
-
-	return $title;
-}
-add_filter( 'wp_title', 'shinmei_wp_title', 10, 2 );
-
-
 function my_plugin_block_categories( $categories, $post ) {
     return array_merge(
         $categories,
