@@ -65,7 +65,9 @@
 					<?php }else{ ?>
 					<!-- 日本語用 -->
 					<tr>
-						<th width="20%">ご希望の資料</th>
+						<th width="20%">
+							<span>ご希望の資料</span>
+						</th>
 						<td width="80%">
 							<h4>サーマルダイレクトプリンター</h4>
 							<label class="checkbox">

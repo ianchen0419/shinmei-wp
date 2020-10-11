@@ -113,7 +113,7 @@
 						<div class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></div>
 					</div>
 					<input disabled readonly type="text" name="your_name" class="short" required value="<?php echo $_POST['your_name'] ?>" />
-					<input disabled readonly type="text" name="your_name_furigana" class="short" required value="<?php echo $_POST['your_name_furigana'] ?>" />
+					<input disabled readonly type="text" name="your_name_furigana" class="short" required value="<?php echo $_POST['your_name_furigana'] ?>" <?php echo (get_current_blog_id()==1)?'':'hidden' ?> />
 				</div>
 				<?php if(get_current_blog_id()!==1){ ?>
 				<!-- 英語用 -->
@@ -122,7 +122,7 @@
 						<span>Address</span>
 						<div class="badge">Required</div>
 					</div>
-					<input disabled readonly type="text" name="your_address" required value="<?php echo $_POST['your_address3'] ?>" />
+					<input disabled readonly type="text" name="your_address" required value="<?php echo $_POST['your_address'] ?>" />
 				</div>
 				<?php }else{ ?>
 				<!-- 日本語用 -->
