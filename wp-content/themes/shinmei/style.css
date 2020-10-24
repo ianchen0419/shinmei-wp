@@ -1178,8 +1178,9 @@ table {
 }
 
 .radio input[type="radio"] {
-	display: none;
+	/*display: none;*/
 	opacity: 0;
+	margin-left: -22px;
 }
 
 .radio-widget {
@@ -1233,8 +1234,9 @@ table {
 }
 
 .checkbox input {
-	display: none;
+	/*display: none;*/
 	opacity: 0;
+	margin-left: -22px;
 }
 
 .checkbox.two-row {
@@ -1510,6 +1512,11 @@ form .single-table td {
 
 form {
 	text-align: center;
+}
+
+fieldset {
+	border: 0;
+	padding: 0;
 }
 
 .single-news-content-area a {
@@ -2139,6 +2146,11 @@ iframe.goog-te-banner-frame {
 	
 	.wp-block-button.info-block a:after {
 		margin-left: 10px;
+	}
+
+	.radio input[type="radio"],
+	.checkbox input[type="checkbox"] {
+		margin-left: -17px;
 	}
 }
 

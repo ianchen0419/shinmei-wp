@@ -25,41 +25,46 @@
 					<?php if(get_current_blog_id()!==1){ ?>
 					<!-- 英語用 -->
 					<tr>
-						<th width="20%">Product Brochure</th>
+						<th width="20%">
+							<span>Product Brochure</span>
+							<div class="badge">Required</div>
+						</th>
 						<td width="80%">
-							<h4>General</h4>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data1"/>
-								<i class="fa fa-check"></i>
-								<span>Total Product Brochure</span>
-							</label>
-							<h4>Direct Thermal Printer</h4>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data2"/>
-								<i class="fa fa-check"></i>
-								<span>Desktop Direct Thermal Printer</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data3"/>
-								<i class="fa fa-check"></i>
-								<span>Direct Thermal Printer for Packaging Machine</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data4"/>
-								<i class="fa fa-check"></i>
-								<span>Desktop Type Roll Film Direct Thermal Printer</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data5"/>
-								<i class="fa fa-check"></i>
-								<span>Desktop Type Semi Auto Printer</span>
-							</label>
-							<h4>Auto Labeler</h4>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data6"/>
-								<i class="fa fa-check"></i>
-								<span>Auto Labeler ALS-350 Series</span>
-							</label>
+							<fieldset onchange="checkboxGroup(this)">
+								<h4>General</h4>
+								<label class="checkbox">
+									<input required type="checkbox" name="your_data1"/>
+									<i class="fa fa-check"></i>
+									<span>Total Product Brochure</span>
+								</label>
+								<h4>Direct Thermal Printer</h4>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data2"/>
+									<i class="fa fa-check"></i>
+									<span>Desktop Direct Thermal Printer</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data3"/>
+									<i class="fa fa-check"></i>
+									<span>Direct Thermal Printer for Packaging Machine</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data4"/>
+									<i class="fa fa-check"></i>
+									<span>Desktop Type Roll Film Direct Thermal Printer</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data5"/>
+									<i class="fa fa-check"></i>
+									<span>Desktop Type Semi Auto Printer</span>
+								</label>
+								<h4>Auto Labeler</h4>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data6"/>
+									<i class="fa fa-check"></i>
+									<span>Auto Labeler ALS-350 Series</span>
+								</label>
+							</fieldset>
 						</td>
 					</tr>
 					<?php }else{ ?>
@@ -67,109 +72,112 @@
 					<tr>
 						<th width="20%">
 							<span>ご希望の資料</span>
+							<div class="badge">必須</div>
 						</th>
 						<td width="80%">
-							<h4>サーマルダイレクトプリンター</h4>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data1"/>
-								<i class="fa fa-check"></i>
-								<span>卓上型ダイレクトサーマルプリンター<br>ＳＭＰ-３５０シリーズ</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data2"/>
-								<i class="fa fa-check"></i>
-								<span>卓上型一体ダイレクトサーマルプリンター<br>ＡＦＢ-３５０シリーズ</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data3"/>
-								<i class="fa fa-check"></i>
-								<span>両面同時ダイレクトサーマルプリンター<br>ＣＰＳ-ＵＢシリーズ</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data4"/>
-								<i class="fa fa-check"></i>
-								<span>小袋用ダイレクトサーマルプリンター<br>ＣＰＳ-８５Ｅシリーズ</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data5"/>
-								<i class="fa fa-check"></i>
-								<span>ロールフィルムプリントシステム<br>ＲＰＳシリーズ</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data6"/>
-								<i class="fa fa-check"></i>
-								<span>包装機対応ダイレクトサーマルプリンター<br>ＳＣＳ-４１０シリーズ</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data7"/>
-								<i class="fa fa-check"></i>
-								<span>大袋用ダイレクトサーマルプリンター<br>ＳＭＰ-６５０シリーズ</span>
-							</label>
-							<h4>オートラベラー</h4>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data8"/>
-								<i class="fa fa-check"></i>
-								<span>卓上型空袋ラベラー<br>ＡＬＳ-３５０Ｎシリーズ</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data9"/>
-								<i class="fa fa-check"></i>
-								<span>インラインオートラベリングシステム<br>ＡＬＳ-１００Ⅱシリーズ</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data10"/>
-								<i class="fa fa-check"></i>
-								<span>ボトルラベラーK.I.2001</span>
-							</label>
-							<h4>鶏卵用</h4>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data11"/>
-								<i class="fa fa-check"></i>
-								<span>鶏卵パック上貼り機<br>ＡＬＳ-１０００ＳＣＳシリーズ</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data12"/>
-								<i class="fa fa-check"></i>
-								<span>インパックラベル日付印字プリンター<br>ＣＰＳ-８５ＥⅢシリーズ</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data13" />
-								<i class="fa fa-check"></i>
-								<span>鶏卵中身有無装置</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data14" />
-								<i class="fa fa-check"></i>
-								<span>鶏卵ライン用日付検査カメラ</span>
-							</label>
-							<h4>フィーダー・スタッカー</h4>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data15" />
-								<i class="fa fa-check"></i>
-								<span>フィーダー・スタッカー</span>
-							</label>
-							<h4>チェックスタンパー</h4>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data16" />
-								<i class="fa fa-check"></i>
-								<span>自動汎用計数押印機<br>ＣＳシリーズ</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data17" />
-								<i class="fa fa-check"></i>
-								<span>手形振出・裏書用押印機<br>ＣＳ-ＢⅡシリーズ</span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data18" />
-								<i class="fa fa-check"></i>
-								<span>パンフレットスタンパー</span>
-							</label>
-							<h4>その他</h4>
-							<label class="checkbox">
-								<input type="checkbox" name="your_data19" />
-								<i class="fa fa-check"></i>
-								<span>ラベル / シール</span>
-							</label>
+							<fieldset onchange="checkboxGroup(this)">
+								<h4>サーマルダイレクトプリンター</h4>
+								<label class="checkbox">
+									<input required type="checkbox" name="your_data1"/>
+									<i class="fa fa-check"></i>
+									<span>卓上型ダイレクトサーマルプリンター<br>ＳＭＰ-３５０シリーズ</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data2"/>
+									<i class="fa fa-check"></i>
+									<span>卓上型一体ダイレクトサーマルプリンター<br>ＡＦＢ-３５０シリーズ</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data3"/>
+									<i class="fa fa-check"></i>
+									<span>両面同時ダイレクトサーマルプリンター<br>ＣＰＳ-ＵＢシリーズ</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data4"/>
+									<i class="fa fa-check"></i>
+									<span>小袋用ダイレクトサーマルプリンター<br>ＣＰＳ-８５Ｅシリーズ</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data5"/>
+									<i class="fa fa-check"></i>
+									<span>ロールフィルムプリントシステム<br>ＲＰＳシリーズ</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data6"/>
+									<i class="fa fa-check"></i>
+									<span>包装機対応ダイレクトサーマルプリンター<br>ＳＣＳ-４１０シリーズ</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data7"/>
+									<i class="fa fa-check"></i>
+									<span>大袋用ダイレクトサーマルプリンター<br>ＳＭＰ-６５０シリーズ</span>
+								</label>
+								<h4>オートラベラー</h4>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data8"/>
+									<i class="fa fa-check"></i>
+									<span>卓上型空袋ラベラー<br>ＡＬＳ-３５０Ｎシリーズ</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data9"/>
+									<i class="fa fa-check"></i>
+									<span>インラインオートラベリングシステム<br>ＡＬＳ-１００Ⅱシリーズ</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data10"/>
+									<i class="fa fa-check"></i>
+									<span>ボトルラベラーK.I.2001</span>
+								</label>
+								<h4>鶏卵用</h4>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data11"/>
+									<i class="fa fa-check"></i>
+									<span>鶏卵パック上貼り機<br>ＡＬＳ-１０００ＳＣＳシリーズ</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data12"/>
+									<i class="fa fa-check"></i>
+									<span>インパックラベル日付印字プリンター<br>ＣＰＳ-８５ＥⅢシリーズ</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data13" />
+									<i class="fa fa-check"></i>
+									<span>鶏卵中身有無装置</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data14" />
+									<i class="fa fa-check"></i>
+									<span>鶏卵ライン用日付検査カメラ</span>
+								</label>
+								<h4>フィーダー・スタッカー</h4>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data15" />
+									<i class="fa fa-check"></i>
+									<span>フィーダー・スタッカー</span>
+								</label>
+								<h4>チェックスタンパー</h4>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data16" />
+									<i class="fa fa-check"></i>
+									<span>自動汎用計数押印機<br>ＣＳシリーズ</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data17" />
+									<i class="fa fa-check"></i>
+									<span>手形振出・裏書用押印機<br>ＣＳ-ＢⅡシリーズ</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data18" />
+									<i class="fa fa-check"></i>
+									<span>パンフレットスタンパー</span>
+								</label>
+								<h4>その他</h4>
+								<label class="checkbox">
+									<input type="checkbox" name="your_data19" />
+									<i class="fa fa-check"></i>
+									<span>ラベル / シール</span>
+								</label>
+							</fieldset>
 						</td>
 					</tr>
 					<?php } ?>
@@ -419,6 +427,14 @@
 	</div>
 
 </main>
-
+<script type="text/javascript">
+	function checkboxGroup(ths){
+		if(ths.querySelector('input:checked')){
+			document.querySelector('input:first-child').required=false;
+		}else{
+			document.querySelector('input:first-child').required=true;
+		}
+	}
+</script>
 <?php $_SESSION['conf']=true; ?>
 <?php get_footer(); ?>
